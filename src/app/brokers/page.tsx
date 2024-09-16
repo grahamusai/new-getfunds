@@ -5,7 +5,6 @@ import Footer from "../components/footer";
 import { motion } from "framer-motion";
 import Hero from "../components/brokerComponents/hero";
 import ContactForm from "../components/brokerComponents/contactForm";
-import Wishes from "../components/wishes";
 import { TypewriterEffect } from "../components/ui/typewriter-effect";
 
 const Brokers = () => {
@@ -164,7 +163,6 @@ const Brokers = () => {
           </div>
         </div>
         <div className="mt-4">
-          <Wishes />
         </div>
 
         <div className="py-10 ">

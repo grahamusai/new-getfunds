@@ -3,9 +3,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/footer";
 import Faqs from "../components/faq";
 import { FaHandshake } from "react-icons/fa";
-import Calltoaction from "../components/calltoaction";
-import Process from "../components/process";
-import Cta from "../components/cta";
+
 
 
 

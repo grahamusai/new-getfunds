@@ -17,7 +17,7 @@ import {
 const Navbar = () => {
   const [position, setPosition] = React.useState("bottom");
   return (
-    <nav className="bg-[#000000] fixed w-full z-20 px:14 md:px-0 lg:px-24 top-0 start-0 text-white">
+    <nav className="bg-[#00000075] fixed w-full z-20 px:14 md:px-0 lg:px-24 top-0 start-0 text-white">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-10">
         <a href="/" className="flex items-center ml-3 space-x-3 rtl:space-x-reverse">
           <Image
