@@ -35,7 +35,7 @@ const Navbar = () => {
             onHoverStart={(e) => {}}
             onHoverEnd={(e) => {}}
             
-            className="bg-green-500 shadow-md shadow-green-600 px-6 py-2 rounded-md hover:bg-green-700 text-black font-medium"
+            className="hidden lg:block bg-green-500 shadow-md shadow-green-600 px-6 py-2 rounded-md hover:bg-green-700 text-black font-medium"
           >
             Apply Now
           </motion.p>

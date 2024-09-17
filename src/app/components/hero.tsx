@@ -44,7 +44,7 @@ const Hero = () => {
               whileHover={{ scale: 1.2 }}
               onHoverStart={(e) => {}}
               onHoverEnd={(e) => {}}
-              className="flex justify-center items-center text-center bg-green-500 shadow-sm shadow-green-600 px-10 py-2 rounded-md hover:bg-transparent hover:border-green-500 hover:border-2 hover:text-white hover:shadow-none font-semibold text-black"
+              className="flex justify-center items-center text-center cursor-pointer bg-green-500 shadow-md shadow-green-600 px-10 py-2 rounded-md hover:bg-transparent hover:border-green-500 hover:border-2 hover:text-white hover:shadow-none font-semibold text-black"
             >
               Apply Now
             </motion.p>
@@ -52,7 +52,7 @@ const Hero = () => {
               whileHover={{ scale: 1.2 }}
               onHoverStart={(e) => {}}
               onHoverEnd={(e) => {}}
-              className="flex justify-center items-center text-center bg-green-500 shadow-sm shadow-green-600 px-10 py-2 rounded-md hover:bg-transparent hover:border-green-500 hover:border-2 hover:text-white hover:shadow-none font-semibold text-black"
+              className="flex justify-center items-center text-center bg-green-500 shadow-md shadow-green-600 px-10 py-2 rounded-md hover:bg-transparent hover:border-green-500 hover:border-2 hover:text-white hover:shadow-none font-semibold text-black"
             >
               Get A Quote
             </motion.p>
