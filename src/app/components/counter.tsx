@@ -9,7 +9,7 @@ interface CounterProps {
   duration?: number; // Optional: duration for the animation in seconds
 }
 
-const Counter: React.FC<CounterProps> = ({ end, label, duration = 5 }) => {
+const Counter: React.FC<CounterProps> = ({ end, label, duration = 9 }) => {
   const countUpRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -28,7 +28,7 @@ const Counter: React.FC<CounterProps> = ({ end, label, duration = 5 }) => {
       <h3 className="">
         <span ref={countUpRef} />
       </h3>
-      <p className="mt-4 text-lg text-gray-700">{label}</p>
+      <p className="mt-4 text-lg text-gray-100">{label}</p>
     </div>
   );
 };

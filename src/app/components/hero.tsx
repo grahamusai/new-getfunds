@@ -17,7 +17,7 @@ const Hero = () => {
         </div>
 
         {/* Overlay */}
-        <div className="absolute inset-0 bg-black bg-opacity-70"></div>
+        <div className="absolute inset-0 bg-black bg-opacity-50"></div>
       </div>
 
       {/* Text Content */}
@@ -27,14 +27,17 @@ const Hero = () => {
             Getfunds
           </h1>
           <hr className="max-w-20 border-t-2 border-green-500 mt-10" />
+          <h2 className="text-2xl font-bold mt-10">
+          &#9989;&nbsp;Your Cashflow brokers <br />
+          &#9989;&nbsp;Access multiple funders in  <span className="text-green-500 drop-shadow-emerald-600 drop-shadow-md font-semibold">under 2 minutes</span>
+          </h2>
           <p className="text-2xl mt-10">
-            Access multiple funders in  <span className="text-green-500 drop-shadow-emerald-600 drop-shadow-md font-semibold">under 2 minutes</span>
+            
           </p>
-          <p className="text-xl mt-10">
-            We are a specialist consulting firm partnered <br /> with multiple
-            working capital providers giving <br /> SMEs instant access to a
-            range of funding <br />
-            solutions with just one paperless application <br /> and no capital
+          <p className="text-base mt-10">
+            We are a specialist consulting firm partnered with multiple
+            working capital <br />providers giving  SMEs instant access to a
+            range of funding solutions with <br />just one paperless application  and no capital
             raising fees.
           </p>
 

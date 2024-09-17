@@ -7,9 +7,10 @@ export function MacbookScrollDemo() {
     <div className="overflow-hidden dark:bg-[#0B0B0F] bg-[#0d1017] w-full">
       <MacbookScroll
         title={
-          <span className="text-3xl font-bold text-white">
-            Automated online access to multiple funders
+          <span className="text-2xl font-bold text-white">
+            Get Access to more than 24+ different  funder through<br /> one online application
           </span>
+      
         }
         badge={
           <Link href="https://peerlist.io/manuarora">
@@ -19,6 +20,7 @@ export function MacbookScrollDemo() {
         src={`/linear.webp`}
         showGradient={false}
       />
+     
     </div>
   );
 }

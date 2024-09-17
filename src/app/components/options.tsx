@@ -39,12 +39,13 @@ const Options = () => {
 
   const Title = ["Fundung1", "Fundung2", "Fundung3"];
   return (
-    <div className="grid min-h-screen place-items-center bg-black">
-      <ul className="flex gap-4 w-full max-w-6xl">
+    <div className="grid min-h-screen place-items-center  bg-black py-[6rem]">
+      <h2 className="font-bold text-lg md:text-4xl mb-4 text-green-500 dark:text-white max-w-4xl py-20">Funding Options</h2>
+      <ul className="flex gap-4 w-full max-w-6xl mb-5">
         {Content.map((item, index) => (
           <li
             key={index}
-            className="h-[400px] border-[3px] border-green-500 rounded-2xl w-full bg-rose-300 relative overflow-hidden group flex-1 hover:grow-[2] transition-all duration-700"
+            className="h-[400px] border-[.5px] border-green-500 rounded-2xl w-full bg-rose-300 relative overflow-hidden group flex-1 hover:grow-[2] transition-all duration-700"
           >
             <img
               src={item.src}
@@ -67,7 +68,7 @@ const Options = () => {
         {Content2.map((item, index) => (
           <li
             key={index}
-            className="h-[400px] rounded-2xl w-full border-[3px] border-green-500 bg-rose-300 relative overflow-hidden group flex-1 hover:grow-[2] transition-all duration-700"
+            className="h-[400px] rounded-2xl w-full border-[.5px] border-green-500 bg-rose-300 relative overflow-hidden group flex-1 hover:grow-[2] transition-all duration-700"
           >
             <img
               src={item.src}

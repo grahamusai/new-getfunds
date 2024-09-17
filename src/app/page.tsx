@@ -6,15 +6,17 @@ import Footer from "./components/footer";
 import 'animate.css';
 import Credibility from "./components/credibility";
 import Options from "./components/options";
+import { TimelineDemo } from "./components/timelineDemo";
 
 const Home = () => {
   return (
-    <div className="bg-[#f5f5f5]">
+    <div className="bg-[#000]">
       <Navbar />
       <Hero />
-      <MacbookScrollDemo />
+      {/* <MacbookScrollDemo /> */}
      <Credibility />
      <Options />
+     <TimelineDemo />
       
     </div>
   );
