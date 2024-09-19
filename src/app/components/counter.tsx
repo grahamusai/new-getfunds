@@ -9,7 +9,7 @@ interface CounterProps {
   duration?: number; // Optional: duration for the animation in seconds
 }
 
-const Counter: React.FC<CounterProps> = ({ end, label, duration = 9 }) => {
+const Counter: React.FC<CounterProps> = ({ end, label, duration = 3 }) => {
   const countUpRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {

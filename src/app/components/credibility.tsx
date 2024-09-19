@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 const Credibility: NextPage = () => {
   return (
-    <div className="bg-black py-32">
+    <div className="bg-slate-900 py-32">
       <div className=" flex flex-col justify-center items-center max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-green-500">Our Credibility</h2>
@@ -18,7 +18,7 @@ const Credibility: NextPage = () => {
             <Counter end={5.3} label="billion funded and counting " />
           </div>
           <div className="flex text-center   p-2 rounded-lg text-6xl font-bold text-white">
-            <Counter end={9.6} label="clients and counting" />
+            <Counter end={9600} label="clients and counting" />
           </div>
           <Image
             src="/images/shariah.png"
