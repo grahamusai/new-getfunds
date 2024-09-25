@@ -6,7 +6,9 @@ import "animate.css";
 import Credibility from "./components/credibility";
 import Options from "./components/options";
 import { TabsDemo } from "./components/tabsDemo";
+import DataTable from "./components/table";
 import Process from "./components/process";
+import FundingOptions from "./components/fundingOptions";
 
 const Home = () => {
   return (
@@ -16,7 +18,8 @@ const Home = () => {
       <Credibility />
       <Options />
       <Process />
-      <TabsDemo />
+      <FundingOptions />
+      <Footer />
     </div>
   );
 };

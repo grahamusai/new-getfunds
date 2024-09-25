@@ -11,7 +11,7 @@ const Services = () => {
           <div className="image px-10 py-[11rem] flex justify-center items-center bg-gray-300">image</div>
         </div>
         <div className="w-1/2">
-          <h2 className="text-3xl font-bold">About Fundgenie</h2>
+          <h2 className="text-3xl font-bold">About getfunds</h2>
           <p className="pt-5">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum non
             in earum placeat iusto esse omnis, distinctio consequatur? Sapiente
@@ -34,7 +34,7 @@ const Services = () => {
       <div className="flex gap-7 px-24 py-20">
         
         <div className="w-1/2">
-          <h2 className="text-3xl font-bold">About Fundgenie</h2>
+          <h2 className="text-3xl font-bold">About getfunds</h2>
           <p className="pt-5">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum non
             in earum placeat iusto esse omnis, distinctio consequatur? Sapiente

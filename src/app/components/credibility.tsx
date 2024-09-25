@@ -8,7 +8,7 @@ import Qualify from "./qualify";
 
 const Credibility: NextPage = () => {
   return (
-    <div className="bg-slate-900 py-32">
+    <div className="bg-[#151c26] py-32">
       {/* <Qualify /> */}
       <div className=" flex flex-col justify-center items-center max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">

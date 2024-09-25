@@ -82,13 +82,13 @@ const ContactForm = () => {
               <div className=" w-min h-min bg-[#e0cb70] border-[#1E394C] border-2 text-[#1E394C] flex justify-center items-center px-3 py-3 rounded-full">
                 <FaLinkedinIn />
               </div>
-              <h4 className="pt-3">Fund Genie</h4>
+              <h4 className="pt-3">Get Funds</h4>
             </div>
             <div className="flex mt-5 gap-3">
               <div className=" w-min h-min bg-[#e0cb70] border-[#1E394C] text-[#1E394C] border-2 flex justify-center items-center px-3 py-3 rounded-full">
                 <IoMail />
               </div>
-              <h4 className="pt-3">info@fundgenie.co.za</h4>
+              <h4 className="pt-3">info@getfunds.co.za</h4>
             </div>
           </div>
         </div>
@@ -252,7 +252,7 @@ const ContactForm = () => {
               <FaLinkedinIn />
             </div>
             <Link href="https://www.linkedin.com/company/fund-genie/">
-            <h4 className="pt-3">Fund Genie</h4>
+            <h4 className="pt-3">Get Funds</h4>
             </Link>
             
           </div>
@@ -260,8 +260,8 @@ const ContactForm = () => {
             <div className=" w-min h-min bg-[#e0cb70] border-[#1E394C] text-[#1E394C] border-2 flex justify-center items-center px-3 py-3 rounded-full">
               <IoMail />
             </div>
-            <Link href="mailto:info@fundgenie.co.za">
-            <h4 className="pt-3">info@fundgenie.co.za</h4>
+            <Link href="mailto:info@getfunds.co.za">
+            <h4 className="pt-3">info@getfunds.co.za</h4>
             </Link>
             
           </div>

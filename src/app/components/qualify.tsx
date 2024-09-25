@@ -10,10 +10,9 @@ const Qualify = () => {
       ];
   return (
     <div className='text-black px-16 my-5'>
-        
         <FlipWords words={words} />
     </div>
   )
 }
 
-export default Qualify
+export default Qualify;

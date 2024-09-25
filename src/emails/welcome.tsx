@@ -25,21 +25,21 @@ export const KoalaWelcomeEmail = ({
 }: KoalaWelcomeEmailProps) => (
   <Html>
     <Head />
-    <Preview>Partnering with Fund Genie</Preview>
+    <Preview>Partnering with Get Funds</Preview>
     <Body style={main}>
       <Container style={container}>
         <Img
-          src={`https://www.fundgenie.co.za/_next/image?url=%2Fimages%2Flogo.png&w=640&q=75`}
+          src={`https://www.getfunds.co.za/_next/image?url=%2Fimages%2Flogo.png&w=640&q=75`}
           width="170"
           height="50"
-          alt="fundgenie"
+          alt="getfunds"
           style={logo}
         />
         <Text style={paragraph}>Hi {userFirstname},</Text>
         <Text style={paragraph}>
-          Thank you for your interest in becoming a FundGenie affiliate! We are
+          Thank you for your interest in becoming a getfunds affiliate! We are
           excited about the potential for a strong partnership and believe that
-          FundGenie can be a valuable addition to your service portfolio,
+          getfunds can be a valuable addition to your service portfolio,
           allowing you to offer your clients comprehensive financial solutions.
         </Text>
         <Text style={paragraph}>
@@ -69,16 +69,16 @@ export const KoalaWelcomeEmail = ({
         </Section>
         <Text style={paragraph}>
           We look forward to reviewing your application and welcoming you to the
-          FundGenie team!
+          getfunds team!
         </Text>
         <Text style={paragraph}>
           Kindest Regards
           <br />
-          The Fundgenie team
+          The getfunds team
         </Text>
         <Hr style={hr} />
         <Text style={footer}>
-          Fundgenie business address, Newredruth Alberton
+          getfunds business address, Newredruth Alberton
         </Text>
       </Container>
     </Body>

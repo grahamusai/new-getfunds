@@ -16,7 +16,7 @@ const About = () => {
         <div className="flex flex-col md:flex-row gap-12 mx-auto px-10 md:px-24 pt-20 mt-16">
           <div className="w-full md:w-3/5">
             <h1 className="font-semibold text-[42px] mb-5 leading-tight">
-              About Fundgenie
+              About getfunds
             </h1>
             <p className="pt-5">
               2 million years ago on planet Moula, Lived the universes most
@@ -27,22 +27,22 @@ const About = () => {
               greediest of all.
             </p>
             <p className="pt-5">
-              The king had a boy and named the prince Fund Genie. He hoped that
-              one day Fund Genie would be the heir to his kingdom, but soon
+              The king had a boy and named the prince Get Funds. He hoped that
+              one day Get Funds would be the heir to his kingdom, but soon
               realized that his boy was not like the rest of them, The young
               genie used his power to see the state of the universe and wanted
               to share wealth with all. This Notion threatened what the king
-              worked so hard to keep secret. As Fund Genie grew so did his power
+              worked so hard to keep secret. As Get Funds grew so did his power
               and his Desire to help others outside Planet Moula.
             </p>
             <p className="pt-5 mb-10">
-            Fund Genie challenged the kings selfish hording of treasures and
+            Get Funds challenged the kings selfish hording of treasures and
             started conjuring treasures for the citizens of neighbouring
-            galaxies without the kings approval. Fund genie did this in the dead
+            galaxies without the kings approval. Get Funds did this in the dead
             of night and never revealed himself for fear of his father. Word
             quickly spread that the economies of these galaxies were
             flourishing. The king filled jealousy led an investigation, and the
-            magic used was easily traced back to Fund Genie.
+            magic used was easily traced back to Get Funds.
           </p>
           </div>
           <div className="w-full md:w-2/5 hidden md:block">

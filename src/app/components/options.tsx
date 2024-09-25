@@ -3,41 +3,41 @@ import React from "react";
 const Options = () => {
   const Content = [
     {
-      src: "/images/fundung.png",
+      src: "/images/option1.png",
       title: "Merchant Cash Advancing",
       paragraph: "Receive up to one months revenue as a lump sum payable over 3-12 months with daily, weekly or monthly repayment options"
     },
     {
-      src: "/images/fundung2.png",
+      src: "/images/option2.png",
       title: "Business Cash Advancing",
       paragraph: "Receive up to one month’s revenue as a lump sum payable over 3-12 months with weekly or monthly repayment options"
     },
     {
-      src: "/images/fundung3.png",
+      src: "/images/option3.png",
       title: "Revolving Credit",
       paragraph: "Receive A line of credit payable over an agreed initial term of 3-12 months. As you pay, the capital becomes available for drawdown extending the term"
     },
   ];
   const Content2 = [
     {
-      src: "/images/fundung4.png",
+      src: "/images/option4.png",
       title: "3-month balloon Advances",
       paragraph: "Receive a cash advance, and only pay the capital plus 10% mark up at the end of three months"
     },
     {
-      src: "/images/fundung5.png",
+      src: "/images/option5.png",
       title: "24-month term loans ",
       paragraph: "Enhanced business cash advance now payable over 24 months"
     },
     {
-      src: "/images/fundung6.png",
+      src: "/images/option6.png",
       title: "Medical Funding",
       paragraph: "get a cash Advance and pay as you practice. Your repayments work directly in line with your medical aid claims: A debit order will run directly against your practice’s bank account and your Medical Practice Advance facility is paid back as a percentage of all future medical aid claims"
     },
   ];
   
 
-  const Title = ["Fundung1", "Fundung2", "Fundung3"];
+  const Title = ["option1", "option2", "option3"];
   return (
     <div className="grid min-h-screen place-items-center  bg-black py-[6rem]">
       <h2 className="font-bold text-lg md:text-4xl mb-4 text-green-500 dark:text-white max-w-4xl py-20">Funding Options</h2>

@@ -4,18 +4,15 @@ import Image from "next/image";
 import { MdOutlineArrowOutward } from "react-icons/md";
 import Qualify from "./qualify";
 import Lottiee from "./lottie/text";
+import LottieSequence from "./lottie/animations";
 import { motion } from "framer-motion";
 
 const Process = () => {
   return (
     <div>
       <div className="flex">
-        <div className="w-full md:w-1/2">
-          <img
-            src="/images/partnership-bg.png"
-            alt="fund-genie-logo"
-            className=""
-          />
+        <div className="w-full md:w-1/2 bg-gray-300">
+         <LottieSequence />
         </div>
         <div className="w-full md:w-1/2 bg-[#0ad652] px-12 py-20">
           <h2 className="font-bold text-4xl">HOW TO GET FUNDED</h2>

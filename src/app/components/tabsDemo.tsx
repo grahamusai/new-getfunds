@@ -2,6 +2,8 @@
 
 import Image from "next/image";
 import { Tabs } from "./ui/tabs";
+import DataTable from "./table";
+import FundingOptions from "./fundingOptions";
 
 export function TabsDemo() {
   const tabs = [
@@ -9,9 +11,9 @@ export function TabsDemo() {
       title: "Single Funder",
       value: "product",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-green-500 bg-gradient-to-br from-purple-700 to-violet-900">
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-base  font-medium text-green-500 bg-black">
           <p>Single Funder</p>
-          <DummyContent />
+          <FundingOptions />
         </div>
       ),
     },
@@ -19,7 +21,7 @@ export function TabsDemo() {
       title: "Brokerage",
       value: "services",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-green-500 bg-gradient-to-br from-purple-700 to-violet-900">
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-base  font-medium text-green-500 bg-black">
           <p>Brokerage</p>
           <DummyContent />
         </div>
@@ -29,7 +31,7 @@ export function TabsDemo() {
       title: "Playground",
       value: "playground",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-green-500 bg-gradient-to-br from-purple-700 to-violet-900">
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-base  font-medium text-green-500 bg-black">
           <p>Playground tab</p>
           <DummyContent />
         </div>
@@ -39,7 +41,7 @@ export function TabsDemo() {
       title: "Content",
       value: "content",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-green-500 bg-gradient-to-br from-purple-700 to-violet-900">
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-base  font-bold text-green-500 bg-black">
           <p>Content tab</p>
           <DummyContent />
         </div>
@@ -49,7 +51,7 @@ export function TabsDemo() {
       title: "Random",
       value: "random",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-green-500 bg-gradient-to-br from-purple-700 to-violet-900">
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-base  font-bold text-green-500 bg-black">
           <p>Random tab</p>
           <DummyContent />
         </div>

@@ -10,7 +10,7 @@ import {
 
 const Faqs = () => {
   return (
-    <div className="mt-10 text-gray-700">
+    <div className="mt-10 text-slate-300">
       <div className="px-6 md:px-20 pt-8">
         <h1 className="font-semibold text-[42px] mb-5 leading-tight">
           Frequently Asked Questions
@@ -44,7 +44,7 @@ const Faqs = () => {
             <AccordionItem value="item-6">
               <AccordionTrigger>What are the repayment terms?</AccordionTrigger>
               <AccordionContent>
-                FundGenie works with multiple funders, offering a wide range of
+                getfunds works with multiple funders, offering a wide range of
                 short-term solutions. The average deal terms range between 3-10
                 months, but we can arrange facilities for 10 to 24 months as
                 well.
@@ -73,7 +73,7 @@ const Faqs = () => {
             <AccordionItem value="item-5">
               <AccordionTrigger>How much does it cost?</AccordionTrigger>
               <AccordionContent>
-                FundGenie is partnered with multiple cash advance providers, so
+                getfunds is partnered with multiple cash advance providers, so
                 pricing varies. Clean to medium-risk deals cost between 2-3% per
                 month, while high-risk or stacked deals cost around 3-4% per
                 month.
@@ -179,7 +179,7 @@ const Faqs = () => {
               <AccordionContent>
                 Once a full application is received, We have funders that take 2
                 hours to approve, others up to 3 days and some 5 days, Depending
-                on the urgency of the requirement please speak to a FundGenie
+                on the urgency of the requirement please speak to a getfunds
                 agent so we can advise the options. After approval is given, a
                 contract can be issued and paid out within 24 hours
               </AccordionContent>
@@ -254,7 +254,7 @@ const Faqs = () => {
               </AccordionTrigger>
               <AccordionContent>
                 Most funders consider only business credit scores, although some
-                may also look at personal credit scores. FundGenie can connect
+                may also look at personal credit scores. getfunds can connect
                 you with funders willing to work with lower credit scores than
                 traditional banks.
               </AccordionContent>
@@ -302,7 +302,7 @@ const Faqs = () => {
                 mandates. Some funders qualify you for 100% of monthly revenue
                 as a cash advance, some 70% and others qualify you for your
                 monthly average revenue multiplied by your GP%. Please Speak to
-                a FundGenie broker and we will submit your application according
+                a getfunds broker and we will submit your application according
                 to the amounts you require
               </AccordionContent>
             </AccordionItem>
@@ -332,10 +332,10 @@ const Faqs = () => {
             </AccordionItem>
             <AccordionItem value="item-11">
               <AccordionTrigger>
-                Who is fundgenie partnered with?
+                Who is getfunds partnered with?
               </AccordionTrigger>
               <AccordionContent>
-                FundGenie is partnered with best-in-class Merchant cash advance
+                getfunds is partnered with best-in-class Merchant cash advance
                 funders. We specialize in working capital solutions. We only
                 deal with alternative funders, our clients prefer the speed and
                 ease of our funder vs the banks and other institutional funders’
@@ -362,19 +362,19 @@ const Faqs = () => {
                 Can i get a cash advance if i already have an active advance?
               </AccordionTrigger>
               <AccordionContent>
-                Yes, FundGenie works with funders willing to provide additional
+                Yes, getfunds works with funders willing to provide additional
                 funding alongside existing advances
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-14">
               <AccordionTrigger>
-                Why use fundgenie instead of going directly to a funder?
+                Why use getfunds instead of going directly to a funder?
               </AccordionTrigger>
               <AccordionContent>
-                FundGenie&lsquo;s partnerships with top-tier merchant cash advance
+                getfunds&lsquo;s partnerships with top-tier merchant cash advance
                 companies offer several advantages, including better terms,
                 quicker processing, and higher approval rates. Instead of using
-                Google when you need funds use a FundGenie broker to get:
+                Google when you need funds use a getfunds broker to get:
                 <ul>
                   <li>Free Service</li>
                   <li>Correct funder match first time</li>

@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Access multiple funders through one application | Getfunds",
   description: " Get Funds is a specialist consulting firm partnered with best in class funders to offer a range of funding options.",
-  keywords: "Working Capital, Business Funding, unsecured funding, lulalend, fundgenie login, fundgenie app, fundgenie, fundgenie merchant capital, retail capital, funding hub",
+  keywords: "Working Capital, Business Funding, unsecured funding, lulalend, getfunds login, getfunds app, getfunds, getfunds merchant capital, retail capital, funding hub",
 };
 
 export default function RootLayout({

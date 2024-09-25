@@ -168,7 +168,7 @@ const Brokers = () => {
         <div className="py-10 ">
           <TypewriterEffect words={words3} />
           <p className="text-sm text-center px-5 lg:px-[18rem] pt-5">
-            Fund Genie is deeply integrated with our funding partners, We have
+            Get Funds is deeply integrated with our funding partners, We have
             dedicated relationship managers, underwriting teams and our united
             deal flow makes us the highest paid brokerage in SA offering the
             best funding deals. With your help we all become stronger and
@@ -204,7 +204,7 @@ const Brokers = () => {
           <div className="w-full lg:w-1/2 mt-12">
             <TypewriterEffect words={words4} />
             <p className="pt-12 px-4">
-              At Fund Genie, we understand that every partner has unique goals
+              At Get Funds, we understand that every partner has unique goals
               and business models. That&lsquo;s why we offer a range of
               collaborative options tailored to your needs. Whether you want to
               integrate our digital online portals, run sales campaigns,
@@ -216,8 +216,8 @@ const Brokers = () => {
             </p>
             <div className="bg-[#1E394C]  text-white px-4 py-3 mt-10">
               <ul>
-                <li>info@fundgenie.co.za</li>
-                <li>www.fundgenie.co.za</li>
+                <li>info@getfunds.co.za</li>
+                <li>www.getfunds.co.za</li>
               </ul>
             </div>
           </div>

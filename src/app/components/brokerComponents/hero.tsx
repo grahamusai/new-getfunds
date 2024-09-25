@@ -11,7 +11,7 @@ const Hero = () => {
       </div>
       <div className="w-full md:w-3/5">
         <h2 className="font-bold text-4xl md:text-[60px] leading-normal text-white">
-          PARTNER WITH FUND GENIE
+          PARTNER WITH Get Funds
         </h2>
         <p className="text-white pt-3 text-sm">
           We Partner with Accounting Firms, Suppliers, ISOs, Brokerages, and
@@ -30,7 +30,7 @@ const Hero = () => {
         <div className="hidden md:block">
           <h3 className="pt-10 text-white font-semibold ">
             Instead of your clients using Google when they need funds, Backed By
-            Fund Genie you can offer the following:
+            Get Funds you can offer the following:
           </h3>
           <div className="flex gap-12">
             <p className="text-white text-sm pt-3">
@@ -38,7 +38,7 @@ const Hero = () => {
               funder match first time <br /> • Highest approval rates <br />
             </p>
             <p className="text-white text-sm pt-3">
-              • Fund Genie does all the work
+              • Get Funds does all the work
               <br />• Access to all the top funders <br />• 1-3 Days turnaround
             </p>
           </div>
