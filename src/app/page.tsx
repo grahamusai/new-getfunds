@@ -5,10 +5,9 @@ import Footer from "./components/footer";
 import "animate.css";
 import Credibility from "./components/credibility";
 import Options from "./components/options";
-import { TabsDemo } from "./components/tabsDemo";
-import DataTable from "./components/table";
+import Contact from "./components/contact";
 import Process from "./components/process";
-import FundingOptions from "./components/fundingOptions";
+import WhyUs from "./components/fundingOptions";
 
 const Home = () => {
   return (
@@ -18,7 +17,8 @@ const Home = () => {
       <Credibility />
       <Options />
       <Process />
-      <FundingOptions />
+      <WhyUs />
+      <Contact />
       <Footer />
     </div>
   );

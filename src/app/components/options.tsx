@@ -10,7 +10,7 @@ const Options = () => {
     {
       src: "/images/option2.png",
       title: "Business Cash Advancing",
-      paragraph: "Receive up to one month’s revenue as a lump sum payable over 3-12 months with weekly or monthly repayment options"
+      paragraph: "Receive up to one month&apos;s revenue as a lump sum payable over 3-12 months with weekly or monthly repayment options"
     },
     {
       src: "/images/option3.png",
@@ -40,7 +40,7 @@ const Options = () => {
   const Title = ["option1", "option2", "option3"];
   return (
     <div className="grid min-h-screen place-items-center  bg-black py-[6rem]">
-      <h2 className="font-bold text-lg md:text-4xl mb-4 text-green-500 dark:text-white max-w-4xl py-20">Funding Options</h2>
+      <h2 className="uppercase text-lg md:text-4xl mb-4 text-green-500 dark:text-white max-w-4xl py-20">Funding Options</h2>
       
       <ul className="flex gap-4 w-full max-w-6xl mb-5">
         {Content.map((item, index) => (

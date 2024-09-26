@@ -26,7 +26,7 @@ const Counter: React.FC<CounterProps> = ({ end, label, duration = 3 }) => {
   return (
     <div className="">
       <h3 className="">
-        <span ref={countUpRef} />
+        <span ref={countUpRef} />+
       </h3>
       <p className="mt-4 text-lg text-gray-100">{label}</p>
     </div>

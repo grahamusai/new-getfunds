@@ -1,6 +1,6 @@
-"use client"
+"use client";
 import React from "react";
-import Image from "next/image";
+import Link from "next/link";
 import { MdOutlineArrowOutward } from "react-icons/md";
 import Qualify from "./qualify";
 import Lottiee from "./lottie/text";
@@ -8,44 +8,48 @@ import LottieSequence from "./lottie/animations";
 import { motion } from "framer-motion";
 
 const Process = () => {
+  const style = {
+    height: 300,
+  };
   return (
-    <div>
-      <div className="flex">
-        <div className="w-full md:w-1/2 bg-gray-300">
-         <LottieSequence />
+    <div className="px-24">
+      <h2 className=" text-center uppercase text-lg md:text-4xl mb-4 text-green-500 dark:text-white py-20">
+        How to <br />
+        Get Funded
+      </h2>
+      <div className="flex gap-10 text-white">
+        <div className="flex flex-col w-full md:w-1/4 text-center mt-2">
+          <Lottiee  />
+          <p className="mt-3 text-lg">Complete a 2min online application</p>
         </div>
-        <div className="w-full md:w-1/2 bg-[#0ad652] px-12 py-20">
-          <h2 className="font-bold text-4xl">HOW TO GET FUNDED</h2>
-          <p className="py-12 text-base pr-7">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt
-            eligendi odit maxime cum optio dolorum.
-          </p>
-          <div className="w-full flex">
-            <h2 className="bg-black text-white h-6 w-6 px-6 py-6 md:px-10 md:py-10 rounded-full font-extrabold text-3xl flex justify-center items-center">
-              <span><MdOutlineArrowOutward /></span>
-            </h2>
-            <Qualify />
-          </div>
-          <div className="flex justify-start items-center gap-7 mt-20">
+        <div className="flex flex-col w-full md:w-1/4 text-center mt-2">
+        <div className="flex">
+          <h2 className="text-4xl">02/</h2>
+        <Lottiee />
+        </div>
+          
+          <p className="mt-3  text-lg">Broker Contacts your to understand your needs</p>
+        </div>
+        <div className="flex flex-col w-full md:w-1/4 text-center mt-2">
+          <Lottiee />
+          <p className="mt-3  text-lg">Matched with the right funder</p>
+        </div>
+        <div className="flex flex-col w-full md:w-1/4 text-center mt-2">
+          <Lottiee />
+          <p className="mt-3  text-lg">Recieve funds in 1 - 3 days</p>
+        </div>
+      </div>
+      <div className="flex justify-center items-center">
+      <Link href="https://apply.getfunds.co.za" target="_blank">
             <motion.p
               whileHover={{ scale: 1.2 }}
               onHoverStart={(e) => {}}
               onHoverEnd={(e) => {}}
-              className="flex justify-center items-center text-center cursor-pointer bg-black shadow-md  px-10 py-2 rounded-md hover:bg-transparent hover:border-black hover:border-2 hover:text-black hover:shadow-none font-semibold text-white"
+              className="hidden lg:block bg-green-500 shadow-md shadow-green-600 px-6 py-2 mt-20 rounded-md hover:bg-transparent hover:border-green-500 hover:border-2 hover:text-white hover:shadow-none text-black font-bold"
             >
-              Apply Now
+              Start an Application
             </motion.p>
-            <motion.p
-              whileHover={{ scale: 1.2 }}
-              onHoverStart={(e) => {}}
-              onHoverEnd={(e) => {}}
-              className="flex justify-center items-center text-center bg-black shadow-md px-10 py-2 rounded-md hover:bg-transparent hover:border-black hover:border-2 hover:text-black hover:shadow-none font-semibold text-white"
-            >
-              Get A Quote
-            </motion.p>
-          </div>
-        </div>
-       
+          </Link>
       </div>
     </div>
   );

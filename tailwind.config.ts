@@ -1,5 +1,6 @@
 import type { Config } from "tailwindcss"
 const colors = require("tailwindcss/colors");
+
 const {
   default: flattenColorPalette,
 } = require("tailwindcss/lib/util/flattenColorPalette");
@@ -22,7 +23,14 @@ const config = {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ['var(--font-krona-one)'],
+      },
       keyframes: {
+        scroll: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-50%)' },
+        },
         moveHorizontal: {
           "0%": {
             transform: "translateX(-50%) translateY(-10%)",
@@ -73,6 +81,7 @@ const config = {
         third: "moveInCircle 40s linear infinite",
         fourth: "moveHorizontal 40s ease infinite",
         fifth: "moveInCircle 20s ease infinite",
+        scroll: 'scroll linear infinite',
       },
     },
   },

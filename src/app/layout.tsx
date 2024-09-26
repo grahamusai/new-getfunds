@@ -1,11 +1,22 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { Poppins } from "next/font/google";
+import { Krona_One } from 'next/font/google'
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next"
 
-const inter = Inter({ subsets: ["latin"] });
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  variable: "--font-poppins",
+});
+
+const kronaOne = Krona_One({ 
+  subsets: ['latin'],
+  weight: '400',
+  variable: '--font-krona-one',
+})
 
 export const metadata: Metadata = {
   title: "Access multiple funders through one application | Getfunds",
@@ -21,7 +32,7 @@ export default function RootLayout({
   return (
     <>
     <html lang="en">
-      <body className="">{children}</body>
+      <body className={kronaOne.className}>{children}</body>
     </html>
     <Analytics />
     <SpeedInsights />
