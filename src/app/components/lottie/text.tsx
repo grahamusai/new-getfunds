@@ -1,12 +1,12 @@
 "use client"
 import React from "react";
 import Lottie from "lottie-react";
-import groovyWalkAnimation from "./text.json";
+import groovyWalkAnimation from "./phone.json";
 
 
 const style = {
-    height: 60,
+    height: 150,
   };
 const Lottiee = () => <Lottie animationData={groovyWalkAnimation} loop={true}  style={style} />;
 
-export default Lottiee;
+export default Lottiee; 

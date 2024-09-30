@@ -15,8 +15,8 @@ const Switcher = () => {
         }}
         className={` font-bold py-2 md:py-1 w-40 ${
           toggle
-            ? "bg-[#1E394C] text-white border-[#1E394C] border-1"
-            : "bg-white bg-opacity-40 text-black border border-[#1E394C]"
+            ? "bg-green-500 text-black border-green-500 border-1"
+            : "bg-white  text-black border border-green-500"
         }  rounded-l-md`}
       >
         <p className=" text-sm">Weekly</p>
@@ -30,8 +30,8 @@ const Switcher = () => {
         }}
         className={` font-bold py-2 md:py-1 w-40 ${
           toggle
-            ? "bg-white bg-opacity-40 text-black border border-[#1E394C]"
-            : "bg-[#1E394C] text-white border-[#1E394C] border-1"
+            ? "bg-white  text-black border border-green-500"
+            : "bg-green-500 text-black border-green-500 border-1"
         }  rounded-r-md`}
       >
         <p className=" text-sm">Daily</p>

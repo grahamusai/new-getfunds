@@ -3,18 +3,18 @@ import React from "react";
 const Contact = () => {
   return (
     <div>
-      <section className="py-10 bg-[#212228] sm:py-16 lg:py-24">
+      <section id="contact" className="py-10 bg-[#000] sm:py-16 lg:py-24">
         <div className="max-w-6xl px-4 mx-auto sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:items-stretch md:grid-cols-2 gap-x-12 lg:gap-x-20 gap-y-10">
             <div className="flex flex-col justify-between lg:py-5">
               <div>
                 <h2 className="text-3xl font-bold leading-tight text-white sm:text-4xl lg:leading-tight lg:text-5xl">
-                  It’s time to build something exciting!
+                  Its time to grow your business!
                 </h2>
-                <p className="max-w-xl mx-auto mt-4 text-base leading-relaxed text-white">
+                {/* <p className="max-w-xl mx-auto mt-4 text-base leading-relaxed text-white">
                   Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                   amet sint. Velit officia consequat duis.
-                </p>
+                </p> */}
 
                 <img
                   className="relative z-10 max-w-xs mx-auto -mb-16 md:hidden"
@@ -75,9 +75,9 @@ const Contact = () => {
 
                 <blockquote className="mt-6">
                   <p className="text-lg leading-relaxed text-white">
-                    You made it so simple. My new site is so much faster and
-                    easier to work with than my old site. I just choose the
-                    page, make the change and click save.
+                    I recommend Get funds, With their help I could buy bulk
+                    stock at COD discounts pushing my profitability and I did it
+                    hassle free
                   </p>
                 </blockquote>
 
@@ -92,7 +92,7 @@ const Contact = () => {
                       Jenny Wilson
                     </p>
                     <p className="mt-px text-sm text-gray-400">
-                      Product Designer
+                      Hardware Owners
                     </p>
                   </div>
                 </div>
@@ -103,11 +103,10 @@ const Contact = () => {
               <div className="overflow-hidden bg-white rounded-md">
                 <div className="p-6 sm:p-10">
                   <h3 className="text-3xl font-semibold text-green-500">
-                    Get a free quote
+                    Get in touch
                   </h3>
                   <p className="mt-4 text-base text-gray-600">
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
-                    do amet sint.
+                    Please fill out the form, a funding consultant will get in touch with you
                   </p>
 
                   <form action="#" method="POST" className="mt-4">
@@ -123,7 +122,7 @@ const Contact = () => {
                             name=""
                             id=""
                             placeholder="Enter your full name"
-                            className="block w-full px-4 py-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md focus:outline-none focus:ring-orange-500 focus:border-orange-500 caret-orange-500"
+                            className="block w-full px-4 py-4 text-black placeholder:text-sm placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md focus:outline-none focus:ring-orange-500 focus:border-orange-500 caret-orange-500"
                           />
                         </div>
                       </div>
@@ -139,7 +138,7 @@ const Contact = () => {
                             name=""
                             id=""
                             placeholder="Enter your full name"
-                            className="block w-full px-4 py-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md focus:outline-none focus:ring-orange-500 focus:border-orange-500 caret-orange-500"
+                            className="block w-full px-4 py-4 text-black placeholder:text-sm placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md focus:outline-none focus:ring-orange-500 focus:border-orange-500 caret-orange-500"
                           />
                         </div>
                       </div>
@@ -147,14 +146,14 @@ const Contact = () => {
                       <div>
                         <label className="text-base font-medium text-gray-900">
                           {" "}
-                          Project brief{" "}
+                          Message{" "}
                         </label>
                         <div className="mt-2.5 relative">
                           <textarea
                             name=""
                             id=""
-                            placeholder="Enter your project brief"
-                            className="block w-full px-4 py-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md resize-y focus:outline-none focus:ring-orange-500 focus:border-orange-500 caret-orange-500"
+                            placeholder="Type in your message"
+                            className="block w-full px-4 py-4 text-black placeholder:text-sm placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md resize-y focus:outline-none focus:ring-orange-500 focus:border-orange-500 caret-orange-500"
                           ></textarea>
                         </div>
                       </div>
@@ -164,7 +163,7 @@ const Contact = () => {
                           type="submit"
                           className="inline-flex items-center justify-center w-full px-4 py-4 text-base font-semibold text-white transition-all duration-200 bg-green-500 border border-transparent rounded-md focus:outline-none hover:bg-green-600 focus:bg-orange-600"
                         >
-                          Get Free Quote
+                          Submit
                         </button>
                       </div>
                     </div>

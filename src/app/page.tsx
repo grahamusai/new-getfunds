@@ -8,6 +8,7 @@ import Options from "./components/options";
 import Contact from "./components/contact";
 import Process from "./components/process";
 import WhyUs from "./components/fundingOptions";
+import Calculator from "./components/calculator";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Navbar />
       <Hero />
       <Credibility />
+      <Calculator />
       <Options />
       <Process />
       <WhyUs />

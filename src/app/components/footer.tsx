@@ -7,10 +7,10 @@ import { FaLinkedinIn } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <div className="text-center text-surface/75 bg-black text-white/75 lg:text-left overflow-hidden">
-      <div className="bg-green-500 text-black flex items-center justify-center border-b-2 border-neutral-400 p-6 dark:border-white/10 lg:justify-between">
+    <div className="text-center text-surface/75 bg-black text-white/75 lg:text-left overflow-hidden border-t-2 border-neutral-400">
+      {/* <div className="bg-green-500 text-black flex items-center justify-center border-b-2 border-neutral-400 p-6 dark:border-white/10 lg:justify-between">
         <h2 className="uppercase text-[46px]"><InfiniteText text="Get in touch / Get in touch / Get in touch /" speed={350}/></h2>
-      </div>
+      </div> */}
 
       <div className="mx-24 py-10 text-center md:text-left">
         <div className="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
@@ -57,13 +57,13 @@ const Footer = () => {
           <div>
             <h6 className="mb-4 ">Branched</h6>
             <p className="mb-4 flex items-center justify-center md:justify-start">
-              Penzance corner. 17 Penzance street, New Red Ruth, Johannesburg
+              Penzance corner. 17 Penzance street, New Red Ruth, <span className="text-green-500">&nbsp;Johannesburg</span>
             </p>
             <p className="mb-4 flex items-center justify-center md:justify-start">
-              The Estuaries, Oxbow Crescent, Century City, 1st Floor, Cape town
+              The Estuaries, Oxbow Crescent, Century City, 1st Floor, <span className="text-green-500">Cape town</span> 
             </p>
             <p className="mb-4 flex items-center justify-center md:justify-start">
-              25 Sandra road, 18 Ballito Business centre, Ballito KZN
+              25 Sandra road, 18 Ballito Business centre, Ballito<span className="text-green-500">KZN</span> 
             </p>
           </div>
         </div>
@@ -71,7 +71,7 @@ const Footer = () => {
 
       <div className="bg-black/5 p-6 text-center">
         <span>© 2024 Copyright:</span>
-        <a className="font-semibold" href="https://alphaperformance.co.za">
+        <a className="font-semibold text-[#fc4757]" target="_blank" href="https://alphaperformance.co.za">
           &nbsp;Developed by Alpha Performance
         </a>
       </div>

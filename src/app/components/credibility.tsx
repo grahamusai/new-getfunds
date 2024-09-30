@@ -8,17 +8,17 @@ import Qualify from "./qualify";
 
 const Credibility: NextPage = () => {
   return (
-    <div className="bg-[#000] py-[6rem]">
+    <div className="bg-[#000] pt-[6rem]">
       {/* <Qualify /> */}
       <div className=" ">
         <div className="px-10 md:px-16 xl:px-[8rem] mb-14">
-          <h2 className="text-[2.5rem] text-center font-bold text-green-500 uppercase">
+          <h2 className="text-[2.5rem]  drop-shadow-md drop-shadow-green-400 text-center font-bold text-green-500 uppercase">
             Numbers to back OUR <br />
             CREDIBILITY
           </h2>
           <p className="mt-3 text-xl md:px-[10rem] text-center leading-relaxed text-gray-300 md:mt-8">
             We have used our economies of Scale to get the best pricing, terms and
-            service to over 9000 businesses in South Africa.
+            service for over 9000 businesses in South Africa.
           </p>
         </div>
 
@@ -29,7 +29,7 @@ const Credibility: NextPage = () => {
               <span></span>
             </div>
             <div className="text-transparent text-5xl bg-clip-text bg-gradient-to-r from-green-600 to-blue-600">
-              <Counter end={9600} label="clients and counting" />
+              <Counter end={9600} label="clients funded and counting" />
             </div>
             <Image
               src="/images/shariah.png"

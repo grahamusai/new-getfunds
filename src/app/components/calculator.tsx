@@ -100,47 +100,55 @@ const Calculator = () => {
   };
 
   return (
-    <div>
+    <div className="w-full mt-10 md:mt-20 md:px-32">
       {isModalOpen && <Modal />}
       {termsModalIsOpen && <TermsModal />}
+      <div className="py-5 md:py-16 text-center">
+        <h2 className="font-bold text-lg md:text-4xl mb-4 text-green-500 dark:text-white">
+          How much funding can I get?
+        </h2>
+        <p className="text-white text-lg ">
+          Use our simple funding calculator to find out how much you qualify for
+        </p>
+      </div>
 
-      <div className="flex flex-col lg:flex-row gap-3 md:gap-[60px]">
+      <div className="flex flex-col rounded-md lg:flex-row  bg-[#212228] py-4  md:py-12 md:max-w-[85%]">
         {/* First Column */}
-        <motion.div
-          whileHover={{ scale: 1.07 }}
-          className="w-full lg:w-1/2 text-center z-10 bg-white py-3 md:py-6 px-3  md:rounded-xl"
-        >
-          <div className="flex flex-col justify-center items-center">
-            <div className="">
-              <h1 className="text-base font-bold text-[#1E394C]">
-                Enter your monthly turnover?
-                <span className="text-rose-500">*</span> 
+        <div className="w-full lg:w-1/2  z-10 py-3 md:py-6 px-3">
+          <div className="flex flex-col ">
+            <div className=" w-full px-5 md:px-16">
+              <h1 className="text-[16px] mb-2  text-white">
+                Enter your average monthly turnover?
+                <span className="text-rose-500">*</span>
               </h1>
-              <input
-                type="number"
-                id="activeInput"
-                name="turnover"
-                max={15000000}
-                min={50000}
-                placeholder="R100,000"
-                className="text-center border-b border-1 border-slate-800 focus:border-1"
-                onChange={(e) => {
-                  setTurnOver(parseInt(e.target.value));
-                  setNeededAmount(maxAmount) + "0";
-                }}
-                onBlur={handleBlur}
-                onKeyDown={(e) => {
-                  if (e.key === "Enter") {
-                    e.preventDefault();
-                    // @ts-ignore
-                    e.target.blur(); // Blur the input to hide the keyboard
-                  }
-                }}
-              />
+              <div className="flex">
+                <h2 className="text-[#D9D9D9] text-3xl  mr-2">R</h2>
+                <input
+                  type="number"
+                  id="activeInput"
+                  name="turnover"
+                  max={15000000}
+                  min={50000}
+                  placeholder="R100,000"
+                  className=" rounded-md border-b border-1 border-slate-800 focus:border-1 w-full py-3 px-2 text-[#1E394C] bg-[#D9D9D9]"
+                  onChange={(e) => {
+                    setTurnOver(parseInt(e.target.value));
+                    setNeededAmount(maxAmount) + "0";
+                  }}
+                  onBlur={handleBlur}
+                  onKeyDown={(e) => {
+                    if (e.key === "Enter") {
+                      e.preventDefault();
+                      // @ts-ignore
+                      e.target.blur(); // Blur the input to hide the keyboard
+                    }
+                  }}
+                />
+              </div>
             </div>
 
-            <div className="mt-3 md:mt-5">
-              <h1 className="text-sm">
+            <div className="mt-4 md:mt-5  w-full px-5 md:px-16">
+              <h1 className="text-[16px] mb-2  text-white">
                 Funding required <span className="text-rose-500">*</span>
               </h1>
               <input
@@ -157,9 +165,9 @@ const Calculator = () => {
                 onChange={(e) => {
                   setNeededAmount(parseInt(e.target.value) / 10);
                 }}
-                className="bg-teal-500 z-0 mx-3"
+                className="w-full"
               />
-              <p className="text-center text-[#1E394C] font-[600] text-base md:text-lg">
+              <p className=" text-slate-300  font-[600] italic text-base md:text-[13px]">
                 R
                 {formatCurrency(
                   neededAmount === 0 ? maxAmount : neededAmount * 10
@@ -167,12 +175,12 @@ const Calculator = () => {
               </p>
             </div>
 
-            <div className="mt-2 md:mt-5 md-2 md:mb-5">
-              <h3 className="text-sm">
+            <div className="mt-3 md:mt-5 md-2 md:mb-5  w-full px-5 md:px-16">
+              <h3 className="text-[16px] mb-2  text-white">
                 Repayment Term<span className="text-rose-500">*</span>
               </h3>
-              <div className="flex flex-row px-5">
-                <h3 className="mr-2">3</h3>
+              <div className="flex flex-row w-full">
+                <h3 className="mr-2 text-white">3</h3>
                 <input
                   type="range"
                   min="3"
@@ -186,79 +194,68 @@ const Calculator = () => {
                   onChange={(e) => {
                     setDuration(parseInt(e.target.value));
                   }}
-                  className="bg-teal-500 z-0"
+                  className="bg-teal-500 z-0 w-full"
                 />
-                <h3 className="ml-2">10</h3>
+                <h3 className="ml-2 text-slate-300">10</h3>
               </div>
 
-              <p className="text-center text-[#1E394C] font-[600] text-base md:text-lg">
+              <p className=" text-slate-300 italic font-[600] text-base md:text-[13px]">
                 {duration} months
               </p>
             </div>
 
-            <div className="mt-3 md:mt-0">
-              <h1 className="text-sm">
-                Select Repayment Method
+            <div className="mt-4 md:mt-0 w-full px-5 md:px-16">
+              <h1 className="text-[16px] mb-2  text-white">
+                Select Repayment <br /> Method
                 <span className="text-rose-500">*</span>
               </h1>
               <Switcher />
             </div>
           </div>
-        </motion.div>
+        </div>
         {/* Second Column */}
-        <motion.div
-          whileHover={{ scale: 1.07 }}
-          className="w-full lg:w-1/2 z-10 text-center bg-[#E0CB70] pt-3 md:pt-6 pb-6 px-3  md:rounded-xl"
-        >
-          <div className=" mx-2 mb-3">
-            <h2 className="text-[#1E394C] font-bold text-xl mb-3 text-center ">
+        <div className="w-full flex flex-col text-center lg:w-1/2 z-10  md:pt-3  pb-6 px-2 md:px-10 border-l-2 border-green-500">
+          <div className="mb-3">
+            <h2 className="text-[28px] text-green-500 mb-3 hidden md:block ">
               Get an instant quote
             </h2>
-            <div className="flex flex-row md:flex-col">
-              <div className="w-1/2 md:w-full">
-                <h3 className="text-md font-bold">Pre-Approved For:</h3>
-                <h4 className="text-md font-bold">
+            <div className="flex flex-row md:flex-col mt-16">
+              <div className="w-full md:w-1/2 ">
+                <h3 className="text-[16px] mb-2  text-white">
+                  Pre-Approved For:
+                </h3>
+                <h4 className="text-md font-bold text-slate-400 italic">
                   R{`${formattedMaxAmount}`}
-                </h4>
-              </div>
-              <div className="md:mt-3 w-1/2 font-bold md:w-full">
-                <h3 className="text-sm ">Selected Amount</h3>
-                <h4 className="text-[15px] font-bold">
-                  {" "}
-                  R
-                  {formatCurrency(
-                    neededAmount === 0 ? maxAmount : neededAmount * 10
-                  )}
                 </h4>
               </div>
             </div>
           </div>
-          <div className="flex flex-rol md:flex-col gap-5">
+          <div className="flex flex-rol md:flex-col md:gap-5">
             <div className="md:mt-3 w-1/2 md:w-full">
-              <h3 className="text-sm ">Total Payover</h3>
-              <h4 className="text-[15px] ">
+              <h3 className="text-[16px] mb-2  text-white">Total Payover</h3>
+              <h4 className="text-[15px] text-slate-400 italic">
                 R{`${formatCurrency(round(calculateTotalPay() || 0) * 10)}`}
               </h4>
             </div>
             <div className="md:mt-3 w-1/2 md:w-full">
-              <h3 className="text-sm ">Repayments</h3>
-              <h4 className="text-[15px] ">
+              <h3 className="text-[16px] mb-2  text-white">Repayments</h3>
+              <h4 className="text-[15px] text-slate-400 italic">
                 R{formatCurrency(round(calculateRepayAmount() || 0) * 10)}
               </h4>
             </div>
           </div>
-          <div className=" pt-2">
-            <Link href="/brokers">
-              <button className="bg-[#1E394C] px-5 py-2 rounded-lg text-white text-lg font-[500]">
-                Become A Broker
+          <div className=" pt-20">
+            <Link href="https://apply.getfunds.co.za?broker=getfunds">
+              <button className="bg-green-500 px-5 py-2 rounded-lg text-white text-lg font-[500]">
+                Apply Now
               </button>
             </Link>
           </div>
-          <p className="text-xs pt-3">
+          <p className="text-xs pt-3 text-white">
             All quotes are subject to change
             <span className="text-red-500">*</span>
           </p>
-        </motion.div>
+        </div>
       </div>
     </div>
   );
