@@ -111,14 +111,7 @@ const Navbar = () => {
                 Home
               </a>
             </li>
-            <li>
-              <a
-                href="/about"
-                className="block py-2 px-4  rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#42f44b] md:p-0  dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-              >
-                About
-              </a>
-            </li>
+           
 
             <li>
               <a
@@ -126,6 +119,14 @@ const Navbar = () => {
                 className="block py-2 px-4  rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#42f44b] md:p-0  dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
               >
                 FAQs
+              </a>
+            </li>
+            <li>
+              <a
+                href="/services"
+                className="block py-2 px-4  rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#42f44b] md:p-0  dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+              >
+                Services
               </a>
             </li>
             {/* <li>

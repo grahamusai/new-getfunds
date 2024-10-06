@@ -55,23 +55,38 @@ const Footer = () => {
             </p>
           </div>
           <div>
-            <h6 className="mb-4 ">Branched</h6>
-            <p className="mb-4 flex items-center justify-center md:justify-start">
-              Penzance corner. 17 Penzance street, New Red Ruth, <span className="text-green-500">&nbsp;Johannesburg</span>
-            </p>
-            <p className="mb-4 flex items-center justify-center md:justify-start">
-              The Estuaries, Oxbow Crescent, Century City, 1st Floor, <span className="text-green-500">Cape town</span> 
-            </p>
-            <p className="mb-4 flex items-center justify-center md:justify-start">
-              25 Sandra road, 18 Ballito Business centre, Ballito<span className="text-green-500">KZN</span> 
-            </p>
+            <h6 className="mb-4 ">Branches</h6>
+            <div className="mb-4 flex items-center justify-center md:justify-start">
+              <p className="">
+                Penzance corner. 17 Penzance street, New Red Ruth,{" "}
+                <span className="text-green-500 font-semibold">Johannesburg</span>
+              </p>
+            </div>
+
+            <div className="mb-4 flex flex-row items-center justify-center md:justify-start">
+              <p className="">
+                The Estuaries, Oxbow Crescent, Century City, 1st Floor,{" "}
+                <span className="text-green-500 font-semibold">Cape town</span>
+              </p>
+            </div>
+
+            <div className="mb-4 flex items-center justify-center md:justify-start">
+              <p>
+                25 Sandra road, 18 Ballito Business centre, Ballito,{" "}
+                <span className="text-green-500 font-semibold">KZN</span>
+              </p>
+            </div>
           </div>
         </div>
       </div>
 
       <div className="bg-black/5 p-6 text-center">
         <span>© 2024 Copyright:</span>
-        <a className="font-semibold text-[#fc4757]" target="_blank" href="https://alphaperformance.co.za">
+        <a
+          className="font-semibold text-[#fc4757]"
+          target="_blank"
+          href="https://alphaperformance.co.za"
+        >
           &nbsp;Developed by Alpha Performance
         </a>
       </div>

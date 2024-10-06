@@ -8,19 +8,20 @@ interface ContentItem {
 }
 
 const Options: React.FC = () => {
+
   const Content: ContentItem[] = [
     {
-      src: "https://player.vimeo.com/video/1010876011?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+      src: "https://player.vimeo.com/video/1014121460?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
       title: "Merchant Cash Advancing",
       paragraph: "Receive up to one months revenue as a lump sum payable over 3-12 months with daily, weekly or monthly repayment options"
     },
     {
-      src: "https://player.vimeo.com/video/1010876011?h=fff1df0e66&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+      src: "https://player.vimeo.com/video/1014120585?h=3b95a48848&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
       title: "Business Cash Advancing",
       paragraph: "Receive up to one month's revenue as a lump sum payable over 3-12 months with weekly or monthly repayment options"
     },
     {
-      src: "https://player.vimeo.com/video/1010876011?h=fff1df0e66&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+      src: "https://player.vimeo.com/video/1014119640?h=9ab6e22137&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
       title: "Revolving Credit",
       paragraph: "Receive A line of credit payable over an agreed initial term of 3-12 months. As you pay, the capital becomes available for drawdown extending the term"
     },
@@ -28,12 +29,12 @@ const Options: React.FC = () => {
   
   const Content2: ContentItem[] = [
     {
-      src: "https://player.vimeo.com/video/1010876011?h=fff1df0e66&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+      src: "https://player.vimeo.com/video/1014119192?h=2513606e8c&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
       title: "3-month balloon Advances",
       paragraph: "Receive a cash advance, and only pay the capital plus 10% mark up at the end of three months"
     },
     {
-      src: "https://player.vimeo.com/video/1010876011?h=fff1df0e66&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+      src: "https://player.vimeo.com/video/1014117664?h=fc9f41648b&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
       title: "24-month term loans ",
       paragraph: "Enhanced business cash advance now payable over 24 months"
     },
@@ -103,8 +104,8 @@ const Options: React.FC = () => {
   );
 
   return (
-    <div className="grid min-h-screen place-items-center bg-black py-[6rem]">
-      <h2 className="font-bold text-lg md:text-4xl mb-4 text-green-500 dark:text-white max-w-4xl py-20">Funding Options</h2>
+    <div className="grid min-h-screen place-items-center bg-black py-[3rem]">
+      
       {renderContent(Content)}
       {renderContent(Content2)}
     </div>
