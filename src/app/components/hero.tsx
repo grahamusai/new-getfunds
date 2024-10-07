@@ -28,8 +28,8 @@ const Hero = () => {
           </h1>
           <hr className="max-w-20 border-t-2 border-green-500 mt-10" />
           <p className="text-2xl font-bold mt-10">
-          &#9989;&nbsp;Your Cashflow brokers <br />
-          &#9989;&nbsp;Access multiple funders in  <span className="text-green-500 drop-shadow-emerald-600 drop-shadow-md font-semibold">under 2 minutes</span>
+          Your Cashflow brokers <br />
+          Access multiple funders in  <span className="text-green-500 drop-shadow-emerald-600 drop-shadow-md font-semibold">under 2 minutes</span>
           </p>
           <p className="text-2xl mt-10">
             

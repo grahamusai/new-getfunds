@@ -32,7 +32,7 @@ const Services = () => {
           <div className="w-full md:w-1/2">
             <ul className="mt-12 space-y-4 md:mt-20">
               <li className="grid grid-cols-[auto_1fr] items-center gap-3">
-                <div className="inline-flex items-center justify-center  flex-shrink-0 w-5 h-5 bg-green-500 rounded-full">
+                <div className="inline-flex items-center justify-start  flex-shrink-0 w-5 h-5 bg-green-500 rounded-full">
                   <TiTick />
                 </div>
                 <span className="text-lg font-medium text-white">

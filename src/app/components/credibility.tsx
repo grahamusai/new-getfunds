@@ -8,7 +8,7 @@ import Qualify from "./qualify";
 
 const Credibility: NextPage = () => {
   return (
-    <div className="bg-[#000] pt-[6rem]">
+    <div className="bg-[#000] py-[6rem]">
       {/* <Qualify /> */}
       <div className=" ">
         <div className="px-10 md:px-16 xl:px-[8rem] mb-14">

@@ -83,7 +83,7 @@ const Footer = () => {
       <div className="bg-black/5 p-6 text-center">
         <span>© 2024 Copyright:</span>
         <a
-          className="font-semibold text-[#fc4757]"
+          className="font-semibold text-green-500"
           target="_blank"
           href="https://alphaperformance.co.za"
         >
