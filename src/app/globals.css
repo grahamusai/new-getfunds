@@ -2,17 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
-/* * {
+* {
   outline: red 1px solid;
-} */
-/* body::-webkit-scrollbar {
-  width: 1em;
 }
- 
- */
- 
 
 /* width */
 ::-webkit-scrollbar {
@@ -26,7 +18,7 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient( 180deg, #000, #22c55e);
+  background: linear-gradient(180deg, #000, #22c55e);
   border-radius: 10px;
 }
 
@@ -38,15 +30,18 @@
 body {
   background-color: #000000;
   overflow-x: hidden;
-
 }
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: var(--font-krona-one), sans-serif;
 }
-p, li, a{
+p,
+li,
+a {
   font-family: "Poppins", sans-serif;
 }
-a{
+a {
   font-family: "Poppins", sans-serif;
 }
 * {
@@ -76,23 +71,23 @@ input[type="range"] {
 }
 
 #myRange {
-  -webkit-appearance: none;  /* Removes default browser styling */
-  width: 100%;  /* Adjust width as needed */
-  outline: none;  /* Removes outline on focus */
-  border-radius: 10px;  /* Rounded corners for track */
+  -webkit-appearance: none; /* Removes default browser styling */
+  width: 100%; /* Adjust width as needed */
+  outline: none; /* Removes outline on focus */
+  border-radius: 10px; /* Rounded corners for track */
 }
 
 #myRange::-webkit-slider-thumb {
-  -webkit-appearance: none;  /* Removes default browser styling */
-  appearance: none;  /* Standard for non-webkit browsers */
+  -webkit-appearance: none; /* Removes default browser styling */
+  appearance: none; /* Standard for non-webkit browsers */
 
-  background: #22c55e;  /* Knob color */
-  border-radius: 50%;  /* Creates a circular knob */
-  cursor: pointer;  /* Shows grab cursor on hover */
+  background: #22c55e; /* Knob color */
+  border-radius: 50%; /* Creates a circular knob */
+  cursor: pointer; /* Shows grab cursor on hover */
 }
 
 #myRange::-moz-range-thumb {
-  appearance: none;  /* For mozilla browsers */
+  appearance: none; /* For mozilla browsers */
   width: 20px;
   height: 20px;
   background: black;
@@ -109,10 +104,6 @@ input[type="range"].win10-thumb {
 }
 
 @media (prefers-color-scheme: dark) {
-  
-
-
-
   input[type="range"] {
     color: #22c55e;
     --track-color: rgba(0, 0, 0, 0.1);
@@ -268,5 +259,3 @@ input[type="range"]:disabled::-moz-range-thumb {
   padding: 10px;
   font-size: 16px;
 }
-
-
