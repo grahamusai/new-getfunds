@@ -32,7 +32,7 @@ const Comparison = () => {
       {/* Second Section */}
       <div className=" mx-auto flex py-5 text-white">
         <div className="w-full md:w-1/3 border-t-2 border-white pt-5">
-          <p>Approval rate is based on one funder's criteria</p>
+          <p>Approval rate is based on one funder&apos;s criteria</p>
         </div>
         <div className="w-full md:w-1/3 text-center border-t-2 border-white pt-5">
           <p>Higher approval rates by shopping around multiple funders</p>
@@ -56,7 +56,7 @@ const Comparison = () => {
       {/* Fouth Section */}
       <div className=" mx-auto flex py-5 text-white">
         <div className="w-full md:w-1/3 border-t-2 border-white pt-5">
-          <p>Loan Amount is limited to the single funder's maximum</p>
+          <p>Loan Amount is limited to the single funder&apos;s maximum</p>
         </div>
         <div className="w-full md:w-1/3 text-center border-t-2 border-white pt-5">
           <p>Access to various loan amounts across multiple funders</p>
@@ -68,7 +68,7 @@ const Comparison = () => {
       {/* Fifth Section */}
       <div className=" mx-auto flex py-5 border-b-2 border-white text-white">
         <div className="w-full md:w-1/3 border-t-2 border-white pt-5">
-          <p>Speed of funding dependent on one funder's process</p>
+          <p>Speed of funding dependent on one funder&apos;s process</p>
         </div>
         <div className="w-full md:w-1/3 text-center border-t-2 border-white pt-5">
           <p>Faster funding by finding the quickest funder available</p>
