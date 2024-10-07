@@ -2,19 +2,19 @@ import React from "react";
 
 const Comparison = () => {
   return (
-    <div className="my-20 md:mx-32 ">
-      <h2 className="text-2xl font-bold leading-tight uppercase text-center text-green-500 sm:text-4xl lg:text-3xl">
-        Advatages to Choosing Us
+    <div className="py-32 md:mx-32 ">
+      <h2 className="text-2xl py-10 font-bold leading-tight uppercase text-center text-green-500 sm:text-4xl lg:text-3xl">
+        Why Choose Getfunds
       </h2>
-      <div className=" mx-auto flex py-10 text-white">
+      <div className=" mx-auto flex py-5 text-white">
         <div className="w-full md:w-1/3">
-          <h2 className="text-3xl">Single Funder</h2>
+          <h2 className="text-2xl">Single Funder</h2>
         </div>
         <div className="w-full md:w-1/3 text-center">
-          <h2 className="text-3xl">Broker With Multiple Funders</h2>
+          <h2 className="text-2xl">Broker With Multiple Funders</h2>
         </div>
         <div className="w-full md:w-1/3 text-right">
-          <h2 className="text-3xl">Why We Are Better</h2>
+          <h2 className="text-2xl">Why We Are Better</h2>
         </div>
       </div>
       {/* First Section */}
@@ -26,7 +26,7 @@ const Comparison = () => {
           <p>Access to a wide range of products and terms</p>
         </div>
         <div className="w-full md:w-1/3 text-right border-t-2 border-green-500 pt-10">
-          <p>More flexibility and options to match your needs</p>
+          <p className="text-green-500">More flexibility and options to match your needs</p>
         </div>
       </div>
       {/* Second Section */}
@@ -38,7 +38,7 @@ const Comparison = () => {
           <p>Higher approval rates by shopping around multiple funders</p>
         </div>
         <div className="w-full md:w-1/3 text-right border-t-2 border-white pt-5">
-          <p>Increases chances of approval by finding the right match</p>
+          <p className="text-green-500 ">Increases chances of approval by finding the right match</p>
         </div>
       </div>
       {/* Third Section */}
@@ -50,7 +50,7 @@ const Comparison = () => {
           <p>Competitive pricing by comparing different funders</p>
         </div>
         <div className="w-full md:w-1/3 text-right border-t-2 border-white pt-5">
-          <p>Potentially lower rates by comparing offers</p>
+          <p className="text-green-500">Potentially lower rates by comparing offers</p>
         </div>
       </div>
       {/* Fouth Section */}
@@ -62,11 +62,11 @@ const Comparison = () => {
           <p>Access to various loan amounts across multiple funders</p>
         </div>
         <div className="w-full md:w-1/3 text-right border-t-2 border-white pt-5">
-          <p>More options to find the right loan sizes</p>
+          <p className="text-green-500">More options to find the right loan sizes</p>
         </div>
       </div>
       {/* Fifth Section */}
-      <div className=" mx-auto flex py-5 text-white">
+      <div className=" mx-auto flex py-5 border-b-2 border-white text-white">
         <div className="w-full md:w-1/3 border-t-2 border-white pt-5">
           <p>Speed of funding dependent on one funder's process</p>
         </div>
@@ -74,7 +74,7 @@ const Comparison = () => {
           <p>Faster funding by finding the quickest funder available</p>
         </div>
         <div className="w-full md:w-1/3 text-right border-t-2 border-white pt-5">
-          <p>Ability to choose the fastest option</p>
+          <p className="text-green-500">Ability to choose the fastest option</p>
         </div>
       </div>
     </div>

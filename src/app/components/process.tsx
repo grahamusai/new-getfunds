@@ -118,7 +118,7 @@ const Process = () => {
             whileHover={{ scale: 1.2 }}
             onHoverStart={(e) => {}}
             onHoverEnd={(e) => {}}
-            className="hidden lg:block bg-green-500 shadow-md shadow-green-600 px-6 py-2 mt-20 rounded-md hover:bg-transparent hover:border-green-500 hover:border-2 hover:text-white hover:shadow-none text-black font-bold"
+            className="hidden lg:block bg-green-500 shadow-md shadow-green-600 px-6 py-2 mt-10 rounded-md hover:bg-transparent hover:border-green-500 hover:border-2 hover:text-white hover:shadow-none text-black font-bold"
           >
             Start an Application
           </motion.p>
