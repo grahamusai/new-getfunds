@@ -34,7 +34,7 @@ const About = () => {
                 </div>
 
                 <div className="relative px-4 pt-24 pb-16 text-center sm:px-6 md:px-24 2xl:px-32 lg:py-24 lg:text-left">
-                  <h1 className="text-4xl font-bold text-green-500 sm:text-4xl xl:text-4xl">
+                  <h1 className="text-4xl font-bold text-[#07d159] sm:text-4xl xl:text-4xl">
                     About
                     <br />
                     GetFunds
@@ -70,7 +70,7 @@ const About = () => {
 
                         <button
                           type="submit"
-                          className="inline-flex items-center justify-center w-full px-4 py-4 mt-4 font-semibold text-white transition-all duration-200 bg-green-500 border border-transparent rounded-full sm:w-auto sm:ml-4 sm:mt-0 hover:bg-orange-600 focus:bg-orange-600"
+                          className="inline-flex items-center justify-center w-full px-4 py-4 mt-4 font-semibold text-white transition-all duration-200 bg-[#07d159] border border-transparent rounded-full sm:w-auto sm:ml-4 sm:mt-0 hover:bg-orange-600 focus:bg-orange-600"
                         >
                           Get Funded
                         </button>
@@ -132,7 +132,7 @@ const About = () => {
         </div>
       </div>
       <div className="mt-20 mb-10">
-        <h2 className="text-center text-4xl text-green-500 mb-4">Start a Career in Sales</h2>
+        <h2 className="text-center text-4xl text-[#07d159] mb-4">Start a Career in Sales</h2>
         <p className="text-center text-xl">Fill in the form below if you are interested in joining <br /> our team and we will get back to you</p>
         <div className="w-[70%] px-[10rem]">
           <h2 className="text-black font-bold text-2xl">
@@ -234,7 +234,7 @@ const About = () => {
 
             <button
               type="submit"
-              className="rounded-full bg-green-500 hover:bg-green-700 border-[#b9b9b9] text-[#000000] border-2 px-12 py-3 font-bold text-xl mt-3 lg:mt-6"
+              className="rounded-full bg-[#07d159] hover:bg-green-700 border-[#b9b9b9] text-[#000000] border-2 px-12 py-3 font-bold text-xl mt-3 lg:mt-6"
             >
               Submit
             </button>

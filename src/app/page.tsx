@@ -15,7 +15,7 @@ const Home = () => {
       <Hero />
       <Credibility />
       {/* <Calculator /> */}
-      <h2 className="font-bold text-lg md:text-4xl mb-4 text-green-500 dark:text-white pt-20 text-center">Funding Options</h2>
+      <h2 className="font-bold text-lg md:text-[2.5rem] mb-4 text-white dark:text-white py-16 text-center ">Funding Options</h2>
       <Options />
       <Process />
       {/* <WhyUs /> */}

@@ -102,7 +102,7 @@ const Contact = () => {
             <div className="lg:pl-12">
               <div className="overflow-hidden bg-white rounded-md">
                 <div className="p-6 sm:p-10">
-                  <h3 className="text-3xl font-semibold text-green-500">
+                  <h3 className="text-3xl font-semibold text-[#07d159]">
                     Get in touch
                   </h3>
                   <p className="mt-4 text-base text-gray-600">
@@ -161,7 +161,7 @@ const Contact = () => {
                       <div>
                         <button
                           type="submit"
-                          className="inline-flex items-center justify-center w-full px-4 py-4 text-base font-semibold text-white transition-all duration-200 bg-green-500 border border-transparent rounded-md focus:outline-none hover:bg-green-600 focus:bg-orange-600"
+                          className="inline-flex items-center justify-center w-full px-4 py-4 text-base font-semibold text-white transition-all duration-200 bg-[#07d159] border border-transparent rounded-md focus:outline-none hover:bg-green-600 focus:bg-orange-600"
                         >
                           Submit
                         </button>

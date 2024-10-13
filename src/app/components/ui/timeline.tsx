@@ -38,7 +38,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
       ref={containerRef}
     >
       <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
-        <h2 className="font-bold text-lg md:text-4xl mb-4 text-green-500 dark:text-white max-w-4xl">
+        <h2 className="font-bold text-lg md:text-4xl mb-4 text-[#07d159] dark:text-white max-w-4xl">
           How to Get Funded
         </h2>
         <p className="text-neutral-100 dark:text-neutral-300 text-sm md:text-base max-w-sm">
@@ -80,7 +80,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
               height: heightTransform,
               opacity: opacityTransform,
             }}
-            className="absolute inset-x-0 top-0  w-[2px] bg-gradient-to-t from-blue-500 via-green-500 to-transparent from-[0%] via-[10%] rounded-full"
+            className="absolute inset-x-0 top-0  w-[2px] bg-gradient-to-t from-blue-500 via-[#07d159] to-transparent from-[0%] via-[10%] rounded-full"
           />
         </div>
       </div>

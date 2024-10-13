@@ -5,20 +5,21 @@ import Counter from "./counter";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import Qualify from "./qualify";
+import Link from "next/link";
 
 const Credibility: NextPage = () => {
   return (
-    <div className="bg-[#000] py-[6rem]">
+    <div className="bg-[#111] py-10 md:py-[6rem]">
       {/* <Qualify /> */}
       <div className=" ">
         <div className="px-10 md:px-16 xl:px-[8rem] mb-14">
-          <h2 className="text-[2.5rem]  drop-shadow-md drop-shadow-green-400 text-center font-bold text-green-500 uppercase">
+          <h2 className="text-xl md:text-[2.5rem] md:leading-10 pt-16 drop-shadow-md drop-shadow-green-400 md:text-center font-bold text-white uppercase">
             Numbers to back OUR <br />
             CREDIBILITY
           </h2>
-          <p className="mt-3 text-xl md:px-[10rem] text-center leading-relaxed text-gray-300 md:mt-8">
-            We have used our economies of Scale to get the best pricing, terms and
-            service for over 9000 businesses in South Africa.
+          <p className="hidden md:block mt-3 text-xl md:px-[10rem] text-center leading-relaxed text-gray-300 md:mt-8">
+            We have used our economies of Scale to get the best pricing, terms
+            and service for over 9000 businesses in South Africa.
           </p>
         </div>
 
@@ -41,7 +42,18 @@ const Credibility: NextPage = () => {
           </div>
         </div>
       </div>
-     
+      <div className="flex justify-center items-center mt-12">
+        <Link href="https://apply.getfunds.co.za" target="_blank">
+          <motion.p
+            whileHover={{ scale: 1.2 }}
+            onHoverStart={(e) => {}}
+            onHoverEnd={(e) => {}}
+            className="hidden lg:block bg-[#07d159] shadow-md shadow-green-600 px-6 py-2 rounded-md hover:bg-transparent hover:border-[#07d159] hover:border-2 hover:text-white hover:shadow-none text-black font-medium"
+          >
+            Start An Application
+          </motion.p>
+        </Link>
+      </div>
     </div>
   );
 };

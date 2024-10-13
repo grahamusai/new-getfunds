@@ -46,6 +46,9 @@ h1, h2, h3 {
 p, li, a{
   font-family: "Poppins", sans-serif;
 }
+li {
+  padding-top: 10px;
+}
 a{
   font-family: "Poppins", sans-serif;
 }

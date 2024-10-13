@@ -104,7 +104,7 @@ const Calculator = () => {
       {isModalOpen && <Modal />}
       {termsModalIsOpen && <TermsModal />}
       <div className="py-5 md:py-16 text-center">
-        <h2 className="font-bold text-lg md:text-4xl mb-4 text-green-500 dark:text-white">
+        <h2 className="font-bold text-lg md:text-4xl mb-4 text-[#07d159] dark:text-white">
           How much funding can I get?
         </h2>
         <p className="text-white text-lg ">
@@ -214,9 +214,9 @@ const Calculator = () => {
           </div>
         </div>
         {/* Second Column */}
-        <div className="w-full flex flex-col text-center lg:w-1/2 z-10  md:pt-3  pb-6 px-2 md:px-10 border-l-2 border-green-500">
+        <div className="w-full flex flex-col text-center lg:w-1/2 z-10  md:pt-3  pb-6 px-2 md:px-10 border-l-2 border-[#07d159]">
           <div className="mb-3">
-            <h2 className="text-[28px] text-green-500 mb-3 hidden md:block ">
+            <h2 className="text-[28px] text-[#07d159] mb-3 hidden md:block ">
               Get an instant quote
             </h2>
             <div className="flex flex-row md:flex-col mt-16">
@@ -246,7 +246,7 @@ const Calculator = () => {
           </div>
           <div className=" pt-20">
             <Link href="https://apply.getfunds.co.za?broker=getfunds">
-              <button className="bg-green-500 px-5 py-2 rounded-lg text-white text-lg font-[500]">
+              <button className="bg-[#07d159] px-5 py-2 rounded-lg text-white text-lg font-[500]">
                 Apply Now
               </button>
             </Link>

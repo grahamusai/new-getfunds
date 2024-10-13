@@ -1,14 +1,17 @@
+"use client"
 import React from "react";
+import Link from "next/link";
+import { motion } from "framer-motion";
 
 const Comparison = () => {
   return (
-    <div className="py-32 md:mx-32 ">
-      <h2 className="text-2xl py-10 font-bold leading-tight uppercase text-center text-green-500 sm:text-4xl lg:text-3xl">
+    <div className="hidden md:block py-32 md:mx-32 ">
+      <h2 className="text-2xl py-10 font-bold leading-tight uppercase text-center text-[#07d159] sm:text-4xl lg:text-3xl">
         Why Choose Getfunds
       </h2>
-      <div className=" mx-auto flex py-5 text-white">
+      <div className=" mx-auto border-b-2 border-white flex pt-5 pb-3 text-white">
         <div className="w-full md:w-1/3">
-          <h2 className="text-2xl">Single Funder</h2>
+          <h2 className="text-2xl">Going Direct</h2>
         </div>
         <div className="w-full md:w-1/3 text-center">
           <h2 className="text-2xl">Broker With Multiple Funders</h2>
@@ -18,19 +21,21 @@ const Comparison = () => {
         </div>
       </div>
       {/* First Section */}
-      <div className=" mx-auto flex py-5 text-white">
-        <div className="w-full md:w-1/3  border-green-500 pt-10">
+      <div className=" mx-auto flex gap-24 py-5 text-white">
+        <div className="w-full md:w-1/3  border-[#07d159] pt-10">
           <p>Limited to one set of products and terms</p>
         </div>
-        <div className="w-full md:w-1/3 text-center  border-green-500 pt-10">
+        <div className="w-full md:w-1/3 text-center  border-[#07d159] pt-10">
           <p>Access to a wide range of products and terms</p>
         </div>
-        <div className="w-full md:w-1/3 text-right  border-green-500 pt-10">
-          <p className="text-green-500">More flexibility and options to match your needs</p>
+        <div className="w-full md:w-1/3 text-right  border-[#07d159] pt-10">
+          <p className="text-[#07d159]">
+            More flexibility and options to match your needs
+          </p>
         </div>
       </div>
       {/* Second Section */}
-      <div className=" mx-auto flex py-5 text-white">
+      <div className=" mx-auto gap-24 flex py-5 text-white">
         <div className="w-full md:w-1/3  border-white pt-5">
           <p>Approval rate is based on one funder&apos;s criteria</p>
         </div>
@@ -38,11 +43,13 @@ const Comparison = () => {
           <p>Higher approval rates by shopping around multiple funders</p>
         </div>
         <div className="w-full md:w-1/3 text-right  border-white pt-5">
-          <p className="text-green-500 ">Increases chances of approval by finding the right match</p>
+          <p className="text-[#07d159] ">
+            Increases chances of approval by finding the right match
+          </p>
         </div>
       </div>
       {/* Third Section */}
-      <div className=" mx-auto flex py-5 text-white">
+      <div className="gap-24 mx-auto flex py-5 text-white">
         <div className="w-full md:w-1/3  border-white pt-5">
           <p>Funding costs are Fixed by the single funder</p>
         </div>
@@ -50,33 +57,71 @@ const Comparison = () => {
           <p>Competitive pricing by comparing different funders</p>
         </div>
         <div className="w-full md:w-1/3 text-right  border-white pt-5">
-          <p className="text-green-500">Potentially lower rates by comparing offers</p>
+          <p className="text-[#07d159]">
+            Potentially lower rates by comparing offers
+          </p>
         </div>
       </div>
       {/* Fouth Section */}
-      <div className=" mx-auto flex py-5 text-white">
+      <div className="gap-24 mx-auto flex py-5 text-white">
         <div className="w-full md:w-1/3  border-white pt-5">
-          <p>Loan Amount is limited to the single funder&apos;s maximum</p>
-        </div>
-        <div className="w-full md:w-1/3 text-center  border-white pt-5">
-          <p>Access to various loan amounts across multiple funders</p>
-        </div>
-        <div className="w-full md:w-1/3 text-right  border-white pt-5">
-          <p className="text-green-500">More options to find the right loan sizes</p>
-        </div>
-      </div>
-      {/* Fifth Section */}
-      <div className=" mx-auto flex py-5 border-b-2 border-white text-white">
-        <div className="w-full md:w-1/3  border-white pt-5">
-          <p>Speed of funding dependent on one funder&apos;s process</p>
+          <p>Speed depends on one funder&apos;s process </p>
         </div>
         <div className="w-full md:w-1/3 text-center  border-white pt-5">
           <p>Faster funding by finding the quickest funder available</p>
         </div>
         <div className="w-full md:w-1/3 text-right  border-white pt-5">
-          <p className="text-green-500">Ability to choose the fastest option</p>
+          <p className="text-[#07d159]">Ability to choose the fastest option</p>
         </div>
       </div>
+      {/* Fiveth Section */}
+      <div className="gap-24 mx-auto flex py-5 text-white">
+        <div className="w-full md:w-1/3  border-white pt-5">
+          <p>Limited customisation based on one funder&apos;s products and mandates</p>
+        </div>
+        <div className="w-full md:w-1/3 text-center  border-white pt-5">
+          <p>Highly tailored solutions by mixing and matching funders</p>
+        </div>
+        <div className="w-full md:w-1/3 text-right  border-white pt-5">
+          <p className="text-[#07d159]">More Personalised funding solutions</p>
+        </div>
+      </div>
+      {/* Fiveth Section */}
+      <div className="gap-24 mx-auto flex py-5 text-white">
+        <div className="w-full md:w-1/3  border-white pt-5">
+          <p>Limited leverage to negotiating terms</p>
+        </div>
+        <div className="w-full md:w-1/3 text-center  border-white pt-5">
+          <p>Broker can negotiate better terms with multiple funders</p>
+        </div>
+        <div className="w-full md:w-1/3 text-right  border-white pt-5">
+          <p className="text-[#07d159]">Increased negotiation power through our volumes and network</p>
+        </div>
+      </div>
+      {/* Seventh Section */}
+      <div className="gap-24 mx-auto flex py-5 border-b-2 border-white text-white">
+        <div className="w-full md:w-1/3  border-white pt-5">
+          <p>Market knowledge limited to one funder&apos;s expertise</p>
+        </div>
+        <div className="w-full md:w-1/3 text-center  border-white pt-5">
+          <p>Brokers provide market insight across multiple funders</p>
+        </div>
+        <div className="w-full md:w-1/3 text-right  border-white pt-5">
+          <p className="text-[#07d159]">Access to broader market knowledge and advice</p>
+        </div>
+      </div>
+      <div className="flex justify-center items-center mt-12">
+              <Link href="https://apply.getfunds.co.za" target="_blank">
+                <motion.p
+                  whileHover={{ scale: 1.2 }}
+                  onHoverStart={(e) => {}}
+                  onHoverEnd={(e) => {}}
+                  className="hidden lg:block bg-[#07d159] shadow-md shadow-green-600 px-6 py-3 rounded-md hover:bg-transparent hover:border-[#07d159] hover:border-2 hover:text-white hover:shadow-none text-black font-medium"
+                >
+                  Start An Application
+                </motion.p>
+              </Link>
+            </div>
     </div>
   );
 };
