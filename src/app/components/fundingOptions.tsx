@@ -87,7 +87,7 @@ const WhyUs = () => {
               </div>
             </div>
 
-            <div className="flex items-center justify-center mt-12 md:mt-20">
+            <div className="flex items-center justify-center mt-12 md:mt-16">
               <div className="px-8 py-4 text-center bg-gray-800 rounded-full">
                 <p className="text-gray-50">
                   Do you have questions about our services?{" "}

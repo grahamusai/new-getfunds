@@ -30,12 +30,12 @@ const Process = () => {
               <img className="relative" src="/images/phones.png" alt="" />
             </motion.div>
             <div className="absolute left-0 pr-12 bottom-8 xl:bottom-20">
-              <div className="max-w-xs bg-[#07d159] rounded-lg sm:max-w-md xl:max-w-md">
-                <div className="px-3 py-4 sm:px-5 sm:py-8">
+              <div className="max-w-xs bg-[#0c873d] rounded-lg sm:max-w-md xl:max-w-md">
+                <div className="px-3 py-2 sm:px-5 sm:py-8">
                   <div className="flex items-start">
                     <p className="text-3xl sm:text-4xl">👋</p>
                     <blockquote className="ml-5">
-                      <p className="text-sm font-medium text-white sm:text-lg">
+                      <p className="text-sm font-semibold text-white sm:text-lg">
                         Instant Access to Multiple Funders with one application
                       </p>
                     </blockquote>
@@ -94,7 +94,7 @@ const Process = () => {
                   onHoverEnd={(e) => {}}
                   className="hidden lg:block bg-[#07d159] shadow-md shadow-green-600 px-6 py-3 rounded-md hover:bg-transparent hover:border-[#07d159] hover:border-2 hover:text-white hover:shadow-none text-black font-medium"
                 >
-                  Start An Application
+                  Get Funds Now
                 </motion.p>
               </Link>
             </div>

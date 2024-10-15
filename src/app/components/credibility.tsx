@@ -50,7 +50,7 @@ const Credibility: NextPage = () => {
             onHoverEnd={(e) => {}}
             className="hidden lg:block bg-[#07d159] shadow-md shadow-green-600 px-6 py-2 rounded-md hover:bg-transparent hover:border-[#07d159] hover:border-2 hover:text-white hover:shadow-none text-black font-medium"
           >
-            Start An Application
+            Get Funds Now
           </motion.p>
         </Link>
       </div>

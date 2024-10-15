@@ -25,7 +25,7 @@ import {
 
 const Navbar = () => {
   const [submit, submitting] = useFormspark({
-    formId: "RKcXJYZhr",
+    formId: "opxueG6Xb",
   });
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
@@ -247,9 +247,7 @@ const Navbar = () => {
                           </div>
                         </ModalContent>
                         <ModalFooter className="gap-4">
-                          <button className="px-2 py-1 bg-gray-200 text-black dark:bg-black dark:border-black dark:text-white border border-gray-300 rounded-md text-sm w-28">
-                            Cancel
-                          </button>
+                          <h2>&nbsp;</h2>
                           
                         </ModalFooter>
                       </ModalBody>

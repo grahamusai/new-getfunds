@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
+/* * {
   outline: red 1px solid;
-}
+} */
 
 /* width */
 ::-webkit-scrollbar {
@@ -40,15 +40,12 @@ p,
 li,
 a {
   font-family: "Poppins", sans-serif;
+  color: white ;
 }
-<<<<<<< HEAD
 li {
   padding-top: 10px;
 }
 a{
-=======
-a {
->>>>>>> ed288f832933d705d628b8be6bd644bc8ebc0bc8
   font-family: "Poppins", sans-serif;
 }
 * {
