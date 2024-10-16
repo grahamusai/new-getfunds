@@ -46,7 +46,7 @@ export default function RootLayout({
             seize growth opportunities, manage their cash flow, and overcome
             challenges effectively. That&apos;s why our funding solutions are
             streamlined and customized to meet the specific needs of your
-            business. Whether you're looking for a flexible funding line to
+            business. Whether you&apos;re looking for a flexible funding line to
             support your daily operations or a lump-sum advance to fuel your
             next big project, Get Funds has the solution. Why Choose Get Funds
             as Your SME Funding Partner? When it comes to business loans in
@@ -130,7 +130,7 @@ export default function RootLayout({
             at heart. This ensures that you are always offered fair, competitive
             loan options that are in line with your business goals. Contact Get
             Funds Today for Custom SME Funding Solutions Are you ready to take
-            your business to the next level? Whether you're looking to expand,
+            your business to the next level? Whether you&apos;re looking to expand,
             manage cash flow more effectively, or finance a new project, Get
             Funds is here to help. Contact us today to learn more about our
             flexible funding solutions, or simply fill out our easy online
