@@ -13,7 +13,7 @@ const Credibility: NextPage = () => {
       {/* <Qualify /> */}
       <div className=" ">
         <div className="px-10 md:px-16 xl:px-[8rem] mb-14">
-          <h2 className="text-xl md:text-[2.5rem] md:leading-10 pt-16 drop-shadow-md drop-shadow-green-400 md:text-center font-bold text-white uppercase">
+          <h2 className="text-xl md:text-[2.5rem] md:leading-10 pt-16 drop-shadow-md drop-shadow-green-400 md:text-center font-medium text-white uppercase">
             Numbers to back OUR <br />
             CREDIBILITY
           </h2>

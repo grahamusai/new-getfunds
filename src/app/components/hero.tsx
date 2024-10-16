@@ -28,7 +28,7 @@ const Hero = () => {
           </h1>
           <hr className="max-w-20 border-t-2 border-[#07d159] mt-10" />
           <p className="text-2xl font-bold mt-10">
-            Your Cashflow brokers <br />
+          Your<span className="text-[#07d159]"> Cashflow brokers</span> <br />
             Access multiple funders in{" "}
             <span className="text-[#07d159] drop-shadow-emerald-600 drop-shadow-md font-semibold">
               under 2 minutes
@@ -43,7 +43,7 @@ const Hero = () => {
           </p>
 
           {/* Align Apply Now button to the left */}
-          <div className="hidden md:block  justify-start items-center gap-7 mt-14 md:mr-[20rem] lg:mr-[26rem]">
+          <div className="hidden md:block  justify-start items-center gap-7 mt-14 ">
             <a
               href="https://apply.getfunds.co.za?broker=getfunds"
               title=""

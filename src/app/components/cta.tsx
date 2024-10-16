@@ -12,9 +12,7 @@ const Cta = () => {
         <h2 className="text-3xl md:text-5xl font-medium text-[#ffffff]">
           Our Funding <br /> Options
         </h2>
-        <p className="pt-5 text-lg font-semibold text-white"> 
-          Home | Funding Options
-        </p>
+       
       </div>
      
     </>

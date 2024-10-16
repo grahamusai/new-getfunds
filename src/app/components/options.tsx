@@ -10,7 +10,7 @@ const Options = () => {
     },
     {
       src: "/images/02.png",
-      title: "Business Cash Advancing",
+      title: "B2B Cash Advancing",
       paragraph:
         "Receive up to one month’s revenue as a lump sum payable over 3-12 months with weekly or monthly repayment options",
     },

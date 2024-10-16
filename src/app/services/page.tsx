@@ -156,9 +156,9 @@ const Services = () => {
                           </div>
                           <div className="w-1/2">
                             <ul className="ml-10 pb-10">
-                              <li>10%</li>
-                              <li>20%</li>
-                              <li>22%</li>
+                              <li>25%</li>
+                              <li>28%</li>
+                              <li>31%</li>
                             </ul>
                           </div>
                         </div>
@@ -281,7 +281,7 @@ const Services = () => {
                 Get Funds Now{" "}
               </a>
             </div>
-            <div className="relative mb-12">
+            <div className="hidden md:block relative mb-12">
               <img
                 className="w-full rounded-md"
                 src="/images/blackman.jpg"
@@ -306,7 +306,7 @@ const Services = () => {
       <section className=" bg-black sm:pt-10 lg:pt-24 mb-10">
         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
           <div className="grid items-center grid-cols-1 gap-y-8 lg:grid-cols-2 gap-x-16 xl:gap-x-24 space-x-reverse">
-          <div className="relative mb-12">
+          <div className="hidden md:block relative mb-12">
               <img
                 className="w-full rounded-md"
                 src="/images/06.png"
@@ -317,7 +317,7 @@ const Services = () => {
                 <div className="overflow-hidden bg-[#17b556] rounded">
                   <div className="px-10 py-6">
                     <div className="flex items-center">
-                      <p className="pl-6 text-sm uppercase font-semibold text-black sm:text-lg">
+                      <p className="pl-3 text-sm uppercase font-semibold text-black sm:text-lg">
                       Easy and accessible funding 
                       </p>
                     </div>
