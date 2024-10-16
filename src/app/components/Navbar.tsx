@@ -78,20 +78,20 @@ const Navbar = () => {
                   onValueChange={setPosition}
                 >
                   <DropdownMenuRadioItem value="top">
-                    <a href="/">Home</a>
+                    <a className="text-black" href="/">Home</a>
                   </DropdownMenuRadioItem>
                   <DropdownMenuRadioItem value="About">
-                    <a href="/services">Services</a>
+                    <a className="text-black" href="/services">Services</a>
                   </DropdownMenuRadioItem>
                   <DropdownMenuRadioItem value="right">
-                    <a href="/brokers">Become an Broker</a>
+                    <a className="text-black" href="/contact">Become an Broker</a>
                   </DropdownMenuRadioItem>
                   <DropdownMenuRadioItem value="right">
-                    <a href="/faqs">FAQs</a>
+                    <a className="text-black" href="/faqs">FAQs</a>
                   </DropdownMenuRadioItem>
 
                   <DropdownMenuRadioItem value="right">
-                    <a href="/contact">Contact</a>
+                    <a className="text-black" href="/contact">Contact</a>
                   </DropdownMenuRadioItem>
                 </DropdownMenuRadioGroup>
               </DropdownMenuContent>
@@ -170,7 +170,7 @@ const Navbar = () => {
                                   Name<span className="text-rose-500">*</span>
                                 </label>
                                 <input
-                                  className="w-full border-2 rounded-lg border-[#1E394C] px-5 py-3 mt-2 bg-transparent placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-slate-700 focus:shadow-2xl focus:border-transparent duration-100"
+                                  className="w-full text-gray-500 border-2 rounded-lg border-[#1E394C] px-5 py-3 mt-2 bg-transparent placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-slate-700 focus:shadow-2xl focus:border-transparent duration-100"
                                   id="name"
                                   name="name"
                                   type="text"
@@ -190,7 +190,7 @@ const Navbar = () => {
                                     <span className="text-rose-500">*</span>
                                   </label>
                                   <input
-                                    className="w-full border-2 rounded-lg border-[#1E394C] px-5 py-3 mt-2 bg-transparent placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-slate-700 focus:shadow-2xl focus:border-transparent duration-100"
+                                    className="w-full text-gray-500 border-2 rounded-lg border-[#1E394C] px-5 py-3 mt-2 bg-transparent placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-slate-700 focus:shadow-2xl focus:border-transparent duration-100"
                                     id="email"
                                     type="email"
                                     name="email"
@@ -208,7 +208,7 @@ const Navbar = () => {
                                     <span className="text-rose-500">*</span>
                                   </label>
                                   <input
-                                    className="w-full border-2 rounded-lg border-[#1E394C] px-5 py-3 mt-2 bg-transparent placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-slate-700 focus:shadow-2xl focus:border-transparent duration-100"
+                                    className="w-full border-2 rounded-lg border-[#1E394C] px-5 py-3 mt-2 bg-transparent placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-slate-700 focus:shadow-2xl text-gray-500 focus:border-transparent duration-100"
                                     id="phone"
                                     type="number"
                                     name="phone"
@@ -228,7 +228,7 @@ const Navbar = () => {
                                   <span className="text-rose-500">*</span>
                                 </label>
                                 <textarea
-                                  className="w-full h-[8rem] border-2 rounded-lg border-[#1E394C] px-5 py-3 mt-2 focus:placeholder-opacity-0 bg-transparent placeholder-slate-700 focus:outline-none focus:ring-2 focus:ring-slate-700 focus:shadow-2xl focus:border-transparent duration-100"
+                                  className="w-full h-[8rem] text-gray-500 border-2 rounded-lg border-[#1E394C] px-5 py-3 mt-2 focus:placeholder-opacity-0 bg-transparent placeholder-slate-700 focus:outline-none focus:ring-2 focus:ring-slate-700 focus:shadow-2xl focus:border-transparent duration-100"
                                   id="email"
                                   name="experience"
                                   placeholder="Type in your message"
@@ -295,7 +295,7 @@ const Navbar = () => {
                                   Name<span className="text-rose-500">*</span>
                                 </label>
                                 <input
-                                  className="w-full border-2 rounded-lg border-[#1E394C] px-5 py-3 mt-2 bg-transparent placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-slate-700 focus:shadow-2xl focus:border-transparent duration-100"
+                                  className="w-full text-gray-500 border-2 rounded-lg border-[#1E394C] px-5 py-3 mt-2 bg-transparent placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-slate-700 focus:shadow-2xl focus:border-transparent duration-100"
                                   id="name"
                                   name="name"
                                   type="text"
@@ -315,7 +315,7 @@ const Navbar = () => {
                                     <span className="text-rose-500">*</span>
                                   </label>
                                   <input
-                                    className="w-full border-2 rounded-lg border-[#1E394C] px-5 py-3 mt-2 bg-transparent placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-slate-700 focus:shadow-2xl focus:border-transparent duration-100"
+                                    className="w-full text-gray-500 border-2 rounded-lg border-[#1E394C] px-5 py-3 mt-2 bg-transparent placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-slate-700 focus:shadow-2xl focus:border-transparent duration-100"
                                     id="email"
                                     type="email"
                                     name="email"
@@ -333,7 +333,7 @@ const Navbar = () => {
                                     <span className="text-rose-500">*</span>
                                   </label>
                                   <input
-                                    className="w-full border-2 rounded-lg border-[#1E394C] px-5 py-3 mt-2 bg-transparent placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-slate-700 focus:shadow-2xl focus:border-transparent duration-100"
+                                    className="w-full text-gray-500 border-2 rounded-lg border-[#1E394C] px-5 py-3 mt-2 bg-transparent placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-slate-700 focus:shadow-2xl focus:border-transparent duration-100"
                                     id="phone"
                                     type="number"
                                     name="phone"
@@ -353,7 +353,7 @@ const Navbar = () => {
                                   <span className="text-rose-500">*</span>
                                 </label>
                                 <textarea
-                                  className="w-full h-[8rem] border-2 rounded-lg border-[#1E394C] px-5 py-3 mt-2 focus:placeholder-opacity-0 bg-transparent placeholder-slate-700 focus:outline-none focus:ring-2 focus:ring-slate-700 focus:shadow-2xl focus:border-transparent duration-100"
+                                  className="w-full text-gray-500 h-[8rem] border-2 rounded-lg border-[#1E394C] px-5 py-3 mt-2 focus:placeholder-opacity-0 bg-transparent placeholder-slate-700 focus:outline-none focus:ring-2 focus:ring-slate-700 focus:shadow-2xl focus:border-transparent duration-100"
                                   id="email"
                                   name="experience"
                                   placeholder="Type in your message"
@@ -372,9 +372,7 @@ const Navbar = () => {
                           </div>
                         </ModalContent>
                         <ModalFooter className="gap-4">
-                          <button className="px-2 py-1 bg-gray-200 text-black dark:bg-black dark:border-black dark:text-white border border-gray-300 rounded-md text-sm w-28">
-                            Cancel
-                          </button>
+                          <h2>&nbsp;</h2>
                           
                         </ModalFooter>
                       </ModalBody>

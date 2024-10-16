@@ -30,12 +30,12 @@ const Process = () => {
               <img className="relative" src="/images/phones.png" alt="" />
             </motion.div>
             <div className="absolute left-0 pr-12 bottom-8 xl:bottom-20">
-              <div className="max-w-xs bg-[#0c873d] rounded-lg sm:max-w-md xl:max-w-md">
-                <div className="px-3 py-2 sm:px-5 sm:py-8">
+              <div className="max-w-xs bg-[#17b556] rounded-lg sm:max-w-md xl:max-w-md">
+                <div className="px-3 py-2 sm:px-5 sm:py-3">
                   <div className="flex items-start">
                     <p className="text-3xl sm:text-4xl">👋</p>
                     <blockquote className="ml-5">
-                      <p className="text-sm font-semibold text-white sm:text-lg">
+                      <p className="text-sm font-semibold text-black sm:text-lg">
                         Instant Access to Multiple Funders with one application
                       </p>
                     </blockquote>
@@ -87,16 +87,15 @@ const Process = () => {
               </div>
             </div>
             <div className="flex justify-center items-center mt-12">
-              <Link href="https://apply.getfunds.co.za" target="_blank">
-                <motion.p
-                  whileHover={{ scale: 1.2 }}
-                  onHoverStart={(e) => {}}
-                  onHoverEnd={(e) => {}}
-                  className="hidden lg:block bg-[#07d159] shadow-md shadow-green-600 px-6 py-3 rounded-md hover:bg-transparent hover:border-[#07d159] hover:border-2 hover:text-white hover:shadow-none text-black font-medium"
-                >
-                  Get Funds Now
-                </motion.p>
-              </Link>
+              <a
+                href="https://apply.getfunds.co.za?broker=getfunds"
+                title=""
+                className="inline-flex items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 rounded-md mt-3 bg-gradient-to-r from-green-600 to-blue-600 hover:opacity-80 focus:opacity-80"
+                role="button"
+              >
+                {" "}
+                Get Funds Now{" "}
+              </a>
             </div>
           </div>
         </div>

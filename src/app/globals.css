@@ -21,7 +21,15 @@
   background: linear-gradient(180deg, #000, #22c55e);
   border-radius: 10px;
 }
+.bg-header {
+  background: url(https://askingtips.com/dl/getty/tmp/dl.beatsnoop.com-3000-S65RYJHwuK.jpg) center center no-repeat;
+  background-attachment: fixed;
+}
 
+.bg-quote {
+  background: url(https://picsum.photos/1600/1600/?random) center center no-repeat;
+  background-attachment: fixed;
+}
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555;

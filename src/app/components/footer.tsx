@@ -42,11 +42,9 @@ const Footer = () => {
             <p className="mb-4">
               <a href="/faqs">FAQs</a>
             </p>
-            <p className="mb-4">
-              <a href="#!">Become an Affiliate</a>
-            </p>
+            
             <p>
-              <a href="#!">Funding</a>
+              <a href="/services">Funding</a>
             </p>
           </div>
           <div>

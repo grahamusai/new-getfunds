@@ -22,25 +22,52 @@ const Services = () => {
       <Cta />
 
       {/* Merchant Cash */}
+      <section className=" bg-black sm:pt-10 lg:pt-24">
+        <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+          <div className="grid items-center grid-cols-1 gap-y-8 lg:grid-cols-2 gap-x-16 xl:gap-x-24 space-x-reverse">
+            <div className="hidden md:block relative mb-12">
+              <img className="w-full rounded-md" src="/images/02.png" alt="" />
 
-      <section className="">
-        <div className="px-4  max-w-7xl sm:px-6 lg:px-8">
-          <div className="grid items-center grid-cols-1 lg:grid-cols-2 gap-x-12 xl:gap-x-24 gap-y-12">
-            <div className="relative lg:mb-12">
-              <motion.div
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
-                viewport={{ once: true }}
-                className="pl-12 pr-6"
-              >
-                <img className="relative" src="/images/phones.png" alt="" />
-              </motion.div>
+              <div className="absolute w-full max-w-xs px-4 -translate-x-1/2 sm:px-0 sm:max-w-sm left-1/2 -bottom-12">
+                <div className="overflow-hidden bg-transparent rounded-md">
+                  <div className="px-10 py-2">
+                    <div className="bg-black/50 py-2 px-2 mt-5">
+                      <h2 className="text-xl text-white text-center py-2">
+                        Industry Pricing Averages
+                      </h2>
+                      <div className="max-w-7xl mx-auto border-2 border-white my-8 text-center">
+                        <div className="flex border-b-2 border-white text-white py-2 px-5 mx-8 justify-center items-center">
+                          <h2 className="w-1/2 text-lg">Term (Months)</h2>
+                          <h2 className="w-1/2 text-lg ml-20">Cost</h2>
+                        </div>
+                        <div className="flex  text-white ">
+                          <div className="w-1/2">
+                            <ul className="px-2 pb-10">
+                              <li>3 Months</li>
+                              <li>6 Months</li>
+                              <li>9 Months</li>
+                            </ul>
+                          </div>
+                          <div className="w-1/2">
+                            <ul className="ml-10 pb-10">
+                              <li>10%</li>
+                              <li>20%</li>
+                              <li>26%</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className="py-8 justify-self-start">
-              <h1 className="text-[2.5rem] text-green-500 mb-10">
-                Merchant Cash Advance
-              </h1>
-              <div className="flex flex-col items-start justify-start ">
+
+            <div>
+              <h2 className="my-16 text-2xl md:text-3xl font-bold leading-tight text-white sm:text-4xl  lg:leading-tight">
+                Unsecured Merchant Cash Advance
+              </h2>
+              <div className="flex flex-col items-start justify-start my-10">
                 <p className="text-white flex ">
                   <span className="text-green-500 text-xl">
                     <IoCheckbox />
@@ -63,62 +90,30 @@ const Services = () => {
                   <span className="text-green-500 text-xl">
                     <IoCheckbox />
                   </span>
-                  &nbsp;Repayments Daily or Weekly
+                  &nbsp;Repayments Daily, Weekly & Monthly
                 </p>
               </div>
-              <div className="hidden md:block  justify-start items-center gap-7 mt-14 md:mr-[20rem] ">
-                <Link href={"https://apply.getfunds.co.za"}>
-                  <motion.p className="flex justify-center items-center text-center cursor-pointer bg-[#07d159] shadow-md shadow-green-600 px-10 py-3 rounded-md hover:bg-transparent hover:border-[#07d159] hover:border-2 hover:text-white hover:shadow-none font-semibold text-black">
-                    Get Funds Now
-                  </motion.p>
-                </Link>
-              </div>
+              <a
+                href="https://apply.getfunds.co.za?broker=getfunds"
+                title=""
+                className="inline-flex items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 rounded-md mt-9 bg-gradient-to-r from-green-600 to-blue-600 hover:opacity-80 focus:opacity-80"
+                role="button"
+              >
+                {" "}
+                Get Funds Now{" "}
+              </a>
             </div>
           </div>
         </div>
       </section>
 
-      <div className="bg-[#111] py-20 mt-10">
-        <h2 className="text-2xl text-white text-center py-2">
-          The Industry Estimates
-        </h2>
-        <div className="max-w-2xl mx-auto border-2 border-white my-6 text-center">
-          <div className="flex border-b-2 border-white text-white py-5 px-5 mx-8 justify-center items-center">
-            <h2 className="w-1/2 text-xl">Term (Months)</h2>
-            <h2 className="w-1/2 text-xl ml-20">Cost</h2>
-          </div>
-          <div className="flex mt-8 text-white mx-8">
-            <div className="w-1/2">
-              <ul className="px-5 pb-10">
-                <li>3 Months</li>
-                <li>6 Months</li>
-                <li>7 Months</li>
-                <li>8 Months</li>
-                <li>9 Months</li>
-                <li>10 Months</li>
-              </ul>
-            </div>
-            <div className="w-1/2">
-              <ul className="ml-10 pb-10">
-                <li>10%</li>
-                <li>20%</li>
-                <li>22%</li>
-                <li>24%</li>
-                <li>26%</li>
-                <li>28%</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <section className="w-full px-5 pt-20">
-        <div className="px-4  max-w-7xl sm:px-6 lg:px-8">
-          <div className="grid items-center grid-cols-1 lg:grid-cols-2 gap-x-12 xl:gap-x-24 gap-y-12">
-            <div className="py-8 justify-self-start">
-              <h1 className="text-[2.5rem] text-green-500 mb-10">
+      <section className="py-10 bg-black sm:py-16 lg:pt-24">
+        <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+          <div className="grid items-center grid-cols-1 gap-y-8 lg:grid-cols-2 gap-x-16 xl:gap-x-24">
+            <div>
+              <h2 className="my-10 md:my-16 text-2xl md:text-3xl font-bold leading-tight text-white sm:text-4xl  lg:leading-tight">
                 Stack Advance
-              </h1>
+              </h2>
               <p>
                 If you have a current cash advance facility but require more
                 funds. Get Funds has access to funders that fund over and above
@@ -126,117 +121,89 @@ const Services = () => {
                 costs a little more but it beats being forced to change funders
                 and face the heavy settlement penalties
               </p>
-              <div className="hidden md:block  justify-start items-center gap-7 mt-14 md:mr-[20rem] ">
-                <Link href={"https://apply.getfunds.co.za"}>
-                  <motion.p className="flex justify-center items-center text-center cursor-pointer bg-[#07d159] shadow-md shadow-green-600 px-10 py-3 rounded-md hover:bg-transparent hover:border-[#07d159] hover:border-2 hover:text-white hover:shadow-none font-semibold text-black">
-                    Get Funds Now
-                  </motion.p>
-                </Link>
+              <a
+                href="https://apply.getfunds.co.za?broker=getfunds"
+                title=""
+                className="inline-flex items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 rounded-md mt-9 bg-gradient-to-r from-green-600 to-blue-600 hover:opacity-80 focus:opacity-80"
+                role="button"
+              >
+                {" "}
+                Get Funds Now{" "}
+              </a>
+            </div>
+            <div className="hidden md:block relative mb-12">
+              <img className="w-full rounded-md" src="/images/01.png" alt="" />
+
+              <div className="absolute w-full max-w-xs px-4 -translate-x-1/2 sm:px-0 sm:max-w-sm left-1/2 -bottom-12">
+                <div className="overflow-hidden bg-transparent rounded">
+                  <div className="px-10 py-6">
+                    <div className="bg-black/50 py-2 px-4 mt-5">
+                      <h2 className="text-lg text-white text-center py-2">
+                        Average Stack Pricing
+                      </h2>
+                      <div className="max-w-7xl mx-auto border-2 border-white my-5 text-center">
+                        <div className="flex border-b-2 border-white text-white py-2 px-5 mx-8 justify-center items-center">
+                          <h2 className="w-1/2 text-">Term (Months)</h2>
+                          <h2 className="w-1/2 text-lg ml-20">Cost</h2>
+                        </div>
+                        <div className="flex  text-white ">
+                          <div className="w-1/2">
+                            <ul className="px-2 pb-10">
+                              <li>6 Months</li>
+                              <li>7 Months</li>
+                              <li>8 Months</li>
+                            </ul>
+                          </div>
+                          <div className="w-1/2">
+                            <ul className="ml-10 pb-10">
+                              <li>10%</li>
+                              <li>20%</li>
+                              <li>22%</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-            <div className="relative lg:mb-12">
-              <motion.div
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
-                viewport={{ once: true }}
-                className="pl-12 pr-6"
-              >
-                <img className="relative" src="/images/phones.png" alt="" />
-              </motion.div>
-            </div>
-          </div>
-        </div>
-        <h2 className="text-center text-lg text-white">Stack Pricing</h2>
-        <div className="max-w-2xl mx-auto border-2 border-white mb-6 mt-3">
-          <div className="flex border-b-2 border-white text-white py-5 px-5 mx-8 justify-center items-center">
-            <h2 className="w-1/2 text-xl">Term (Months)</h2>
-            <h2 className="w-1/2 text-xl ml-16">Cost</h2>
-          </div>
-          <div className="flex mt-8 text-white mx-8">
-            <div className="w-1/2">
-              <ul className="px-5 pb-10">
-                <li>6 Months</li>
-                <li>7 Months</li>
-                <li>8 Months</li>
-              </ul>
-            </div>
-            <div className="w-1/2">
-              <ul className="ml-12 pb-10">
-                <li>10%</li>
-                <li>20%</li>
-                <li>22%</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div className="flex items-center justify-center my-8 md:mt-20">
-          <div className="px-8 py-4 text-center bg-gray-800 rounded-full">
-            <p className="text-gray-50">
-              Your access top up funds once you paid up 50%{" "}
-              <a
-                href="/faqs"
-                title=""
-                className="text-[#07d159] transition-all duration-200 hover:text-green-600 focus:text-green-400 hover:underline"
-              >
-                Read Our FAQ&apos;s
-              </a>
-            </p>
           </div>
         </div>
       </section>
-      <section className="w-full px-[10rem] py-20">
-        <div className="flex flex-col justify-center items-center bg-gradient-to-r from-green-500 to-blue-500 mt-20 py-10 rounded-[4rem]">
-          <h2 className="text-center text-[40px] pt-10 text-black">
-            Need Working Capital
-          </h2>
-          <div className="py-10 text-center">
-            <p className="text-black text-xl py-2">
-              Opportunity: Only take money if the benefits outweighs the cost
-            </p>
-            <p className="text-black text-xl">
-              Challenge: Only take money if you prefer the repayment over the
-              problem
-            </p>
-          </div>
 
-          <div className="flex justify-center items-center pt-5">
-            <Link href="https://apply.getfunds.co.za" target="_blank">
-              <motion.p
-                whileHover={{ scale: 1.2 }}
-                onHoverStart={(e) => {}}
-                onHoverEnd={(e) => {}}
-                className="hidden lg:block bg-[#000]  px-10 py-3  hover:bg-transparent hover:border-[#000000] hover:border-2 hover:text-black hover:shadow-none text-white font-medium"
-              >
-                Apply Now
-              </motion.p>
-            </Link>
-          </div>
-        </div>
-      </section>
-      <section className="">
+      <section className="pt-20">
         <div className="px-4  max-w-7xl sm:px-6 lg:px-8">
           <div className="grid items-center grid-cols-1 lg:grid-cols-2 gap-x-12 xl:gap-x-24 gap-y-12">
-            <div className="relative lg:mb-12">
-              <motion.div
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
-                viewport={{ once: true }}
-                className="pl-12 pr-6"
-              >
-                <img className="relative" src="/images/phones.png" alt="" />
-              </motion.div>
+            <div className="relative mx-auto border-gray-800 dark:border-gray-800 bg-gray-800 border-[14px] rounded-[2.5rem] h-[600px] w-[300px]">
+              <div className="h-[32px] w-[3px] bg-gray-800 dark:bg-gray-800 absolute -start-[17px] top-[72px] rounded-s-lg"></div>
+              <div className="h-[46px] w-[3px] bg-gray-800 dark:bg-gray-800 absolute -start-[17px] top-[124px] rounded-s-lg"></div>
+              <div className="h-[46px] w-[3px] bg-gray-800 dark:bg-gray-800 absolute -start-[17px] top-[178px] rounded-s-lg"></div>
+              <div className="h-[64px] w-[3px] bg-gray-800 dark:bg-gray-800 absolute -end-[17px] top-[142px] rounded-e-lg"></div>
+              <div className="rounded-[2rem] overflow-hidden w-[272px] h-[572px] bg-white dark:bg-gray-800">
+                <img
+                  src="/images/application4.gif/"
+                  className="dark:hidden w-[272px] h-[572px]"
+                  alt=""
+                />
+                <img
+                  src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/mockup-1-dark.png"
+                  className="hidden dark:block w-[272px] h-[572px]"
+                  alt=""
+                />
+              </div>
             </div>
             <div className="py-8 justify-self-start">
-              <h1 className="text-[2.5rem] text-green-500 mb-10">
+              <h1 className="text-2xl font-bold md:text-3xl text-white mb-10">
                 Revolving Credit
               </h1>
-              <div className="flex flex-col items-start justify-start ">
+              <div className="flex flex-col items-start justify-start mt-5">
                 <p className="text-white flex ">
                   <span className="text-green-500 text-xl">
                     <IoCheckbox />
                   </span>
-                  &nbsp;Get approved for an agreed amount (Usually up to 1 month
-                  turn over){" "}
+                  &nbsp;Get approved for an agreed amount, usually up to 1
+                  month&apos;s turnover{" "}
                 </p>
                 <p className="text-white flex mt-3">
                   <span className="text-green-500 text-xl">
@@ -255,16 +222,132 @@ const Services = () => {
                   <span className="text-green-500 text-xl">
                     <IoCheckbox />
                   </span>
-                  &nbsp;Repayments Daily or Weekly
+                  &nbsp;Repayments Daily, Weekly & Monthly
                 </p>
               </div>
-              <div className="hidden md:block  justify-start items-center gap-7 mt-14 md:mr-[20rem] ">
-                <Link href={"https://apply.getfunds.co.za"}>
-                  <motion.p className="flex justify-center items-center text-center cursor-pointer bg-[#07d159] shadow-md shadow-green-600 px-10 py-3 rounded-md hover:bg-transparent hover:border-[#07d159] hover:border-2 hover:text-white hover:shadow-none font-semibold text-black">
-                    Get Funds Now
-                  </motion.p>
-                </Link>
+              <a
+                href="https://apply.getfunds.co.za?broker=getfunds"
+                title=""
+                className="inline-flex items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 rounded-md mt-12 bg-gradient-to-r from-green-600 to-blue-600 hover:opacity-80 focus:opacity-80"
+                role="button"
+              >
+                {" "}
+                Get Funds Now{" "}
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="py-10 bg-black sm:py-16 lg:pt-24">
+        <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+          <div className="grid items-center grid-cols-1 gap-y-8 lg:grid-cols-2 gap-x-16 xl:gap-x-24">
+            <div>
+              <h2 className="my-16 text-3xl font-bold leading-tight text-white sm:text-3xl  lg:leading-tight">
+                3 Month Baloon
+              </h2>
+              <div className="flex flex-col items-start justify-start my-10">
+                <p className="text-white flex ">
+                  <span className="text-green-500 text-xl">
+                    <IoCheckbox />
+                  </span>
+                  &nbsp;Up to One Month Revenue as a Cash Advance{" "}
+                </p>
+                <p className="text-white flex mt-3">
+                  <span className="text-green-500 text-xl">
+                    <IoCheckbox />
+                  </span>
+                  &nbsp;3 Months Term{" "}
+                </p>
+                <p className="text-white flex mt-3">
+                  <span className="text-green-500 text-xl">
+                    <IoCheckbox />
+                  </span>
+                  &nbsp;Total Cost 10%{" "}
+                </p>
+                <p className="text-white flex mt-3">
+                  <span className="text-green-500 text-xl">
+                    <IoCheckbox />
+                  </span>
+                  &nbsp;Only Pay at the end of the 3 months
+                </p>
               </div>
+              <a
+                href="https://apply.getfunds.co.za?broker=getfunds"
+                title=""
+                className="inline-flex items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 rounded-md mt-9 bg-gradient-to-r from-green-600 to-blue-600 hover:opacity-80 focus:opacity-80"
+                role="button"
+              >
+                {" "}
+                Get Funds Now{" "}
+              </a>
+            </div>
+            <div className="relative mb-12">
+              <img
+                className="w-full rounded-md"
+                src="/images/blackman.jpg"
+                alt=""
+              />
+
+              <div className="absolute w-full max-w-xs px-4 -translate-x-1/2 sm:px-0 sm:max-w-sm left-1/2 -bottom-12">
+                <div className="overflow-hidden bg-[#17b556] rounded">
+                  <div className="px-10 py-6">
+                    <div className="flex items-center">
+                      <p className="pl-6 text-sm uppercase font-semibold text-black sm:text-lg">
+                        5 - 7 Day Turnaround time
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className=" bg-black sm:pt-10 lg:pt-24 mb-10">
+        <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+          <div className="grid items-center grid-cols-1 gap-y-8 lg:grid-cols-2 gap-x-16 xl:gap-x-24 space-x-reverse">
+          <div className="relative mb-12">
+              <img
+                className="w-full rounded-md"
+                src="/images/06.png"
+                alt=""
+              />
+
+              <div className="absolute w-full max-w-xs px-4 -translate-x-1/2 sm:px-0 sm:max-w-sm left-1/2 -bottom-12">
+                <div className="overflow-hidden bg-[#17b556] rounded">
+                  <div className="px-10 py-6">
+                    <div className="flex items-center">
+                      <p className="pl-6 text-sm uppercase font-semibold text-black sm:text-lg">
+                      Easy and accessible funding 
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <h2 className="my-16 text-2xl md:text-3xl font-bold leading-tight text-white sm:text-4xl  lg:leading-tight">
+                Medical Funding
+              </h2>
+              <div className="flex flex-col items-start justify-start my-10">
+                <p>
+                  Get a cash Advance and pay as you practice. Your repayments
+                  work directly in line with your medical aid claims: A debit
+                  order will run directly against your practice&apos;s bank
+                  account and your Medical Practice Advance facility is paid
+                  back as a percentage of all future medical aid claims
+                </p>
+              </div>
+              <a
+                href="https://apply.getfunds.co.za?broker=getfunds"
+                title=""
+                className="inline-flex items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 rounded-md mt-9 bg-gradient-to-r from-green-600 to-blue-600 hover:opacity-80 focus:opacity-80"
+                role="button"
+              >
+                {" "}
+                Get Funds Now{" "}
+              </a>
             </div>
           </div>
         </div>

@@ -44,11 +44,15 @@ const Hero = () => {
 
           {/* Align Apply Now button to the left */}
           <div className="hidden md:block  justify-start items-center gap-7 mt-14 md:mr-[20rem] lg:mr-[26rem]">
-            <Link href={"https://apply.getfunds.co.za"}>
-              <motion.p className="flex justify-center items-center text-center cursor-pointer bg-[#07d159] shadow-md shadow-green-600 px-10 py-3 rounded-md hover:bg-transparent hover:border-[#07d159] hover:border-2 hover:text-white hover:shadow-none font-semibold text-black">
-                Get Funds Now
-              </motion.p>
-            </Link>
+            <a
+              href="https://apply.getfunds.co.za?broker=getfunds"
+              title=""
+              className="inline-flex items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 rounded-md mt-3 bg-gradient-to-r from-green-600 to-blue-600 hover:opacity-80 focus:opacity-80"
+              role="button"
+            >
+              {" "}
+              Get Funds Now{" "}
+            </a>
           </div>
         </div>
         <div className="w-1/2"></div>
