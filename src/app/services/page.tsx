@@ -1,13 +1,18 @@
-"use client";
+
 import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/footer";
 import { IoCheckbox } from "react-icons/io5";
 import Cta from "../components/cta";
-import Link from "next/link";
-import { motion } from "framer-motion";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: 'Get Funds | Tailored SME Funding Services - Revolving Capital & Business Loans for Growth, Cash Flow & Expansion',
+  keywords: 'SME funding services, business loans Gauteng, revolving capital, cash flow management, capital advances, business growth loans, short-term financing, quick loan approval'
+};
 
 const Services = () => {
+  
   const terms = [
     { label: "SPEED 1-72 hrs" },
     { label: "Application - Minimal Documents" },

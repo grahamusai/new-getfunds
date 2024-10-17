@@ -1,7 +1,6 @@
 "use client"
 import React from "react";
-import Link from "next/link";
-import { motion } from "framer-motion";
+import { Table } from "@/components/ui/table";
 
 const Comparison = () => {
   return (
@@ -21,22 +20,22 @@ const Comparison = () => {
         </div>
       </div>
       {/* First Section */}
-      <div className=" mx-auto flex gap-24 py-5 text-white">
-        <div className="w-full md:w-1/3  border-[#07d159] pt-10">
+      <div className=" mx-auto flex gap-0 py-0 text-white border-l-2 border-white">
+        <div className="w-full md:w-1/3 bg-gray-800 py-5 px-3">
           <p>Limited to one set of products and terms</p>
         </div>
-        <div className="w-full md:w-1/3 text-center  border-[#07d159] pt-10">
+        <div className="w-full md:w-1/3 text-center bg-gray-800 py-5 px-3">
           <p>Access to a wide range of products and terms</p>
         </div>
-        <div className="w-full md:w-1/3 text-right  border-[#07d159] pt-10">
+        <div className="w-full md:w-1/3 bg-gray-800 py-5 px-3 text-right">
           <p className="text-[#07d159]">
             More flexibility and options to match your needs
           </p>
         </div>
       </div>
       {/* Second Section */}
-      <div className=" mx-auto gap-24 flex py-5 text-white">
-        <div className="w-full md:w-1/3  border-white pt-5">
+      <div className=" mx-auto gap-24 flex py-5 text-white  border-l-2 border-white">
+        <div className="w-full md:w-1/3   border-white pt-5">
           <p>Approval rate is based on one funder&apos;s criteria</p>
         </div>
         <div className="w-full md:w-3/4 px-10 py-3  rounded-md text-center  border-white pt-5">
@@ -50,7 +49,7 @@ const Comparison = () => {
       </div>
       {/* Third Section */}
       <div className="gap-24 mx-auto flex py-5 text-white">
-        <div className="w-full md:w-1/3  border-white pt-5">
+        <div className="w-full md:w-1/3 bg-gray-800 py-5 px-3">
           <p>Funding costs are Fixed by the single funder</p>
         </div>
         <div className="w-full md:w-3/4 px-10 py-3  rounded-md text-center  border-white pt-5">

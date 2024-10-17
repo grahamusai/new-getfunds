@@ -7,6 +7,7 @@ import Credibility from "./components/credibility";
 import Options from "./components/options";
 import Process from "./components/process";
 import Comparison from "./components/comparison";
+import ComparisonTable from "./components/table";
 
 const Home = () => {
   return (
@@ -19,7 +20,7 @@ const Home = () => {
       <Options />
       <Process />
       {/* <WhyUs /> */}
-      <Comparison />
+      <ComparisonTable />
       {/* <Contact /> */}
       <Footer />
     </div>

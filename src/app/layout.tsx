@@ -19,7 +19,7 @@ const kronaOne = Krona_One({
 });
 
 export const metadata: Metadata = {
-  title: "Access multiple funders through one application | Getfunds",
+  title: "Get Funds | Explore Fast, Flexible SME Funding & Business Loans in Gauteng with Over R3 Billion in Financing Secured",
   description:
     " Get Funds provides fast, flexible business loans to SMEs in Gauteng and across South Africa. Offering revolving capital facilities and short-term capital advances, our fintech-powered platform ensures quick loan approval and easy access to business funding without the hassle of paperwork. With over R3 billion secured in SME funding, Get Funds is a trusted partner in business growth, providing tailored financial solutions for cash flow management, business expansion, and overcoming challenges. Whether you're looking for quick capital or long-term finance, Get Funds is your top choice for SME loans and funding solutions. Secure flexible finance today with our fast, efficient, and transparent loan options, trusted by SMEs across South Africa. Apply online, compare the best funding offers from over 30 reputable lenders, and get business loans in minutes. Empower your business growth with Get Funds, the leading provider of fast business finance and SME loans in Gauteng and beyond.",
   keywords:
