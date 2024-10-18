@@ -6,7 +6,7 @@
   outline: red 1px solid;
 } */
 
-/* width */
+width
 ::-webkit-scrollbar {
   width: 10px;
 }

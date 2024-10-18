@@ -8,7 +8,7 @@ export async function POST(req: Request, res: Response){
   const {name, email, phone}: {name: string, email: string, phone: string} = await req.json();
    const sendEmail = await resend.emails.send({
         from: 'info@getfunds.co.za',
-        to: ['info@getfunds.co.za', 'marketing@getfunds.co.za', email], 
+        to: ['info@getfunds.co.za', email], 
         subject: 'Start offering funding as a service',
         react: KoalaWelcomeEmail({
           userFirstname: name

@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 import { IoMenu } from "react-icons/io5";
 import {
   DropdownMenu,
-  DropdownMenuContent,
+  DropdownMenuContent,  
   DropdownMenuLabel,
   DropdownMenuRadioGroup,
   DropdownMenuRadioItem,
@@ -35,7 +35,7 @@ const Navbar = () => {
   const [individual, setIndividual] = useState("");
   const [position, setPosition] = React.useState("bottom");
   return (
-    <nav className="bg-[#00000075] fixed w-full z-20 px:14 md:px-0 lg:px-[2rem] top-0 start-0 text-white">
+    <nav className="mr-[12rem] mt-2 bg-[#00000075] fixed w-full z-20 px:14  top-0 start-0 text-white">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-5">
         <a
           href="/"
@@ -136,7 +136,7 @@ const Navbar = () => {
                 <li>
                   <div>
                     <Modal>
-                      <ModalTrigger className="bg-black/10 dark:bg-white dark:text-black text-white flex justify-center group/modal-btn mt-[-9px]">
+                      <ModalTrigger className="bg-transparent dark:bg-white dark:text-black text-white flex justify-center group/modal-btn mt-[-9px]">
                         <span className="hover:text-[#07d159] text-center ">Contact Us</span>
                       </ModalTrigger>
                       <ModalBody>
@@ -261,7 +261,7 @@ const Navbar = () => {
                 <li>
                   <div>
                     <Modal>
-                      <ModalTrigger className="bg-black/10 dark:bg-white dark:text-black text-white flex justify-center group/modal-btn mt-[-9px]">
+                      <ModalTrigger className="bg-transparent dark:bg-white dark:text-black text-white flex justify-center group/modal-btn mt-[-9px]">
                         <span className="hover:text-[#07d159] text-center ">Become a Broker</span>
                       </ModalTrigger>
                       <ModalBody>

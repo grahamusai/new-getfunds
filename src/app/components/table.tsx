@@ -9,11 +9,11 @@ import {
 
 export default function ComparisonTable() {
   return (
-    <>
+    <div className="hidden md:block">
       <h2 className="text-2xl mt-20 py-2 font-bold leading-tight uppercase text-center text-[#07d159] sm:text-4xl lg:text-3xl">
         Why Choose Getfunds
       </h2>
-      <div className="container mx-auto mt-5 rounded-lg py-10 bg-gray-800 text-white">
+      <div className="container mx-auto mt-5 rounded-lg py-10 bg-black border-gray-200 border-2 text-white">
         <Table>
           <TableHeader>
             <TableRow>
@@ -129,6 +129,6 @@ export default function ComparisonTable() {
           Get Funds Now{" "}
         </a>
       </div>
-    </>
+    </div>
   );
 }

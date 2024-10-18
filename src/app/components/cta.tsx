@@ -8,7 +8,7 @@ const Cta = () => {
   return (
     <>
       
-      <div className='w-full flex mt-[5rem] h-[60vh] flex-col items-center justify-center bg-black bg-[url("/images/cta-bg.png")] bg-no-repeat bg-center text-center'>
+      <div className='w-full flex mt-[5.5rem] h-[70vh] flex-col items-center justify-center  bg-[url("/images/backgroundimage.png")] bg-cover bg-no-repeat bg-top text-center'>
         <h2 className="text-3xl md:text-5xl font-medium text-[#ffffff]">
           Our Funding <br /> Options
         </h2>
