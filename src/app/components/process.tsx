@@ -16,18 +16,18 @@ const Process = () => {
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="grid items-center grid-cols-1 lg:grid-cols-2 gap-x-12 xl:gap-x-24 gap-y-12">
           <div className="relative lg:mb-12">
-            {/* <img
+            <img
               className="absolute -right-0 -bottom-8 xl:-bottom-12 xl:-right-4"
               src="/images/dots-pattern.png"
               alt=""
-            /> */}
+            />
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
               className=""
             >
-              <img className="relative" src="/images/phone4.png" alt="" />
+              <img className="relative" src="/images/phones.png" alt="" />
             </motion.div>
             {/* <div className="absolute left-0 pr-12 bottom-8 xl:bottom-20">
               <div className="max-w-xs bg-[#17b556] rounded-lg sm:max-w-md xl:max-w-md">
