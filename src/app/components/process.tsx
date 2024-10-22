@@ -12,7 +12,7 @@ const Process = () => {
     height: 300,
   };
   return (
-    <section className="py-10 bg-[#111] sm:py-16 lg:py-24">
+    <section className="py-10 bg-[#000] sm:py-16 lg:py-24">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="grid items-center grid-cols-1 lg:grid-cols-2 gap-x-12 xl:gap-x-24 gap-y-12">
           <div className="relative lg:mb-12">
@@ -27,7 +27,7 @@ const Process = () => {
               viewport={{ once: true }}
               className=""
             >
-              <img className="relative w-[70%]" src="/images/phones.png" alt="" />
+              <img className="relative w-[100%]" src="/images/platform2 .png" alt="" />
             </motion.div>
             {/* <div className="absolute left-0 pr-12 bottom-8 xl:bottom-20">
               <div className="max-w-xs bg-[#17b556] rounded-lg sm:max-w-md xl:max-w-md">
