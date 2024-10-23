@@ -9,7 +9,7 @@ import {
 
 export default function ComparisonTable() {
   return (
-    <div className="hidden md:block">
+    <div className="hidden md:block mx-24">
       <h2 className="text-2xl mt-20 py-2 font-bold leading-tight uppercase text-center text-[#07d159] sm:text-4xl lg:text-3xl">
         Why Choose Getfunds
       </h2>
