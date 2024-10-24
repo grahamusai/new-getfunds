@@ -27,7 +27,7 @@ const Process = () => {
               viewport={{ once: true }}
               className=""
             >
-              <img className="relative w-[100%]" src="/images/platform3.png" alt="" />
+              <img className="relative " src="/images/platform2.png" alt="" />
             </motion.div>
             {/* <div className="absolute left-0 pr-12 bottom-8 xl:bottom-20">
               <div className="max-w-xs bg-[#17b556] rounded-lg sm:max-w-md xl:max-w-md">

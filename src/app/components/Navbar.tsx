@@ -93,6 +93,9 @@ const Navbar = () => {
                   <DropdownMenuRadioItem value="right">
                     <a className="text-black" href="/contact">Contact</a>
                   </DropdownMenuRadioItem>
+                  <DropdownMenuRadioItem value="right">
+                    <a className="text-black" href="https://apply.getfunds.co.za?broker=getfunds">Apply Now</a>
+                  </DropdownMenuRadioItem>
                 </DropdownMenuRadioGroup>
               </DropdownMenuContent>
             </DropdownMenu>

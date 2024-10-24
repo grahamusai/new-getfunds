@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image"; 
+import Image from "next/image";
 
 const Options = () => {
   const Content = [
@@ -58,9 +58,11 @@ const Options = () => {
                 alt=""
               />
               <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/80 from-40% p-4">
-                <h2 className="text-lg md:text-2xl text-white font-extrabold">
-                  {item.title}
-                </h2>
+                <a href="/services">
+                  <h2 className="text-lg md:text-2xl text-white font-extrabold">
+                    {item.title}
+                  </h2>
+                </a>
 
                 <div className="grid grid-rows-[0fr] group-hover:grid-rows-[1fr] transition-all">
                   <p className="text-white/70 overflow-hidden mt-2 opacity-0 group-hover:opacity-100 transition duration-1000">
