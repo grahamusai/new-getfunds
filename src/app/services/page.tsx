@@ -37,33 +37,33 @@ const Services = () => {
             </div>
 
             <div>
-              <h2 className="my-16 text-2xl md:text-3xl font-bold leading-tight text-white sm:text-4xl  lg:leading-tight">
-                Unsecured Merchant Cash Advance
+              <h2 className="my-16 text-2xl md:text-3xl leading-tight text-white sm:text-4xl  lg:leading-tight">
+                Unsecured merchant cash advance
               </h2>
               <div className="flex flex-col items-start justify-start my-10">
                 <p className="text-white flex ">
                   <span className="text-green-500 text-xl">
                     <IoCheckbox />
                   </span>
-                  &nbsp;Up to One Months Revenue As a cash advance{" "}
+                  &nbsp;Up to one months revenue as a cash advance{" "}
                 </p>
                 <p className="text-white flex mt-3">
                   <span className="text-green-500 text-xl">
                     <IoCheckbox />
                   </span>
-                  &nbsp;Pay Over 3 - 12 Months{" "}
+                  &nbsp;Pay over 3 - 12 months{" "}
                 </p>
                 <p className="text-white flex mt-3">
                   <span className="text-green-500 text-xl">
                     <IoCheckbox />
                   </span>
-                  &nbsp;Cost 2- 5% Per Month{" "}
+                  &nbsp;Cost 2- 5% per Month{" "}
                 </p>
                 <p className="text-white flex mt-3">
                   <span className="text-green-500 text-xl">
                     <IoCheckbox />
                   </span>
-                  &nbsp;Repayments Daily, Weekly & Monthly
+                  &nbsp;Repayments daily, weekly & monthly
                 </p>
               </div>
               <a
@@ -84,8 +84,8 @@ const Services = () => {
         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
           <div className="grid items-center grid-cols-1 gap-y-8 lg:grid-cols-2 gap-x-16 xl:gap-x-24">
             <div>
-              <h2 className="my-10 md:my-16 text-2xl md:text-3xl font-bold leading-tight text-white sm:text-4xl  lg:leading-tight">
-                Stack Advance
+              <h2 className="my-10 md:my-16 text-2xl md:text-3xl leading-tight text-white sm:text-4xl  lg:leading-tight">
+                Stack advance
               </h2>
               <p>
                 If you have a current cash advance facility but require more
@@ -119,7 +119,7 @@ const Services = () => {
             </div>
             <div className="py-8 justify-self-start">
               <h1 className="text-2xl font-bold md:text-3xl text-white mb-10">
-                Revolving Credit
+                Revolving credit
               </h1>
               <div className="flex flex-col items-start justify-start mt-5">
                 <p className="text-white flex ">
@@ -167,7 +167,7 @@ const Services = () => {
           <div className="grid items-center grid-cols-1 gap-y-8 lg:grid-cols-2 gap-x-16 xl:gap-x-24">
             <div>
               <h2 className="md:my-16 text-3xl font-bold leading-tight text-white sm:text-3xl  lg:leading-tight">
-                3 Month Baloon
+                3 month baloon
               </h2>
               <div className="flex flex-col items-start justify-start my-10">
                 <p className="text-white flex ">

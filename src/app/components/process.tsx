@@ -44,9 +44,9 @@ const Process = () => {
               </div>
             </div> */}
           </div>
-          <div className="flex flex-col  items-center py-8">
+          <div className="flex flex-col items-center py-8">
             <h1 className="text-[2.5rem] text-center text-white mb-10">
-              How To Get Funded
+              How to Get Funded
             </h1>
 
             <div className="flex gap-5 text-white">
@@ -54,8 +54,11 @@ const Process = () => {
                 <div className="bg-green-300 p-4 rounded-full mb-4">
                   <h2 className="text-black">01</h2>
                 </div>
-                <p className="text-lg text-center">
+                <p className="block md:hidden text-lg text-center">
                   Complete a 2min online application
+                </p>
+                <p className="hidden md:block text-lg text-center">
+                  Complete a 2min <br />online application
                 </p>
               </div>
 
@@ -63,8 +66,8 @@ const Process = () => {
                 <div className="bg-green-200 p-4 rounded-full mb-4">
                   <h2 className="text-black">02</h2>
                 </div>
-                <p className="text-lg text-center">
-                  Broker contacts you to understand your needs
+                <p className="md:text-lg text-center">
+                  Your broker contacts you to understand your needs
                 </p>
               </div>
             </div>
@@ -74,8 +77,8 @@ const Process = () => {
                 <div className="bg-green-300 p-4 rounded-full mb-4">
                   <h2 className="text-black">03</h2>
                 </div>
-                <p className="text-lg text-center">
-                  Get matched with the right funders
+                <p className="md:text-lg text-center">
+                  Get matched with the right funders 
                 </p>
               </div>
 

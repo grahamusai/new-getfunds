@@ -32,13 +32,13 @@ const Options = () => {
     {
       src: "/images/05.png",
       title: "24-month term loans ",
-      paragraph: "Enhanced business cash advance now payable over 24 months",
+      paragraph: "Enhanced business cash advance, now payable over 24 months",
     },
     {
       src: "/images/06.png",
-      title: "Medical Funding",
+      title: "MEDICAL FUNDING",
       paragraph:
-        "get a cash Advance and pay as you practice. Your repayments work directly in line with your medical aid claims: A debit order will run directly against your practice’s bank account and your Medical Practice Advance facility is paid back as a percentage of all future medical aid claims",
+        "Get a cash Advance and pay as you practice. Your repayments work directly in line with your medical aid claims: A debit order will run directly against your practice’s bank account and your Medical Practice Advance facility is paid back as a percentage of all future medical aid claims",
     },
   ];
 

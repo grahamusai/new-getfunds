@@ -22,7 +22,7 @@ const Footer = () => {
             <p className="hidden md:block">
               Get Funds is a specialist consulting firm partnered with best in
               class funders to offer a range of funding options. We use our
-              economies of Scale to get you the best pricing, terms and service
+              economies of scale to get you the best pricing, terms and service
               for your business.
             </p>
           </div>
@@ -40,7 +40,7 @@ const Footer = () => {
               </a>
             </p>
             <p className="mb-4">
-              <a href="/faqs">FAQs</a>
+              <a href="/faqs">FAQ&apos;s</a>
             </p>
             
             <p>

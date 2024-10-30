@@ -6,7 +6,7 @@ import "animate.css";
 import Credibility from "./components/credibility";
 import Options from "./components/options";
 import Process from "./components/process";
-import Comparison from "./components/comparison";
+import Header from "./components/header";
 import ComparisonTable from "./components/table";
 
 const Home = () => {
@@ -16,7 +16,7 @@ const Home = () => {
       <Hero />
       <Credibility />
       {/* <Calculator /> */}
-      <h2 className="font-bold text-lg md:text-[2.5rem] mb-4 text-white dark:text-white py-16 text-center ">Funding Options</h2>
+      <h2 className="font-bold text-xl md:text-[2.5rem] mb-4 text-white dark:text-white py-16 text-center ">Funding options</h2>
       <Options />
       <Process />
       {/* <WhyUs /> */}

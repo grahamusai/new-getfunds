@@ -44,7 +44,7 @@ const About = () => {
                     best in class funders to offer a range of funding lines.
                   </p>
                   <p className="mt-8 text-xl text-white">
-                    We use our economies of Scale to get you the best pricing,
+                    We use our economies of scale to get you the best pricing,
                     terms and service for your business.
                   </p>
 

@@ -13,7 +13,7 @@ const Faqs = () => {
     <div className="mt-10 text-slate-300">
       <div className="px-6 md:px-20 pt-8">
         <h1 className="font-semibold text-[42px] mb-5 leading-tight">
-          Frequently Asked Questions
+          Frequently asked questions
         </h1>
       </div>
       <div className="flex flex-col md:flex-row md:px-20 md:gap-10">

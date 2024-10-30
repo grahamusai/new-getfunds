@@ -9,7 +9,7 @@ function VideoBackground() {
           loop 
           className="min-w-full min-h-[80%] "
       >
-        <source src="/videos/getfund-video.mp4" type="video/mp4" />
+        <source src="/videos/main_video.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
     </div>

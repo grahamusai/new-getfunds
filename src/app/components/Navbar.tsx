@@ -81,13 +81,13 @@ const Navbar = () => {
                     <a className="text-black" href="/">Home</a>
                   </DropdownMenuRadioItem>
                   <DropdownMenuRadioItem value="About">
-                    <a className="text-black" href="/services">Services</a>
+                    <a className="text-black" href="/services">Funding Options</a>
                   </DropdownMenuRadioItem>
                   <DropdownMenuRadioItem value="right">
-                    <a className="text-black" href="/contact">Become an Broker</a>
+                    <a className="text-black" href="/contact">Become an broker</a>
                   </DropdownMenuRadioItem>
                   <DropdownMenuRadioItem value="right">
-                    <a className="text-black" href="/faqs">FAQs</a>
+                    <a className="text-black" href="/faqs">FAQ&apos;s</a>
                   </DropdownMenuRadioItem>
 
                   <DropdownMenuRadioItem value="right">
@@ -114,14 +114,12 @@ const Navbar = () => {
                 Home
               </a>
             </li>
-           
-
             <li>
               <a
                 href="/faqs"
                 className="block py-2 px-4  rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#42f44b] md:p-0  dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
               >
-                FAQs
+                FAQ&apos;s
               </a>
             </li>
             <li>
@@ -129,10 +127,9 @@ const Navbar = () => {
                 href="/services"
                 className="block py-2 px-4  rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#42f44b] md:p-0  dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
               >
-                Funding
+                Funding options
               </a>
             </li>
-            
             
             <li>
               <ul>
@@ -140,7 +137,7 @@ const Navbar = () => {
                   <div>
                     <Modal>
                       <ModalTrigger className="bg-transparent dark:bg-white dark:text-black text-white flex justify-center group/modal-btn mt-[-9px]">
-                        <span className="hover:text-[#07d159] text-center ">Contact Us</span>
+                        <span className="hover:text-[#07d159] text-center ">Contact us</span>
                       </ModalTrigger>
                       <ModalBody>
                         <ModalContent>
@@ -265,7 +262,7 @@ const Navbar = () => {
                   <div>
                     <Modal>
                       <ModalTrigger className="bg-transparent dark:bg-white dark:text-black text-white flex justify-center group/modal-btn mt-[-9px]">
-                        <span className="hover:text-[#07d159] text-center ">Become a Broker</span>
+                        <span className="hover:text-[#07d159] text-center ">Become a broker</span>
                       </ModalTrigger>
                       <ModalBody>
                         <ModalContent>
