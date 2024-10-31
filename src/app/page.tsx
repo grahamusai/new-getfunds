@@ -6,7 +6,6 @@ import "animate.css";
 import Credibility from "./components/credibility";
 import Options from "./components/options";
 import Process from "./components/process";
-import Header from "./components/header";
 import ComparisonTable from "./components/table";
 
 const Home = () => {

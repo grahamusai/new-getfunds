@@ -78,7 +78,7 @@ const Navbar = () => {
                   onValueChange={setPosition}
                 >
                   <DropdownMenuRadioItem value="top">
-                    <a className="text-black" href="/">Home</a>
+                    <a className="text-black text-left" href="/">Home</a>
                   </DropdownMenuRadioItem>
                   <DropdownMenuRadioItem value="About">
                     <a className="text-black" href="/services">Funding Options</a>
@@ -287,7 +287,7 @@ const Navbar = () => {
                               }}
                               className=" lg:mt-10"
                             >
-                              <div className="mb-4">
+                              <div className="mb-4"> 
                                 <label
                                   className="block text-gray-700 text-sm  mb-2"
                                   htmlFor="businessname"
