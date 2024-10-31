@@ -70,7 +70,7 @@ const Services = () => {
               </div>
               <div className="block md:hidden relative mb-12">
                 <img
-                  className="w-full rounded-3xl"
+                  className="w-full rounded-full"
                   src="/images/07.png"
                   alt=""
                 />
@@ -140,7 +140,7 @@ const Services = () => {
               </h1>
               <div className="block md:hidden relative my-12">
                 <img
-                  className="w-full rounded-3xl"
+                  className="w-full rounded-full"
                   src="/images/02.png"
                   alt=""
                 />
@@ -191,7 +191,7 @@ const Services = () => {
         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
           <div className="grid items-center grid-cols-1 gap-y-8 lg:grid-cols-2 gap-x-16 xl:gap-x-24">
             <div>
-              <h2 className="uppercase md:my-16 text-3xl  leading-tight text-white sm:text-3xl  lg:leading-tight">
+              <h2 className="uppercase mb-5 md:my-16 text-3xl  leading-tight text-white sm:text-3xl  lg:leading-tight">
                 3 month baloon
               </h2>
               <div className="flex flex-col items-start justify-start md:my-10">
@@ -223,7 +223,7 @@ const Services = () => {
               <a
                 href="https://apply.getfunds.co.za?broker=getfunds"
                 title=""
-                className="inline-flex items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 rounded-md md:mt-9 bg-gradient-to-r from-green-600 to-blue-600 hover:opacity-80 focus:opacity-80"
+                className="inline-flex items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 rounded-md mt-3 md:mt-9 bg-gradient-to-r from-green-600 to-blue-600 hover:opacity-80 focus:opacity-80"
                 role="button"
               >
                 {" "}
@@ -253,7 +253,7 @@ const Services = () => {
               </h2>
               <div className="block md:hidden relative my-12">
                 <img
-                  className="w-full rounded-3xl"
+                  className="w-full rounded-full"
                   src="/images/06.png"
                   alt=""
                 />
