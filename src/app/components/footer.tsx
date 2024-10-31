@@ -1,8 +1,10 @@
 "use client";
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { FaFacebookF } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
+import { IoMail } from "react-icons/io5";
 
 const Footer = () => {
   return (
@@ -10,7 +12,10 @@ const Footer = () => {
       <div className="mx-10 md:mx-24 py-10 text-center md:text-left">
         <div className="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           <div className="">
-            <a href="/" className="flex justify-center items-center md:justify-start md:items-start">
+            <a
+              href="/"
+              className="flex justify-center items-center md:justify-start md:items-start"
+            >
               <Image
                 src="/images/getfund-logo.png"
                 alt="getfunds-logo"
@@ -42,9 +47,12 @@ const Footer = () => {
             <p className="mb-4">
               <a href="/faqs">FAQ&apos;s</a>
             </p>
-            
-            <p>
+
+            <p className="mb-4">
               <a href="/services">Funding</a>
+            </p>
+            <p className="mb-4">
+              <a href="mailto:info@getfunds.co.za">info@getfunds.co.za</a>
             </p>
           </div>
           <div>
@@ -75,15 +83,20 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="bg-black/5 p-6 text-center">
-        <span>© 2024 Copyright:</span>
-        <a
-          className="font-semibold text-[#07d159]"
-          target="_blank"
-          href="https://alphaperformance.co.za"
-        >
-          &nbsp;Developed by Alpha Performance
-        </a>
+      <div className="bg-black/5 p-6 ">
+        <div className="flex justify-center items-center">
+          <div>
+            <span>© 2024 Copyright:</span>
+            <a
+              className="text-[#07d159] hover:text-green-700 duration-500"
+              target="_blank"
+              href="https://alphaperformance.co.za"
+            >
+              &nbsp;Developed by Alpha Performance
+            </a>
+          </div>
+          
+        </div>
       </div>
     </div>
   );

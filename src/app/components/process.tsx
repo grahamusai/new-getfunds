@@ -67,7 +67,7 @@ const Process = () => {
                   <h2 className="text-black">02</h2>
                 </div>
                 <p className="md:text-lg text-center">
-                  Your broker contacts you to understand your needs
+                  A broker contacts you to understand your needs
                 </p>
               </div>
             </div>

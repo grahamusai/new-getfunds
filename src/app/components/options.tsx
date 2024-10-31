@@ -5,7 +5,7 @@ const Options = () => {
   const Content = [
     {
       src: "/images/07.png",
-      title: "Merchant Cash Advancing",
+      title: "MERCAHNT CASH ADVANCING",
       paragraph:
         "Receive up to one months revenue as a lump sum payable over 3-12 months with daily, weekly or monthly repayment options",
     },
@@ -38,7 +38,7 @@ const Options = () => {
       src: "/images/06.png",
       title: "MEDICAL FUNDING",
       paragraph:
-        "Get a cash Advance and pay as you practice. Your repayments work directly in line with your medical aid claims: A debit order will run directly against your practice’s bank account and your Medical Practice Advance facility is paid back as a percentage of all future medical aid claims",
+        "Get a cash advance and pay as you practice. Your repayments work directly in line with your medical aid claims: A debit order will run directly against your practice’s bank account and your Medical Practice Advance facility is paid back as a percentage of all future medical aid claims",
     },
   ];
 
@@ -58,11 +58,11 @@ const Options = () => {
                 alt=""
               />
               <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/80 from-40% p-4">
-                <a href="/services">
-                  <h2 className="text-lg md:text-2xl text-white font-extrabold">
+                
+                  <h2 className="text-lg md:text-2xl uppercase text-white font-extrabold">
                     {item.title}
                   </h2>
-                </a>
+             
 
                 <div className="grid grid-rows-[0fr] group-hover:grid-rows-[1fr] transition-all">
                   <p className="text-white/70 overflow-hidden mt-2 opacity-0 group-hover:opacity-100 transition duration-1000">
@@ -86,7 +86,7 @@ const Options = () => {
                 alt=""
               />
               <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/80 from-40% p-4">
-                <h2 className="text-lg md:text-2xl text-white font-extrabold">
+                <h2 className="uppercase text-lg md:text-2xl text-white font-extrabold">
                   {item.title}
                 </h2>
 
@@ -114,12 +114,12 @@ const Options = () => {
                 alt=""
               />
               <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/80 from-40% p-4">
-                <h2 className="text-2xl text-white font-extrabold ">
+                <h2 className="text-center text-xl uppercase text-white font-extrabold ">
                   {item.title}
                 </h2>
 
                 <div className="grid grid-rows-[0fr] group-hover:grid-rows-[1fr] transition-all">
-                  <p className="text-white/70 overflow-hidden mt-2 opacity-0 group-hover:opacity-100 transition duration-1000">
+                  <p className="text-center text-white/70 overflow-hidden mt-2 opacity-0 group-hover:opacity-100 transition duration-1000">
                     {item.paragraph}
                   </p>
                 </div>
@@ -139,12 +139,12 @@ const Options = () => {
                 alt=""
               />
               <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/80 from-40%  p-4">
-                <h2 className="text-2xl text-white font-extrabold ">
+                <h2 className="text-center uppercase text-xl text-white font-extrabold ">
                   {item.title}
                 </h2>
 
                 <div className="grid grid-rows-[0fr] group-hover:grid-rows-[1fr] transition-all">
-                  <p className="text-white/70 overflow-hidden mt-2 opacity-0 group-hover:opacity-100 transition duration-1000">
+                  <p className="text-center text-white/70 overflow-hidden mt-2 opacity-0 group-hover:opacity-100 transition duration-1000">
                     {item.paragraph}
                   </p>
                 </div>

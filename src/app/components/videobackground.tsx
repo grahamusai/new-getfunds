@@ -7,7 +7,7 @@ function VideoBackground() {
           autoPlay 
           muted 
           loop 
-          className="min-w-full min-h-[80%] "
+          className="min-w-full min-h-[70%] "
       >
         <source src="/videos/main_video.mp4" type="video/mp4" />
         Your browser does not support the video tag.

@@ -9,11 +9,11 @@ import Link from "next/link";
 
 const Credibility: NextPage = () => {
   return (
-    <div className="bg-[#111] py-10 md:py-[6rem] text-center">
+    <div className="bg-[#111] py-14 md:py-[6rem] text-center">
       {/* <Qualify /> */}
       <div className=" ">
         <div className="px-10 md:px-16 xl:px-[8rem] mb-14">
-          <h2 className="text-xl md:text-[2.5rem] md:leading-10 pt-16 drop-shadow-md drop-shadow-green-400 md:text-center font-medium text-white ">
+          <h2 className="text-xl uppercase md:text-[2.5rem] md:leading-10 pt-16 drop-shadow-md drop-shadow-green-400 md:text-center font-medium text-white ">
             Numbers to back our <br />
             credibility
           </h2>

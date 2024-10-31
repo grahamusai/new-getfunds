@@ -35,7 +35,7 @@ const Navbar = () => {
   const [individual, setIndividual] = useState("");
   const [position, setPosition] = React.useState("bottom");
   return (
-    <nav className="mr-[12rem] mt-2 bg-[#00000075] fixed w-full z-20 px:14  top-0 start-0 text-white">
+    <nav className="mr-[12rem]  bg-[#00000066] fixed w-full z-20 px:14  top-0 start-0 text-white">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-5">
         <a
           href="/"
@@ -57,7 +57,7 @@ const Navbar = () => {
               onHoverEnd={(e) => {}}
               className="hidden lg:block bg-[#07d159] shadow-md shadow-green-600 px-6 py-2 rounded-md hover:bg-transparent hover:border-[#07d159] hover:border-2 hover:text-white hover:shadow-none text-black font-medium"
             >
-              Apply Now
+              APPLY NOW
             </motion.p>
           </Link>
 

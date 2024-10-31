@@ -16,13 +16,16 @@ const Home = () => {
       <Hero />
       <Credibility />
       {/* <Calculator /> */}
-      <h2 className="font-bold text-xl md:text-[2.5rem] mb-4 text-white dark:text-white py-16 text-center ">Funding options</h2>
+      <h2 className=" uppercase text-xl md:text-[2.5rem] mb-4 text-white dark:text-white py-16 text-center ">
+        Funding options
+      </h2>
       <Options />
       <Process />
       {/* <WhyUs /> */}
       <ComparisonTable />
       {/* <Contact /> */}
       <Footer />
+      
     </div>
   );
 };

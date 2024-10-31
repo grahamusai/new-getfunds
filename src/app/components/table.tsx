@@ -10,8 +10,8 @@ import {
 export default function ComparisonTable() {
   return (
     <div className="hidden md:block mx-24">
-      <h2 className="text-2xl mt-20 py-2 font-bold leading-tight  text-center text-[#07d159] sm:text-4xl lg:text-3xl">
-        Why choose Getfunds
+      <h2 className="text-2xl uppercase mt-20 py-2  leading-tight  text-center text-white sm:text-4xl lg:text-3xl">
+        Why choose Get Funds
       </h2>
       <div className="container mx-auto mt-5 rounded-lg py-10 bg-black  text-white">
         <Table>
@@ -23,7 +23,7 @@ export default function ComparisonTable() {
               <TableHead className="w-1/3 text-xl text-white uppercase">
                 Broker With Multiple Funder
               </TableHead>
-              <TableHead className="w-1/3 text-xl text-white uppercase text-green-500">
+              <TableHead className="w-1/3 text-xl  uppercase text-green-500">
                 Why we are better
               </TableHead>
             </TableRow>
