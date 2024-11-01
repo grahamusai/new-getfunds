@@ -96,7 +96,7 @@ const Services = () => {
         </div>
       </section>
 
-      <section className="py-5  sm:py-10 lg:pt-24 mt-5">
+      <section className="bg-[#1f1f1f] py-5  sm:py-10 lg:pt-24 mt-5">
         <div className="relative px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl ">
           {/* Background div visible only on mobile (hidden on md and up) */}
           <div className="py-10 absolute inset-0 bg-[url('/images/01.png')] bg-cover opacity-35 z-0 md:hidden" />
@@ -305,7 +305,7 @@ const Services = () => {
         <div className="absolute inset-0 bg-[url('/images/thingy.png')] bg-cover opacity-40 z-0 md:hidden" />
 
         {/* Dark background for non-mobile */}
-        <div className="absolute inset-0 bg-[#111] z-0 hidden md:block" />
+        <div className="absolute inset-0 z-0 hidden md:block" />
 
         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl relative z-10">
           <div className="grid items-center grid-cols-1 gap-y-8 lg:grid-cols-2 gap-x-16 xl:gap-x-24">

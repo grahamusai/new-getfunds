@@ -10,7 +10,7 @@ import VideoBackground from "./videobackground";
 const Hero = () => {
   return (
     <>
-    <div className="md:hidden relative min-h-screen bg-[url('/images/symbol.png')] bg-contain bg-no-repeat bg-center bg-opacity-15">
+    <div className="md:hidden relative min-h-screen bg-[url('/images/symbol.png')] bg-contain bg-no-repeat bg-center bg-opacity-10">
       
       {/* Content */}
       <div className="block md:hidden md:relative z-10 md:h-screen px-10 md:px-24 lg:px-32 2xl:px-[14rem] pt-[70px]">
