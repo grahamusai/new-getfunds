@@ -41,13 +41,14 @@ const Navbar = () => {
           href="/"
           className="flex items-center ml-3 space-x-3 rtl:space-x-reverse"
         >
-          <Image
+          <img className="h-10 z-50" src="/images/getfund-logo.png" alt="" />
+          {/* <Image
             src="/images/getfund-logo.png"
-            alt="fund-genie-logo"
+            alt="getfunds-logo"
             height={238}
             width={153}
             className=""
-          />
+          /> */}
         </a>
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
           <Link href="https://apply.getfunds.co.za" target="_blank">
@@ -81,7 +82,7 @@ const Navbar = () => {
                     <a className="text-black text-left" href="/">Home</a>
                   </DropdownMenuRadioItem>
                   <DropdownMenuRadioItem value="About">
-                    <a className="text-black" href="/services">Funding Options</a>
+                    <a className="text-black" href="/services">Funding options</a>
                   </DropdownMenuRadioItem>
                   <DropdownMenuRadioItem value="right">
                     <a className="text-black" href="/contact">Become an broker</a>

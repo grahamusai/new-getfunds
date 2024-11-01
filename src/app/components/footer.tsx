@@ -52,7 +52,7 @@ const Footer = () => {
               <a href="/services">Funding</a>
             </p>
             <p className="mb-4">
-              <a href="mailto:info@getfunds.co.za">info@getfunds.co.za</a>
+              <a href="mailto:info@getfunds.co.za" className="text-[#07d159]">info@getfunds.co.za</a>
             </p>
           </div>
           <div>

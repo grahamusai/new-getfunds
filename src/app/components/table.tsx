@@ -11,14 +11,24 @@ export default function ComparisonTable() {
   return (
     <>
       <div className="block md:hidden px-3">
-        <h2 className="text-2xl uppercase mt-20 py-2  leading-tight  text-center text-white sm:text-4xl lg:text-3xl">
+        <h2 className="text-2xl uppercase md:mt-20 text-center text-white sm:text-4xl lg:text-3xl">
           Why choose Get Funds
         </h2>
-        <p className="mt-3 border-y-2 border-gray-500/50 p-3">More flexibility and options to match your needs</p>
-        <p className="mt-3 border-b-2 border-gray-500/50 p-3">We offer Increased chances of approval by finding the right match</p>
-        <p className="mt-3 border-b-2 border-gray-500/50 p-3">Funding costs are potentially lower rates by comparing offers</p>
-        <p className="mt-3 border-b-2 border-gray-500/50 p-3">We have the ability to choose the fastest options</p>
-        <p className="mt-3 mb-3  p-3">We offer more Personalised funding solutions</p>
+        <p className="text-center mt-4 border-y-2 border-gray-500/50 p-3">
+          <span className="text-[#07d159]">More flexibility</span>  and options <br /> to match your needs
+        </p>
+        <p className="text-center mt-3 border-b-2 border-gray-500/50 p-3">
+          We have the <span className="text-[#07d159]">highest approval<br /> rates</span>  in South Africa
+        </p>
+        <p className="text-center mt-3 border-b-2 border-gray-500/50 p-3">
+         <span className="text-[#07d159]">Better pricing</span>  costs by <br />comparing offers
+        </p>
+        <p className="text-center mt-3 border-b-2 border-gray-500/50 p-3">
+          We deal with the <span className="text-[#07d159]">fastest funders</span><br /> in the country
+        </p>
+        <p className="text-center mt-3 mb-3  p-3">
+          We have a <span className="text-[#07d159]">wider range</span> of funding solutions
+        </p>
         <div className="flex justify-center items-center my-12">
           <a
             href="https://apply.getfunds.co.za?broker=getfunds"

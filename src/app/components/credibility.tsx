@@ -9,17 +9,20 @@ import Link from "next/link";
 
 const Credibility: NextPage = () => {
   return (
-    <div className="bg-[#111] py-14 md:py-[6rem] text-center">
+    <div className="bg-[#111] pb-8 md:py-[6rem] text-center">
       {/* <Qualify /> */}
       <div className=" ">
         <div className="px-10 md:px-16 xl:px-[8rem] mb-14">
-          <h2 className="text-xl uppercase md:text-[2.5rem] md:leading-10 pt-16 drop-shadow-md drop-shadow-green-400 md:text-center font-medium text-white ">
+          <h2 className="text-xl uppercase md:text-[2.5rem] md:leading-10 pt-8 md:pt-16 drop-shadow-md drop-shadow-green-400 md:text-center font-medium text-white ">
             Numbers to back our <br />
             credibility
           </h2>
           <p className="hidden uppercase md:block mt-3 text-xl md:px-[10rem] text-center leading-relaxed text-gray-300 md:mt-8">
-            We have used our economies of scale to get the <span className="text-[#07d159] drop-shadow-emerald-600 drop-shadow-md font-semibold">best pricing, terms
-            and service</span>  for over 9000 businesses in South Africa.
+            We have used our economies of scale to get the{" "}
+            <span className="text-[#07d159] drop-shadow-emerald-600 drop-shadow-md font-semibold">
+              best pricing, terms and service
+            </span>{" "}
+            for over 9000 businesses in South Africa.
           </p>
         </div>
 
@@ -43,15 +46,15 @@ const Credibility: NextPage = () => {
         </div>
       </div>
       <div className="flex justify-center items-center mt-12">
-      <a
-              href="https://apply.getfunds.co.za?broker=getfunds"
-              title=""
-              className="inline-flex items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 rounded-md mt-3 bg-gradient-to-r from-green-600 to-blue-600 hover:opacity-80 focus:opacity-80"
-              role="button"
-            >
-              {" "}
-              Get Funds Now{" "}
-            </a>
+        <a
+          href="https://apply.getfunds.co.za?broker=getfunds"
+          title=""
+          className="inline-flex items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 rounded-md mt-3 bg-gradient-to-r from-green-600 to-blue-600 hover:opacity-80 focus:opacity-80"
+          role="button"
+        >
+          {" "}
+          Get Funds Now{" "}
+        </a>
       </div>
     </div>
   );

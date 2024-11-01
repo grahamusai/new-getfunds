@@ -54,7 +54,7 @@ const Process = () => {
                 <div className="bg-green-300 p-4 rounded-full mb-4">
                   <h2 className="text-black">01</h2>
                 </div>
-                <p className="block md:hidden text-lg text-center">
+                <p className="block md:hidden text-[14px] text-center">
                   Complete a 2min online application
                 </p>
                 <p className="hidden md:block text-lg text-center">
@@ -66,7 +66,7 @@ const Process = () => {
                 <div className="bg-green-200 p-4 rounded-full mb-4">
                   <h2 className="text-black">02</h2>
                 </div>
-                <p className="md:text-lg text-center">
+                <p className="md:text-lg  text-[14.5px] text-center">
                   A broker contacts you to understand your needs
                 </p>
               </div>
@@ -77,7 +77,7 @@ const Process = () => {
                 <div className="bg-green-300 p-4 rounded-full mb-4">
                   <h2 className="text-black">03</h2>
                 </div>
-                <p className="md:text-lg text-center">
+                <p className="md:text-lg text-[14px] text-center">
                   Get matched with the right funders 
                 </p>
               </div>
@@ -86,10 +86,11 @@ const Process = () => {
                 <div className="bg-green-200 p-4 rounded-full mb-4">
                   <h2 className="text-black">04</h2>
                 </div>
-                <p className="text-lg  text-center">Get Funds in 1 - 3 days</p>
+                <p className="hidden md:block text-lg text-[14px] leading-1 text-center">Get Funds in 1 to 3 days</p>
+                <p className="md:hidden text-[14px] leading-1 text-center">Get Funds in <br /> 1 to 3 days</p>
               </div>
             </div>
-            <div className="flex justify-center items-center mt-12">
+            <div className="flex justify-center items-center mt-16">
               <a
                 href="https://apply.getfunds.co.za?broker=getfunds"
                 title=""

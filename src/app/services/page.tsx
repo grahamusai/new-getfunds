@@ -39,7 +39,7 @@ const Services = () => {
             </div>
 
             <div>
-              <h2 className="uppercase my-10 text-2xl md:text-3xl leading-tight text-white sm:text-4xl  lg:leading-tight">
+              <h2 className="uppercase text-center md:text-left my-10 text-2xl md:text-3xl leading-tight text-white sm:text-4xl  lg:leading-tight">
                 Unsecured merchant cash advance
               </h2>
               <div className="flex flex-col items-start justify-start my-10">
@@ -69,15 +69,28 @@ const Services = () => {
                 </p>
               </div>
 
-              <a
-                href="https://apply.getfunds.co.za?broker=getfunds"
-                title=""
-                className="inline-flex items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 rounded-md md:mt-9 bg-gradient-to-r from-green-600 to-blue-600 hover:opacity-80 focus:opacity-80"
-                role="button"
-              >
-                {" "}
-                Get Funds Now{" "}
-              </a>
+              <div className="block md:hidden flex justify-center items-center">
+                <a
+                  href="https://apply.getfunds.co.za?broker=getfunds"
+                  title=""
+                  className="inline-flex items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 rounded-md md:mt-9 bg-gradient-to-r from-green-600 to-blue-600 hover:opacity-80 focus:opacity-80"
+                  role="button"
+                >
+                  {" "}
+                  Get Funds Now{" "}
+                </a>
+              </div>
+              <div className="hidden md:block">
+                <a
+                  href="https://apply.getfunds.co.za?broker=getfunds"
+                  title=""
+                  className="inline-flex items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 rounded-md md:mt-9 bg-gradient-to-r from-green-600 to-blue-600 hover:opacity-80 focus:opacity-80"
+                  role="button"
+                >
+                  {" "}
+                  Get Funds Now{" "}
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -86,12 +99,12 @@ const Services = () => {
       <section className="py-5  sm:py-10 lg:pt-24 mt-5">
         <div className="relative px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl ">
           {/* Background div visible only on mobile (hidden on md and up) */}
-          <div className="py-10 absolute inset-0 bg-[url('/images/01.png')] bg-cover opacity-15 z-0 md:hidden" />
+          <div className="py-10 absolute inset-0 bg-[url('/images/01.png')] bg-cover opacity-35 z-0 md:hidden" />
 
           {/* Content */}
           <div className="py-12 relative z-10 grid items-center grid-cols-1 gap-y-8 lg:grid-cols-2 gap-x-16 xl:gap-x-24">
             <div>
-              <h2 className="uppercase my-10 md:my-16 text-2xl md:text-3xl leading-tight text-white sm:text-4xl lg:leading-tight">
+              <h2 className="text-center md:text-left uppercase my-10 md:my-16 text-2xl md:text-3xl leading-tight text-white sm:text-4xl lg:leading-tight">
                 Stack advance
               </h2>
               <p className="text-white ">
@@ -101,14 +114,28 @@ const Services = () => {
                 costs a little more but it beats being forced to change funders
                 and face the heavy settlement penalties
               </p>
-              <a
-                href="https://apply.getfunds.co.za?broker=getfunds"
-                title=""
-                className="inline-flex items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 rounded-md mt-9 bg-gradient-to-r from-green-600 to-blue-600 hover:opacity-80 focus:opacity-80"
-                role="button"
-              >
-                Get Funds Now
-              </a>
+              <div className="mt-8 md:hidden flex justify-center items-center">
+                <a
+                  href="https://apply.getfunds.co.za?broker=getfunds"
+                  title=""
+                  className="inline-flex items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 rounded-md md:mt-9 bg-gradient-to-r from-green-600 to-blue-600 hover:opacity-80 focus:opacity-80"
+                  role="button"
+                >
+                  {" "}
+                  Get Funds Now{" "}
+                </a>
+              </div>
+              <div className="hidden md:block">
+                <a
+                  href="https://apply.getfunds.co.za?broker=getfunds"
+                  title=""
+                  className="inline-flex items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 rounded-md md:mt-9 bg-gradient-to-r from-green-600 to-blue-600 hover:opacity-80 focus:opacity-80"
+                  role="button"
+                >
+                  {" "}
+                  Get Funds Now{" "}
+                </a>
+              </div>
             </div>
             <div className="hidden md:block relative mb-12">
               <img
@@ -132,10 +159,10 @@ const Services = () => {
               />
             </div>
             <div className="py-8 justify-self-start">
-              <h1 className="uppercase text-2xl  md:text-3xl text-white mb-10">
+              <h1 className="text-center md:text-left uppercase text-2xl  md:text-3xl text-white mb-10">
                 Revolving credit
               </h1>
-              
+
               <div className="flex flex-col items-start justify-start mt-5">
                 <p className="text-white flex ">
                   <span className="text-green-500 text-xl">
@@ -165,95 +192,131 @@ const Services = () => {
                 </p>
               </div>
 
-              <a
-                href="https://apply.getfunds.co.za?broker=getfunds"
-                title=""
-                className="inline-flex items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 rounded-md mt-5 md:mt-12 bg-gradient-to-r from-green-600 to-blue-600 hover:opacity-80 focus:opacity-80"
-                role="button"
-              >
-                {" "}
-                Get Funds Now{" "}
-              </a>
+              <div className="mt-10 md:hidden flex justify-center items-center">
+                <a
+                  href="https://apply.getfunds.co.za?broker=getfunds"
+                  title=""
+                  className="inline-flex items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 rounded-md md:mt-9 bg-gradient-to-r from-green-600 to-blue-600 hover:opacity-80 focus:opacity-80"
+                  role="button"
+                >
+                  {" "}
+                  Get Funds Now{" "}
+                </a>
+              </div>
+              <div className="hidden md:block">
+                <a
+                  href="https://apply.getfunds.co.za?broker=getfunds"
+                  title=""
+                  className="inline-flex items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 rounded-md md:mt-9 bg-gradient-to-r from-green-600 to-blue-600 hover:opacity-80 focus:opacity-80"
+                  role="button"
+                >
+                  {" "}
+                  Get Funds Now{" "}
+                </a>
+              </div>
             </div>
           </div>
         </div>
       </section>
       <section className="relative py-10 sm:py-16 lg:pt-24 mt-10">
-      {/* Mobile-only background */}
-      <div className="absolute inset-0 bg-[url('/images/04.png')] bg-cover opacity-15 z-0 md:hidden" />
-      
-      {/* Dark background for non-mobile */}
-      <div className="absolute inset-0 bg-[#111] z-0 hidden md:block" />
-      
-      <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl relative z-10">
-        <div className="grid items-center grid-cols-1 gap-y-8 lg:grid-cols-2 gap-x-16 xl:gap-x-24">
-          <div>
-            <h2 className="uppercase mb-5 md:my-16 text-3xl leading-tight text-white sm:text-3xl lg:leading-tight">
-              3 month balloon
-            </h2>
-            
-            <div className="flex flex-col items-start justify-start md:my-10">
-              <p className="text-white flex items-center">
-                <span className="text-green-500 text-xl">
-                  <IoCheckbox />
-                </span>
-                <span className="ml-2">Up to One Month Revenue as a Cash Advance</span>
-              </p>
-              
-              <p className="text-white flex items-center mt-3">
-                <span className="text-green-500 text-xl">
-                  <IoCheckbox />
-                </span>
-                <span className="ml-2">3 Months Term</span>
-              </p>
-              
-              <p className="text-white flex items-center mt-3">
-                <span className="text-green-500 text-xl">
-                  <IoCheckbox />
-                </span>
-                <span className="ml-2">Total Cost 10%</span>
-              </p>
-              
-              <p className="text-white flex items-center mt-3">
-                <span className="text-green-500 text-xl">
-                  <IoCheckbox />
-                </span>
-                <span className="ml-2">Only Pay at the end of the 3 months</span>
-              </p>
+        {/* Mobile-only background */}
+        <div className="absolute inset-0 bg-[url('/images/04.png')] bg-cover opacity-40 z-0 md:hidden" />
+
+        {/* Dark background for non-mobile */}
+        <div className="absolute inset-0 bg-[#111] z-0 hidden md:block" />
+
+        <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl relative z-10">
+          <div className="grid items-center grid-cols-1 gap-y-8 lg:grid-cols-2 gap-x-16 xl:gap-x-24">
+            <div>
+              <h2 className="text-center md:text-left uppercase mb-5 md:my-16 text-2xl md:text-3xl leading-tight text-white sm:text-3xl lg:leading-tight">
+                3 month balloon
+              </h2>
+
+              <div className="flex flex-col items-start justify-start md:my-10">
+                <p className="text-white flex items-center">
+                  <span className="text-green-500 text-xl">
+                    <IoCheckbox />
+                  </span>
+                  <span className="ml-2">
+                    Up to one month revenue as a cash advance
+                  </span>
+                </p>
+
+                <p className="text-white flex items-center mt-3">
+                  <span className="text-green-500 text-xl">
+                    <IoCheckbox />
+                  </span>
+                  <span className="ml-2">3 months term</span>
+                </p>
+
+                <p className="text-white flex items-center mt-3">
+                  <span className="text-green-500 text-xl">
+                    <IoCheckbox />
+                  </span>
+                  <span className="ml-2">Total cost 10%</span>
+                </p>
+
+                <p className="text-white flex items-center mt-3">
+                  <span className="text-green-500 text-xl">
+                    <IoCheckbox />
+                  </span>
+                  <span className="ml-2">
+                    Only pay at the end of the 3 months
+                  </span>
+                </p>
+              </div>
+
+              <div className="mt-10 md:hidden flex justify-center items-center">
+                <a
+                  href="https://apply.getfunds.co.za?broker=getfunds"
+                  title=""
+                  className="inline-flex items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 rounded-md md:mt-9 bg-gradient-to-r from-green-600 to-blue-600 hover:opacity-80 focus:opacity-80"
+                  role="button"
+                >
+                  {" "}
+                  Get Funds Now{" "}
+                </a>
+              </div>
+              <div className="hidden md:block">
+                <a
+                  href="https://apply.getfunds.co.za?broker=getfunds"
+                  title=""
+                  className="inline-flex items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 rounded-md md:mt-9 bg-gradient-to-r from-green-600 to-blue-600 hover:opacity-80 focus:opacity-80"
+                  role="button"
+                >
+                  {" "}
+                  Get Funds Now{" "}
+                </a>
+              </div>
             </div>
-            
-            <a
-              href="https://apply.getfunds.co.za?broker=getfunds"
-              title=""
-              className="inline-flex items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 rounded-md mt-3 md:mt-9 bg-gradient-to-r from-green-600 to-blue-600 hover:opacity-80 focus:opacity-80"
-              role="button"
-            >
-              Get Funds Now
-            </a>
-          </div>
-          
-          <div className="hidden md:block relative mb-12">
-            <img
-              className="w-[70%] rounded-md"
-              src="/images/lady.png"
-              alt=""
-            />
+
+            <div className="hidden md:block relative mb-12">
+              <img
+                className="w-[70%] rounded-md"
+                src="/images/lady.png"
+                alt=""
+              />
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-      <section className=" bg-black sm:pt-10 lg:pt-24 mb-10">
-        <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
-          <div className="grid items-center grid-cols-1 gap-y-8 lg:grid-cols-2 gap-x-16 xl:gap-x-24 space-x-reverse">
+      </section>
+      <section className="relative py-10 sm:py-16 lg:pt-24 mt-10">
+        {/* Mobile-only background */}
+        <div className="absolute inset-0 bg-[url('/images/thingy.png')] bg-cover opacity-40 z-0 md:hidden" />
+
+        {/* Dark background for non-mobile */}
+        <div className="absolute inset-0 bg-[#111] z-0 hidden md:block" />
+
+        <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl relative z-10">
+          <div className="grid items-center grid-cols-1 gap-y-8 lg:grid-cols-2 gap-x-16 xl:gap-x-24">
             <div className="hidden md:block relative mb-12">
               <img className="w-[70%] " src="/images/medical.png" alt="" />
             </div>
-
             <div>
-              <h2 className="uppercase my-16 text-2xl md:text-3xl font-bold leading-tight text-white sm:text-4xl  lg:leading-tight">
+              <h2 className="text-center md:text-left uppercase mb-5 md:my-16 text-2xl md:text-3xl leading-tight text-white sm:text-3xl lg:leading-tight">
                 Medical Funding
               </h2>
-              
+
               <div className="flex flex-col items-start justify-start my-10">
                 <p>
                   Get a cash advance and pay as you practice. Your repayments
@@ -263,19 +326,34 @@ const Services = () => {
                   back as a percentage of all future medical aid claims
                 </p>
               </div>
-              <a
-                href="https://apply.getfunds.co.za?broker=getfunds"
-                title=""
-                className="inline-flex items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 rounded-md mt-5 md:mt-9 bg-gradient-to-r from-green-600 to-blue-600 hover:opacity-80 focus:opacity-80"
-                role="button"
-              >
-                {" "}
-                Get Funds Now{" "}
-              </a>
+
+              <div className="mt-10 md:hidden flex justify-center items-center">
+                <a
+                  href="https://apply.getfunds.co.za?broker=getfunds"
+                  title=""
+                  className="inline-flex items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 rounded-md md:mt-9 bg-gradient-to-r from-green-600 to-blue-600 hover:opacity-80 focus:opacity-80"
+                  role="button"
+                >
+                  {" "}
+                  Get Funds Now{" "}
+                </a>
+              </div>
+              <div className="hidden md:block">
+                <a
+                  href="https://apply.getfunds.co.za?broker=getfunds"
+                  title=""
+                  className="inline-flex items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 rounded-md md:mt-9 bg-gradient-to-r from-green-600 to-blue-600 hover:opacity-80 focus:opacity-80"
+                  role="button"
+                >
+                  {" "}
+                  Get Funds Now{" "}
+                </a>
+              </div>
             </div>
           </div>
         </div>
       </section>
+      
       {/* <div className="fixed bottom-4 right-4">
         <a href="https://apply.getfunds.co.za?broker=getfunds" className="md:hidden bg-gradient-to-r from-green-600 to-blue-600 text-white rounded-3xl py-3 px-4 shadow-lg">
           APPLY NOW
