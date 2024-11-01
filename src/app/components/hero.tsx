@@ -10,23 +10,8 @@ import VideoBackground from "./videobackground";
 const Hero = () => {
   return (
     <>
-    <div className="md:hidden relative min-h-screen">
-      {/* Video Background */}
-      <div className="absolute inset-0 w-full h-full overflow-hidden z-0">
-        <video
-          autoPlay
-          loop
-          muted
-          playsInline
-          className="object-cover w-full h-full opacity-35"
-        >
-          <source src="/videos/mobile-video.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-        {/* Dark overlay */}
-        <div className="absolute inset-0 bg-black/50" />
-      </div>
-
+    <div className="md:hidden relative min-h-screen bg-[url('/images/symbol.png')] bg-contain bg-no-repeat bg-center bg-opacity-15">
+      
       {/* Content */}
       <div className="block md:hidden md:relative z-10 md:h-screen px-10 md:px-24 lg:px-32 2xl:px-[14rem] pt-[70px]">
         {/* Text Content */}
