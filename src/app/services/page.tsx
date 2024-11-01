@@ -96,7 +96,7 @@ const Services = () => {
         </div>
       </section>
 
-      <section className="bg-[#1f1f1f] py-5  sm:py-10 lg:pt-24 mt-5">
+      <section className="md:bg-[#1f1f1f] py-5  sm:py-10 lg:pt-24 mt-5">
         <div className="relative px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl ">
           {/* Background div visible only on mobile (hidden on md and up) */}
           <div className="py-10 absolute inset-0 bg-[url('/images/01.png')] bg-cover opacity-35 z-0 md:hidden" />

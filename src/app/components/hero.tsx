@@ -11,7 +11,6 @@ const Hero = () => {
   return (
     <>
     <div className="md:hidden relative min-h-screen bg-[url('/images/symbol.png')] bg-contain bg-no-repeat bg-center bg-opacity-10">
-      
       {/* Content */}
       <div className="block md:hidden md:relative z-10 md:h-screen px-10 md:px-24 lg:px-32 2xl:px-[14rem] pt-[70px]">
         {/* Text Content */}
@@ -31,7 +30,7 @@ const Hero = () => {
             </p>
             
             <p className="leading-1 text-center md:text-left text-gray-300 mt-10 text-xl">
-              We are a specialist consulting firm.  
+              We are a specialist <br />consulting firm.  
             </p>
             <p className="leading-1 text-center md:text-left text-gray-300 mt-2 text-xl">
               Partnered with multiple working capital providers giving SMEs instant access to a range of

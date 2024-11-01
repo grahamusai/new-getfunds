@@ -59,7 +59,7 @@ const Footer = () => {
             <h6 className="mb-4 ">Branches</h6>
             <div className="mb-4 flex items-center justify-center md:justify-start">
               <p className="">
-                Penzance corner. 17 Penzance street, New Red Ruth,{" "}
+                Penzance corner. 17 Penzance street, New RedRuth,{" "}
                 <span className="text-[#07d159] font-semibold">
                   Johannesburg
                 </span>
