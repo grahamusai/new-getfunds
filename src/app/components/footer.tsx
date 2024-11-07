@@ -87,13 +87,7 @@ const Footer = () => {
         <div className="flex justify-center items-center">
           <div>
             <span>© 2024 Copyright:</span>
-            <a
-              className="text-[#07d159] hover:text-green-700 duration-500"
-              target="_blank"
-              href="https://alphaperformance.co.za"
-            >
-              &nbsp;Developed by Alpha Performance
-            </a>
+            
           </div>
           
         </div>
