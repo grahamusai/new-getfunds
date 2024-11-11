@@ -53,7 +53,7 @@ export default function ComparisonTable() {
                   Going Direct
                 </TableHead>
                 <TableHead className="w-1/3 text-xl text-white uppercase">
-                  Broker With Multiple Funder
+                  Using a Get funds broker
                 </TableHead>
                 <TableHead className="w-1/3 text-xl  uppercase text-green-500">
                   Why we are better
