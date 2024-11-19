@@ -1,10 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
-import { FaFacebookF } from "react-icons/fa";
-import { FaLinkedinIn } from "react-icons/fa6";
-import { IoMail } from "react-icons/io5";
+
 
 const Footer = () => {
   return (
@@ -33,9 +30,9 @@ const Footer = () => {
           </div>
 
           <div>
-            <h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
+            <h3 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
               Useful links
-            </h6>
+            </h3>
             <p className="mb-4 ">
               <a
                 className="cursor-pointer"
@@ -56,7 +53,7 @@ const Footer = () => {
             </p>
           </div>
           <div>
-            <h6 className="mb-4 ">Branches</h6>
+            <h3 className="mb-4 ">Branches</h3>
             <div className="mb-4 flex items-center justify-center md:justify-start">
               <p className="">
                 Penzance corner. 17 Penzance street, New RedRuth,{" "}
@@ -86,7 +83,7 @@ const Footer = () => {
       <div className="bg-black/5 p-6 ">
         <div className="flex justify-center items-center">
           <div>
-            <span>© 2024 Copyright:</span>
+            <span>© 2024 Copyright: All rights reserved</span>
             
           </div>
           

@@ -39,7 +39,7 @@ const Navbar = () => {
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-5">
         <a
           href="/"
-          className="flex items-center ml-3 space-x-3 rtl:space-x-reverse"
+          className="flex items-center space-x-3 rtl:space-x-reverse"
         >
           <img className="h-10 z-50" src="/images/getfund-logo.png" alt="" />
           {/* <Image
