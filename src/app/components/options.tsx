@@ -5,7 +5,7 @@ const Options = () => {
   const Content = [
     {
       src: "/images/07.png",
-      title: "MERCAHNT CASH ADVANCING",
+      title: "MERCHANT CASH ADVANCING",
       paragraph:
         "Receive up to one months revenue as a lump sum payable over 3-12 months with daily, weekly or monthly repayment options",
     },
