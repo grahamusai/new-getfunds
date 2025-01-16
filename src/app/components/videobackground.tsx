@@ -9,7 +9,7 @@ function VideoBackground() {
           loop 
           className="hidden md:block min-w-full min-h-[70%] "
       >
-        <source src="/videos/main_video.mp4" type="video/mp4" />
+        <source src="/videos/bg.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       <video 

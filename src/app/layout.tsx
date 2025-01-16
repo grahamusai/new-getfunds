@@ -12,11 +12,7 @@ const poppins = Poppins({
   variable: "--font-poppins",
 });
 
-const kronaOne = Krona_One({
-  subsets: ["latin"],
-  weight: "400",
-  variable: "--font-krona-one",
-});
+
 
 export const metadata: Metadata = {
   title: "Get Funds | Your cashflow brokers.",
@@ -33,7 +29,7 @@ export default function RootLayout({
   return (
     <>
       <html lang="en">
-        <body className={kronaOne.className}>
+        <body className={poppins.className}>
           
           {children}
         </body>

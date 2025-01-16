@@ -39,11 +39,7 @@ body {
   background-color: #000000;
   overflow-x: hidden;
 }
-h1,
-h2,
-h3 {
-  font-family: var(--font-krona-one), sans-serif;
-}
+
 p,
 li,
 a {
