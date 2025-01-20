@@ -2,7 +2,6 @@
 import React from "react";
 import Image from "next/image";
 
-
 const Footer = () => {
   return (
     <div className="text-center text-surface/75 bg-black text-white/75 lg:text-left overflow-hidden border-t-2 border-neutral-400">
@@ -49,14 +48,16 @@ const Footer = () => {
               <a href="/services">Funding</a>
             </p>
             <p className="mb-4">
-              <a href="mailto:info@getfunds.co.za" className="text-[#07d159]">info@getfunds.co.za</a>
+              <a href="mailto:info@getfunds.co.za" className="text-[#07d159]">
+                info@getfunds.co.za
+              </a>
             </p>
           </div>
           <div>
             <h3 className="mb-4 ">Branches</h3>
             <div className="mb-4 flex items-center justify-center md:justify-start">
               <p className="">
-                Penzance corner. 17 Penzance street, New RedRuth,{" "}
+                3 Riley Rd, Bedfordview, 2008,<br />
                 <span className="text-[#07d159] font-semibold">
                   Johannesburg
                 </span>
@@ -84,9 +85,7 @@ const Footer = () => {
         <div className="flex justify-center items-center">
           <div>
             <span>© 2024 Copyright: All rights reserved</span>
-            
           </div>
-          
         </div>
       </div>
     </div>
