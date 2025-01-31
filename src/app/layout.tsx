@@ -34,7 +34,6 @@ export default function RootLayout({
     <>
       <html lang="en">
         <body className={kronaOne.className}>
-          
           {children}
         </body>
       </html>
