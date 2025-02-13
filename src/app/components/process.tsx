@@ -19,7 +19,7 @@ const Process = () => {
             {/* <img
               className="absolute -right-0 -bottom-8 xl:-bottom-12 xl:-right-4"
               src="/images/dots-pattern.png"
-              alt=""
+              alt="dots"
             /> */}
             <motion.div
               initial={{ opacity: 0 }}
@@ -27,7 +27,11 @@ const Process = () => {
               viewport={{ once: true }}
               className=""
             >
-              <img className="relative " src="/images/platform2.png" alt="" />
+              <img
+                className="relative "
+                src="/images/platform2.png"
+                alt="Smartphone showing the GetFunds business funding application page, providing instant access to multiple funders with one simple application."
+              />
             </motion.div>
             {/* <div className="absolute left-0 pr-12 bottom-8 xl:bottom-20">
               <div className="max-w-xs bg-[#17b556] rounded-lg sm:max-w-md xl:max-w-md">
@@ -58,7 +62,8 @@ const Process = () => {
                   Complete a 2min online application
                 </p>
                 <p className="hidden md:block text-lg text-center">
-                  Complete a 2min <br />online application
+                  Complete a 2min <br />
+                  online application
                 </p>
               </div>
 
@@ -78,7 +83,7 @@ const Process = () => {
                   <h2 className="text-black">03</h2>
                 </div>
                 <p className="md:text-lg text-[14px] text-center">
-                  Get matched with the right funders 
+                  Get matched with the right funders
                 </p>
               </div>
 
@@ -86,8 +91,12 @@ const Process = () => {
                 <div className="bg-green-200 p-4 rounded-full mb-4">
                   <h2 className="text-black">04</h2>
                 </div>
-                <p className="hidden md:block text-lg text-[14px] leading-1 text-center">Get Funds in 1 to 3 days</p>
-                <p className="md:hidden text-[14px] leading-1 text-center">Get Funds in <br /> 1 to 3 days</p>
+                <p className="hidden md:block text-lg text-[14px] leading-1 text-center">
+                  Get Funds in 1 to 3 days
+                </p>
+                <p className="md:hidden text-[14px] leading-1 text-center">
+                  Get Funds in <br /> 1 to 3 days
+                </p>
               </div>
             </div>
             <div className="flex justify-center items-center mt-16">

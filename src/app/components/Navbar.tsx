@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 import { IoMenu } from "react-icons/io5";
 import {
   DropdownMenu,
-  DropdownMenuContent,  
+  DropdownMenuContent,
   DropdownMenuLabel,
   DropdownMenuRadioGroup,
   DropdownMenuRadioItem,
@@ -39,9 +39,14 @@ const Navbar = () => {
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-5">
         <a
           href="/"
-          className="flex items-center space-x-3 rtl:space-x-reverse" aria-label="logo image"
+          className="flex items-center space-x-3 rtl:space-x-reverse"
+          aria-label="logo image"
         >
-          <img className="h-10 z-50" src="/images/getfund-logo.png" alt="" />
+          <img
+            className="h-10 z-50"
+            src="/images/getfund-logo.png"
+            alt="GetFunds – South Africa’s leading business funding platform."
+          />
           {/* <Image
             src="/images/getfund-logo.png"
             alt="getfunds-logo"
@@ -79,23 +84,38 @@ const Navbar = () => {
                   onValueChange={setPosition}
                 >
                   <DropdownMenuRadioItem value="top">
-                    <a className="text-black text-left" href="/">Home</a>
+                    <a className="text-black text-left" href="/">
+                      Home
+                    </a>
                   </DropdownMenuRadioItem>
                   <DropdownMenuRadioItem value="About">
-                    <a className="text-black" href="/services">Funding options</a>
+                    <a className="text-black" href="/services">
+                      Funding options
+                    </a>
                   </DropdownMenuRadioItem>
                   <DropdownMenuRadioItem value="right">
-                    <a className="text-black" href="/contact">Become an broker</a>
+                    <a className="text-black" href="/contact">
+                      Become an broker
+                    </a>
                   </DropdownMenuRadioItem>
                   <DropdownMenuRadioItem value="right">
-                    <a className="text-black" href="/faqs">FAQ&apos;s</a>
+                    <a className="text-black" href="/faqs">
+                      FAQ&apos;s
+                    </a>
                   </DropdownMenuRadioItem>
 
                   <DropdownMenuRadioItem value="right">
-                    <a className="text-black" href="/contact">Contact</a>
+                    <a className="text-black" href="/contact">
+                      Contact
+                    </a>
                   </DropdownMenuRadioItem>
                   <DropdownMenuRadioItem value="right">
-                    <a className="text-black" href="https://apply.getfunds.co.za?broker=getfunds">Apply Now</a>
+                    <a
+                      className="text-black"
+                      href="https://apply.getfunds.co.za?broker=getfunds"
+                    >
+                      Apply Now
+                    </a>
                   </DropdownMenuRadioItem>
                 </DropdownMenuRadioGroup>
               </DropdownMenuContent>
@@ -131,19 +151,23 @@ const Navbar = () => {
                 Funding options
               </a>
             </li>
-            
+
             <li>
               <ul>
                 <li>
                   <div>
                     <Modal>
                       <ModalTrigger className="bg-transparent dark:bg-white dark:text-black text-white flex justify-center group/modal-btn mt-[-9px]">
-                        <span className="hover:text-[#07d159] text-center ">Contact us</span>
+                        <span className="hover:text-[#07d159] text-center ">
+                          Contact us
+                        </span>
                       </ModalTrigger>
                       <ModalBody>
                         <ModalContent>
                           <div className="w-full ">
-                            <h2 className="text-black font-bold text-2xl">Please fill in the form </h2>
+                            <h2 className="text-black font-bold text-2xl">
+                              Please fill in the form{" "}
+                            </h2>
                             <form
                               onSubmit={async (e) => {
                                 e.preventDefault();
@@ -249,7 +273,6 @@ const Navbar = () => {
                         </ModalContent>
                         <ModalFooter className="gap-4">
                           <h2>&nbsp;</h2>
-                          
                         </ModalFooter>
                       </ModalBody>
                     </Modal>
@@ -263,12 +286,16 @@ const Navbar = () => {
                   <div>
                     <Modal>
                       <ModalTrigger className="bg-transparent dark:bg-white dark:text-black text-white flex justify-center group/modal-btn mt-[-9px]">
-                        <span className="hover:text-[#07d159] text-center ">Become a broker</span>
+                        <span className="hover:text-[#07d159] text-center ">
+                          Become a broker
+                        </span>
                       </ModalTrigger>
                       <ModalBody>
                         <ModalContent>
                           <div className="w-full ">
-                            <h2 className="text-black font-bold text-2xl">Please fill in the form </h2>
+                            <h2 className="text-black font-bold text-2xl">
+                              Please fill in the form{" "}
+                            </h2>
                             <form
                               onSubmit={async (e) => {
                                 e.preventDefault();
@@ -288,7 +315,7 @@ const Navbar = () => {
                               }}
                               className=" lg:mt-10"
                             >
-                              <div className="mb-4"> 
+                              <div className="mb-4">
                                 <label
                                   className="block text-gray-700 text-sm  mb-2"
                                   htmlFor="businessname"
@@ -374,7 +401,6 @@ const Navbar = () => {
                         </ModalContent>
                         <ModalFooter className="gap-4">
                           <h2>&nbsp;</h2>
-                          
                         </ModalFooter>
                       </ModalBody>
                     </Modal>

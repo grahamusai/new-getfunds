@@ -29,7 +29,7 @@ const About = () => {
                   <img
                     className="object-contain w-auto h-48"
                     src="https://cdn.rareblocks.xyz/collection/celebration/images/hero/3/curved-lines.png"
-                    alt=""
+                    alt="curves"
                   />
                 </div>
 
@@ -86,7 +86,7 @@ const About = () => {
                   <img
                     className="w-32 h-32 md:w-40 md:h-40"
                     src="https://cdn.rareblocks.xyz/collection/celebration/images/hero/3/circular-text.png"
-                    alt=""
+                    alt="curves"
                   />
                 </div>
               </div>
@@ -96,7 +96,7 @@ const About = () => {
                   <img
                     className="object-cover w-full h-full scale-150"
                     src="https://cdn.rareblocks.xyz/collection/celebration/images/hero/3/man-working-on-laptop.jpg"
-                    alt=""
+                    alt=" map working on laptop"
                   />
                 </div>
 
@@ -132,8 +132,13 @@ const About = () => {
         </div>
       </div>
       <div className="mt-20 mb-10">
-        <h2 className="text-center text-4xl text-[#07d159] mb-4">Start a Career in Sales</h2>
-        <p className="text-center text-xl">Fill in the form below if you are interested in joining <br /> our team and we will get back to you</p>
+        <h2 className="text-center text-4xl text-[#07d159] mb-4">
+          Start a Career in Sales
+        </h2>
+        <p className="text-center text-xl">
+          Fill in the form below if you are interested in joining <br /> our
+          team and we will get back to you
+        </p>
         <div className="w-[70%] px-[10rem]">
           <h2 className="text-black font-bold text-2xl">
             Please fill in the form{" "}

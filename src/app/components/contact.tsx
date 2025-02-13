@@ -19,13 +19,13 @@ const Contact = () => {
                 <img
                   className="relative z-10 max-w-xs mx-auto -mb-16 md:hidden"
                   src="https://cdn.rareblocks.xyz/collection/celebration/images/contact/4/curve-line-mobile.svg"
-                  alt=""
+                  alt="as svg"
                 />
 
                 <img
                   className="hidden w-full translate-x-24 translate-y-8 md:block"
                   src="https://cdn.rareblocks.xyz/collection/celebration/images/contact/4/curve-line.svg"
-                  alt=""
+                  alt="as svg"
                 />
               </div>
 
@@ -85,7 +85,7 @@ const Contact = () => {
                   <img
                     className="flex-shrink-0 object-cover w-10 h-10 rounded-full"
                     src="https://cdn.rareblocks.xyz/collection/celebration/images/contact/4/avatar.jpg"
-                    alt=""
+                    alt="as svg"
                   />
                   <div className="ml-4">
                     <p className="text-base font-semibold text-white">
@@ -106,7 +106,8 @@ const Contact = () => {
                     Get in touch
                   </h3>
                   <p className="mt-4 text-base text-gray-600">
-                    Please fill out the form, a funding consultant will get in touch with you
+                    Please fill out the form, a funding consultant will get in
+                    touch with you
                   </p>
 
                   <form action="#" method="POST" className="mt-4">
@@ -228,7 +229,7 @@ const Contact = () => {
                 <img
                   className="flex-shrink-0 object-cover w-10 h-10 rounded-full"
                   src="https://cdn.rareblocks.xyz/collection/celebration/images/contact/4/avatar.jpg"
-                  alt=""
+                  alt="as svg"
                 />
                 <div className="ml-4">
                   <p className="text-base font-semibold text-white">

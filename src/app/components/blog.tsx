@@ -6,7 +6,7 @@ const Blog = () => {
     <div className="mt-24 px-24 py-10 flex gap-10">
       <div className="max-w-sm w-1/3 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
         <a href="#">
-          <img className="rounded-t-lg" src="/images/blog.jpg" alt="" />
+          <img className="rounded-t-lg" src="/images/blog.jpg" alt=" " />
         </a>
         <div className="p-5">
           <a href="#">
@@ -23,13 +23,16 @@ const Blog = () => {
             className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
           >
             Read more
-            
           </a>
         </div>
       </div>
       <div className="max-w-sm w-1/3 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
         <a href="#">
-          <img className="rounded-t-lg" src="/images/blog.jpg" alt="" />
+          <img
+            className="rounded-t-lg"
+            src="/images/blog.jpg"
+            alt="blog image"
+          />
         </a>
         <div className="p-5">
           <a href="#">
@@ -46,13 +49,16 @@ const Blog = () => {
             className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
           >
             Read more
-            
           </a>
         </div>
       </div>
       <div className="max-w-sm w-1/3 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
         <a href="#">
-          <img className="rounded-t-lg" src="/images/blog.jpg" alt="" />
+          <img
+            className="rounded-t-lg"
+            src="/images/blog.jpg"
+            alt="blog image"
+          />
         </a>
         <div className="p-5">
           <a href="#">
@@ -69,7 +75,6 @@ const Blog = () => {
             className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
           >
             Read more
-            
           </a>
         </div>
       </div>

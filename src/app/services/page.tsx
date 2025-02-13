@@ -34,7 +34,7 @@ const Services = () => {
               <img
                 className="w-full rounded-md"
                 src="/images/blackdude.png"
-                alt=""
+                alt="Tailor smiling after securing working capital funding to grow their fashion business with GetFunds."
               />
             </div>
 
@@ -141,7 +141,7 @@ const Services = () => {
               <img
                 className="w-full rounded-md"
                 src="/images/whitedude.png"
-                alt=""
+                alt="Restaurant owner approved for a merchant cash advance to expand their business and upgrade equipment."
               />
             </div>
           </div>
@@ -155,7 +155,7 @@ const Services = () => {
               <img
                 className="w-[70%] rounded-md"
                 src="/images/giiirl.png"
-                alt=""
+                alt="Bakery business owner secured fast funding through GetFunds to scale their production and sales."
               />
             </div>
             <div className="py-8 justify-self-start">
@@ -294,7 +294,7 @@ const Services = () => {
               <img
                 className="w-[70%] rounded-md"
                 src="/images/lady.png"
-                alt=""
+                alt="Bakery business owner secured fast funding through GetFunds to scale their production and sales."
               />
             </div>
           </div>
@@ -310,7 +310,11 @@ const Services = () => {
         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl relative z-10">
           <div className="grid items-center grid-cols-1 gap-y-8 lg:grid-cols-2 gap-x-16 xl:gap-x-24">
             <div className="hidden md:block relative mb-12">
-              <img className="w-[70%] " src="/images/medical.png" alt="" />
+              <img
+                className="w-[70%] "
+                src="/images/medical.png"
+                alt="Medical practice owner secured working capital funding to invest in new healthcare equipment."
+              />
             </div>
             <div>
               <h2 className="text-center md:text-left uppercase mb-5 md:my-16 text-2xl md:text-3xl leading-tight text-white sm:text-3xl lg:leading-tight">
@@ -353,7 +357,7 @@ const Services = () => {
           </div>
         </div>
       </section>
-      
+
       {/* <div className="fixed bottom-4 right-4">
         <a href="https://apply.getfunds.co.za?broker=getfunds" className="md:hidden bg-gradient-to-r from-green-600 to-blue-600 text-white rounded-3xl py-3 px-4 shadow-lg">
           APPLY NOW

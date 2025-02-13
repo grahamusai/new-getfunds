@@ -7,7 +7,11 @@ import Navbar from "./Navbar";
 const Cta = () => {
   return (
     <>
-      <div className='w-full flex bg-green-500/10 md:px-[40rem] mt-[5.5rem] h-[70vh] flex-col items-center justify-center  bg-[url("/images/backgroundimage-min.png")] bg-cover bg-no-repeat bg-top text-center'>
+      <div
+        className='w-full flex bg-green-500/10 md:px-[40rem] mt-[5.5rem] h-[70vh] flex-col items-center justify-center  bg-[url("/images/backgroundimage-min.png")] bg-cover bg-no-repeat bg-top text-center'
+        aria-label="Four diverse business owners smiling after securing fast working capital funding through GetFunds to grow their businesses."
+        role="img"
+      >
         <h2 className="text-3xl  uppercase drop-shadow-md drop-shadow-green-400 text-center  md:text-4xl font-medium text-white py-3">
           Our Funding Options
         </h2>
