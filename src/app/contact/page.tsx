@@ -28,7 +28,7 @@ const Contact = () => {
         <div className="text-center mb-16">
           <h1 className="text-4xl font-bold text-white mb-4">Contact us</h1>
           <p className="text-lg text-gray-400 max-w-2xl mx-auto">
-            AHave questions or need assistance? We're here to help! Reach out to
+            AHave questions or need assistance? We&apos;re here to help! Reach out to
             us via the form below, or email us at{" "}
             <span className="text-green-400">info@getfunds.co.za</span>. We will
             get back to you as soon as possible.
