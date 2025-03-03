@@ -1,10 +1,11 @@
-"use client"
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/footer";
-import { useState } from "react";
 import { useFormspark } from "@formspark/use-formspark";
-
+import { MdOutlinePhone } from "react-icons/md";
+import { MdOutlineEmail } from "react-icons/md";
+import { FiMapPin } from "react-icons/fi";
 
 const Contact = () => {
   const [submit, submitting] = useFormspark({
@@ -17,115 +18,206 @@ const Contact = () => {
   const [company, setCompany] = useState("");
   const [individual, setIndividual] = useState("");
   const [position, setPosition] = React.useState("bottom");
+  const [submitted, setSubmitted] = useState(false);
+
   return (
-    <div>
+    <div className="bg-black text-white">
       <Navbar />
-      <div className="flex flex-col lg:flex-row px-6 lg:px-24 py-20 lg:py-24">
-      <div className="w-full ">
-                            <h2 className="text-black font-bold text-2xl">Please fill in the form </h2>
-                            <form
-                              onSubmit={async (e) => {
-                                e.preventDefault();
 
-                                await submit({
-                                  name,
-                                  message,
-                                  phone,
-                                  email,
-                                  company,
-                                  individual,
-                                });
-                                alert(
-                                  "Your email has been submitted successfully \n \n We will be in touch with you shortly"
-                                );
-                                window.location.href = "/";
-                              }}
-                              className=" lg:mt-10"
-                            >
-                              <div className="mb-4">
-                                <label
-                                  className="block text-gray-100 text-sm  mb-2"
-                                  htmlFor="businessname"
-                                >
-                                  Name<span className="text-rose-500">*</span>
-                                </label>
-                                <input
-                                  className="w-full text-gray-500 border-2 rounded-lg border-[#a0bbcf] px-5 py-3 mt-2 bg-transparent placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-slate-700 focus:shadow-2xl focus:border-transparent duration-100"
-                                  id="name"
-                                  name="name"
-                                  type="text"
-                                  onChange={(e) => setName(e.target.value)}
-                                  placeholder="Your Name"
-                                  required
-                                />
-                              </div>
+      <div className="max-w-6xl mx-auto px-4 py-24 pt-48">
+        <div className="text-center mb-16">
+          <h1 className="text-4xl font-bold text-white mb-4">Contact us</h1>
+          <p className="text-lg text-gray-400 max-w-2xl mx-auto">
+            AHave questions or need assistance? We're here to help! Reach out to
+            us via the form below, or email us at{" "}
+            <span className="text-green-400">info@getfunds.co.za</span>. We will
+            get back to you as soon as possible.
+          </p>
+        </div>
 
-                              <div className="mb-4 flex flex-col md:flex-row gap-5">
-                                <div className="w-full md:w-1/2">
-                                  <label
-                                    className="block text-gray-100 text-sm mb-2"
-                                    htmlFor="phone"
-                                  >
-                                    Email
-                                    <span className="text-rose-500">*</span>
-                                  </label>
-                                  <input
-                                    className="w-full text-gray-500 border-2 rounded-lg border-[#a0bbcf] px-5 py-3 mt-2 bg-transparent placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-slate-700 focus:shadow-2xl focus:border-transparent duration-100"
-                                    id="email"
-                                    type="email"
-                                    name="email"
-                                    placeholder="graham@example.com"
-                                    onChange={(e) => setEmail(e.target.value)}
-                                    required
-                                  />
-                                </div>
-                                <div className="w-full md:w-1/2">
-                                  <label
-                                    className="block text-gray-100 text-sm mb-2"
-                                    htmlFor="phone"
-                                  >
-                                    Phone Number
-                                    <span className="text-rose-500">*</span>
-                                  </label>
-                                  <input
-                                    className="w-full border-2 rounded-lg border-[#a0bbcf] px-5 py-3 mt-2 bg-transparent placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-slate-700 focus:shadow-2xl text-gray-500 focus:border-transparent duration-100"
-                                    id="phone"
-                                    type="number"
-                                    name="phone"
-                                    placeholder="062456789"
-                                    onChange={(e) => setPhone(e.target.value)}
-                                    required
-                                  />
-                                </div>
-                              </div>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+          <div className="border border-green-800 p-8 rounded-lg flex flex-col items-center text-center h-64 justify-center">
+            <div className="bg-green-900 p-3 rounded-full mb-4">
+              <MdOutlinePhone className="h-6 w-6 text-green-400" />
+            </div>
+            <h3 className="text-lg font-medium text-white mb-2">Phone</h3>
+            <p className="text-gray-400 mb-2">Mon-Fri from 8am to 5pm</p>
+            <a href="tel:+27115689953" className="text-green-400 font-medium">
+              +27 11 568 9953
+            </a>
+          </div>
 
-                              <div className="mb-4">
-                                <label
-                                  className="block text-gray-100 text-sm  mb-2"
-                                  htmlFor="email"
-                                >
-                                  Message
-                                  <span className="text-rose-500">*</span>
-                                </label>
-                                <textarea
-                                  className="w-full h-[8rem] text-gray-500 border-2 rounded-lg border-[#a0bbcf] px-5 py-3 mt-2 focus:placeholder-opacity-0 bg-transparent placeholder-slate-700 focus:outline-none focus:ring-2 focus:ring-slate-700 focus:shadow-2xl focus:border-transparent duration-100"
-                                  id="email"
-                                  name="experience"
-                                  placeholder="Type in your message"
-                                  onChange={(e) => setMessage(e.target.value)}
-                                  required
-                                />
-                              </div>
+          <div className="border border-green-800 p-8 rounded-lg flex flex-col items-center text-center h-64 justify-center">
+            <div className="bg-green-900 p-3 rounded-full mb-4">
+              <MdOutlineEmail className="h-6 w-6 text-green-400" />
+            </div>
+            <h3 className="text-lg font-medium text-white mb-2">Email</h3>
+            <p className="text-gray-400 mb-2">
+              Our friendly team is here to help
+            </p>
+            <a
+              href="mailto:info@getfunds.co.za"
+              className="text-green-400 font-medium"
+            >
+              info@getfunds.co.za
+            </a>
+          </div>
 
-                              <button
-                                type="submit"
-                                className="rounded-full bg-[#07d159] border-[#a0bbcf] text-[#1E394C] border-2 px-12 py-3 font-bold text-xl mt-3 lg:mt-6"
-                              >
-                                Submit
-                              </button>
-                            </form>
-                          </div>
+          <div className="border border-green-800 p-8 rounded-lg flex flex-col items-center text-center h-64 justify-center">
+            <div className="bg-green-900 p-3 rounded-full mb-4">
+              <FiMapPin className="h-6 w-6 text-green-400" />
+            </div>
+            <h3 className="text-lg font-medium text-white mb-2">Office</h3>
+            <p className="text-gray-400 mb-2">Come say hello at our office</p>
+            <p className="text-gray-300">Johannesburg, South Africa</p>
+          </div>
+        </div>
+
+        <div className="border border-green-800 rounded-lg overflow-hidden">
+          <div className="p-8 md:p-12">
+            <h2 className="text-2xl font-bold text-white mb-8 text-center">
+              Send us a message
+            </h2>
+
+            <form
+              onSubmit={async (e) => {
+                e.preventDefault();
+                try {
+                  await submit({
+                    name,
+                    message,
+                    phone,
+                    email,
+                    company,
+                    individual,
+                  });
+                  setSubmitted(true);
+                  // Reset form
+                  setName("");
+                  setEmail("");
+                  setPhone("");
+                  setCompany("");
+                  setMessage("");
+                  // Reset submitted state after 5 seconds
+                  setTimeout(() => setSubmitted(false), 5000);
+                } catch (error) {
+                  console.error("Error submitting form:", error);
+                }
+              }}
+              className="space-y-6 max-w-4xl mx-auto"
+            >
+              {submitted && (
+                <div className="bg-transparent border border-green-800 text-green-400 px-4 py-3 rounded mb-6">
+                  Thank you for your message! We will get back to you soon.
+                </div>
+              )}
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="w-full">
+                  <label
+                    htmlFor="name"
+                    className="block text-sm font-medium text-gray-400 mb-1"
+                  >
+                    Your name
+                  </label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Enter your full name"
+                    onChange={(e) => setName(e.target.value)}
+                    required
+                    className="w-full px-4 py-3 bg-transparent border border-green-800 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                  />
+                </div>
+
+                <div className="w-full">
+                  <label
+                    htmlFor="email"
+                    className="block text-sm font-medium text-gray-400 mb-1"
+                  >
+                    Email address
+                  </label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your full email"
+                    onChange={(e) => setEmail(e.target.value)}
+                    required
+                    className="w-full px-4 py-3 bg-transparent border border-green-800 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                  />
+                </div>
+              </div>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="w-full">
+                  <label
+                    htmlFor="phone"
+                    className="block text-sm font-medium text-gray-400 mb-1"
+                  >
+                    Phone number
+                  </label>
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="Enter your phone number"
+                    onChange={(e) => setPhone(e.target.value)}
+                    required
+                    className="w-full px-4 py-3 bg-transparent border border-green-800 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                  />
+                </div>
+
+                <div className="w-full">
+                  <label
+                    htmlFor="company"
+                    className="block text-sm font-medium text-gray-400 mb-1"
+                  >
+                    Company name
+                  </label>
+                  <input
+                    type="text"
+                    id="company"
+                    name="company"
+                    placeholder="Enter your company name"
+                    onChange={(e) => setCompany(e.target.value)}
+                    className="w-full px-4 py-3 bg-transparent border border-green-800 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                  />
+                </div>
+              </div>
+
+              <div className="mt-6 w-full">
+                <label
+                  htmlFor="message"
+                  className="block text-sm font-medium text-gray-400 mb-1"
+                >
+                  Message
+                </label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows={4}
+                  placeholder="Write your message here..."
+                  onChange={(e) => setMessage(e.target.value)}
+                  required
+                  className="w-full px-4 py-3 bg-transparent border border-green-800 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                ></textarea>
+              </div>
+
+              <div className="mt-8">
+                <button
+                  type="submit"
+                  className="w-full bg-green-600 hover:bg-green-700 text-white font-medium py-3 px-6 rounded-md transition duration-300 ease-in-out"
+                >
+                  {submitting ? "Sending..." : "Send Message"}
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
       </div>
+
       <Footer />
     </div>
   );

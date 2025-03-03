@@ -5,6 +5,7 @@ import { Krona_One } from "next/font/google";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import Script from "next/script";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -33,9 +34,21 @@ export default function RootLayout({
   return (
     <>
       <html lang="en">
-        <body className={kronaOne.className}>
-          {children}
-        </body>
+        <head>
+          <Script
+            strategy="afterInteractive"
+            src="https://www.googletagmanager.com/gtag/js?id=G-R9SVKZT55V"
+          />
+          <Script id="google-analytics" strategy="afterInteractive">
+            {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-R9SVKZT55V');
+            `}
+          </Script>
+        </head>
+        <body className={kronaOne.className}>{children}</body>
       </html>
       <Analytics />
       <SpeedInsights />

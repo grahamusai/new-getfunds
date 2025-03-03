@@ -1,0 +1,20 @@
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /wp-content/plugins/
+Disallow: /wp-content/themes/
+Disallow: /wp-json/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /admin/
+Disallow: /wp-login.php
+Disallow: /wp-signup.php
+Disallow: /checkout/
+Disallow: /cart/
+Disallow: /account/
+Disallow: /*?*
+Disallow: /*replytocom
+Disallow: /tag/
+Disallow: /author/
+Crawl-delay: 5
+
+Sitemap: https://www.getfunds.co.za/sitemap.xml

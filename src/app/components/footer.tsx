@@ -47,6 +47,9 @@ const Footer = () => {
               <a href="/services">Funding</a>
             </p>
             <p className="mb-4">
+              <a href="tel:0658676087" className="text-[#07d159]">
+                <p>065 867 6087</p>
+              </a>
               <a href="mailto:info@getfunds.co.za" className="text-[#07d159]">
                 info@getfunds.co.za
               </a>
@@ -56,7 +59,8 @@ const Footer = () => {
             <h3 className="mb-4 ">Branches</h3>
             <div className="mb-4 flex items-center justify-center md:justify-start">
               <p className="">
-                3 Riley Rd, Bedfordview, 2008,<br />
+                3 Riley Rd, Bedfordview, 2008,
+                <br />
                 <span className="text-[#07d159] font-semibold">
                   Johannesburg
                 </span>
