@@ -48,7 +48,20 @@ export default function RootLayout({
             `}
           </Script>
         </head>
-        <body className={kronaOne.className}>{children}</body>
+        <body className={kronaOne.className}>
+          <div
+            dangerouslySetInnerHTML={{
+              __html:
+                '<elevenlabs-convai agent-id="udMZHoyn557kGbf4Yq39"></elevenlabs-convai>',
+            }}
+          />
+          <script
+            src="https://elevenlabs.io/convai-widget/index.js"
+            async
+            type="text/javascript"
+          ></script>
+          {children}
+        </body>
       </html>
       <Analytics />
       <SpeedInsights />
