@@ -27,9 +27,9 @@ const Contact = () => {
       <div className="max-w-6xl mx-auto px-4 py-24 pt-48">
         <div className="text-center mb-16">
           <h1 className="text-4xl font-bold text-white mb-4">Contact us</h1>
-        <p className="text-lg text-gray-400 max-w-2xl mx-auto">
-        Have questions or need assistance? We&apos;re here to help! Reach out to
-        us via the form below, or email us at{" "}
+          <p className="text-lg text-gray-400 max-w-2xl mx-auto">
+            Have questions or need assistance? We&apos;re here to help! Reach
+            out to us via the form below, or email us at{" "}
             <span className="text-green-400">info@getfunds.co.za</span>. We will
             get back to you as soon as possible.
           </p>
@@ -42,8 +42,8 @@ const Contact = () => {
             </div>
             <h3 className="text-lg font-medium text-white mb-2">Phone</h3>
             <p className="text-gray-400 mb-2">Mon-Fri from 8am to 5pm</p>
-            <a href="tel:+27115689953" className="text-green-400 font-medium">
-              +27 11 568 9953
+            <a href="tel:+27658676087" className="text-green-400 font-medium">
+              065 867 6087
             </a>
           </div>
 
@@ -69,7 +69,7 @@ const Contact = () => {
             </div>
             <h3 className="text-lg font-medium text-white mb-2">Office</h3>
             <p className="text-gray-400 mb-2">Come say hello at our office</p>
-            <p className="text-gray-300">Johannesburg, South Africa</p>
+            <p className="text-gray-300">Office 5, 3 Riley road, Bedfordview</p>
           </div>
         </div>
 
