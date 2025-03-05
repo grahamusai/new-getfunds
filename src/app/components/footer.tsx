@@ -46,13 +46,16 @@ const Footer = () => {
             <p className="mb-4">
               <a href="/services">Funding</a>
             </p>
-            <p className=" text-xs">line open MON - FRI 08:00 - 17:00</p>
+            <p className=" uppercase">line open MON - FRI 08:00 - 17:00</p>
             <p className="mb-4">
-              <a href="tel:0658676087" className="text-[#07d159]">
+              <a href="tel:0658676087" className="text-[#07d159] uppercase">
                 Call: 065 867 6087
               </a>
               <br />
-              <a href="mailto:info@getfunds.co.za" className="text-[#07d159]">
+              <a
+                href="mailto:info@getfunds.co.za"
+                className="text-[#07d159] uppercase"
+              >
                 info@getfunds.co.za
               </a>
             </p>

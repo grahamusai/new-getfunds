@@ -68,7 +68,7 @@ const Contact = () => {
               <FiMapPin className="h-6 w-6 text-green-400" />
             </div>
             <h3 className="text-lg font-medium text-white mb-2">Office</h3>
-            <p className="text-gray-400 mb-2">Come say hello at our office</p>
+            <p className="mb-2 text-transparent">Our office</p>
             <p className="text-gray-300">Office 5, 3 Riley road, Bedfordview</p>
           </div>
         </div>
