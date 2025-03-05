@@ -39,12 +39,24 @@ export default function RootLayout({
             strategy="afterInteractive"
             src="https://www.googletagmanager.com/gtag/js?id=G-R9SVKZT55V"
           />
-          <Script id="google-analytics" strategy="afterInteractive">
+          <Script id="google-analytics-1" strategy="afterInteractive">
             {`
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
               gtag('config', 'G-R9SVKZT55V');
+            `}
+          </Script>
+          <Script
+            strategy="afterInteractive"
+            src="https://www.googletagmanager.com/gtag/js?id=G-Y144RGJ084"
+          />
+          <Script id="google-analytics-2" strategy="afterInteractive">
+            {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-Y144RGJ084');
             `}
           </Script>
         </head>
