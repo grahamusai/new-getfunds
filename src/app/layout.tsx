@@ -59,6 +59,18 @@ export default function RootLayout({
               gtag('config', 'G-Y144RGJ084');
             `}
           </Script>
+          <Script
+            strategy="afterInteractive"
+            src="https://www.googletagmanager.com/gtag/js?id=G-86E3Q6B4W2"
+          />
+          <Script id="google-analytics-3" strategy="afterInteractive">
+            {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-86E3Q6B4W2');
+            `}
+          </Script>
         </head>
         <body className={kronaOne.className}>
           <div
