@@ -5,7 +5,7 @@ import { MdEmail } from "react-icons/md";
 
 const PreNav = () => {
   return (
-    <div className="flex items-center py-2">
+    <div className="flex justify-between items-center py-2">
       <div>
         <div className="flex gap-5 items-center">
           <div className="flex gap-2 items-center">
